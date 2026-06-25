@@ -39,11 +39,19 @@ export default function QuickCommerceHub() {
               {/* Warehouse Produce Assets Container */}
               <div className="relative w-[100%] flex-1 overflow-hidden">
                 {/* Referencing the local asset verbatim as per guidelines */}
-                <img
+                {/* <img
                   src="/chengal_landing/connectivity_img.webp"
                   alt="Quick Commerce Fulfilment Hub Internal Warehouse Setup"
                   className="w-full h-full object-cover object-left"
-                />
+                /> */}
+
+                <iframe
+                  src="https://player.vimeo.com/video/1204507052?title=0&byline=0&portrait=0"
+                  frameBorder="0"
+                  allow="autoplay"
+                  allowFullScreen
+                  className="w-full h-[200px] md:h-[400px] lg:h-[525px] xl:h-[763px]"
+                ></iframe>
               </div>
             </div>
           </div>
