@@ -70,7 +70,7 @@ const TrustedBySection = () => {
               ></img>
             </div>
             <div className="1280:max-w-[600px] 1440:max-w-[658px] 1536:max-w-[700px] md:max-w-[100%] lg:max-w-[55%] max-w-[658px]">
-              <p className="bw-m txt_gradient  md:text-[17px] lg:text-[30px] 1280:text-[30px] md:leading-[40px] mb-[20px]">
+              <p className="bw-m txt_gradient  md:text-[17px] lg:text-[30px] 1280:text-[30px] md:leading-[40px] mb-[20px] text-[20px] leading-[25px] ">
                 A Fully Customised Factory For Yazaki India in Horizon
                 Industrial Park Chengalpattu
               </p>
@@ -100,7 +100,7 @@ const TrustedBySection = () => {
             {amenities.map((item, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center justify-center text-center bg-white border border-[#D4D4D4] p-3 lg:p-5 h-[140px] xl:h-[210px] w-[calc(50%-7px)] md:w-[calc(33.333%-10px)] xl:w-[calc(25%-12px)]"
+                className="flex flex-col items-center justify-center text-center bg-white border border-[#D4D4D4] p-3 lg:p-5 h-[170px] xl:h-[210px] w-[calc(50%-7px)] md:w-[calc(33.333%-10px)] xl:w-[calc(25%-12px)]"
               >
                 <img
                   src={item.icon}

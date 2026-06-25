@@ -56,18 +56,18 @@ export default function QuickCommerceHub() {
             further boost local industry.
           </p>
 
-          <div className="flex gap-[0px]">
+          <div className="flex gap-[0px] flex-col md:flex-row">
             {connectivityData.map((col, colIdx) => (
               <div key={colIdx} className="w-[100%] md:w-[50%]">
                 {col.map((item, rowIdx) => (
                   <div key={rowIdx} className="flex gap-[0px]">
-                    <div className="border border-[#595959] py-[12px] px-[20px] w-[72%]">
-                      <h5 className="text-[24px] leading-[34px] text-[#E0E0E0]">
+                    <div className="border border-[#595959] py-[12px] md:px-[20px] px-[11px] w-[72%]">
+                      <h5 className="text-[15px] leading-[22px] md:text-[24px] md:leading-[34px] text-[#E0E0E0]">
                         {item.label}
                       </h5>
                     </div>
-                    <div className="border border-[#595959] bg-[#8F53A1] w-[28%] flex items-center py-[12px] px-[20px]">
-                      <p className="text-white text-[24px] leading-[34px]">
+                    <div className="border border-[#595959] bg-[#8F53A1] w-[28%] flex items-center py-[12px] md:px-[20px] px-[11px]">
+                      <p className="text-white text-[15px] leading-[22px] md:text-[24px] md:leading-[34px]">
                         {item.distance}
                       </p>
                     </div>

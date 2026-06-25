@@ -316,22 +316,22 @@ const WarehousingForm = () => {
                 </div>
               </h1>
 
-              <div className="flex gap-[70px] items-center border border-white/50 bg-white/30 backdrop-blur-[45px] py-[16px] px-[30px] w-fit">
+              <div className="flex gap-[30px] lg:gap-[70px] items-center border border-white/50 bg-white/30 backdrop-blur-[45px] lg:py-[16px] lg:px-[30px] py-[9px] px-[20px] w-fit">
                 {/* Acres div */}
                 <div>
-                  <h3 className="text-[48px] md:text-[48px] leading-[58px] md:leading-[58px] font-medium text-[#fff]">
+                  <h3 className="text-[30px] md:text-[48px] leading-[28px] md:leading-[58px] font-medium text-[#fff]">
                     51{" "}
-                    <span className="text-[28px] md:text-[28px] leading-[38px] md:leading-[38px] font-normal ">
+                    <span className="text-[19px] md:text-[28px] leading-[32px] md:leading-[38px] font-normal ">
                       Acres
                     </span>{" "}
                   </h3>
                 </div>
-                <span className="w-[1px] h-[46px] bg-white"></span>
+                <span className="w-[1px] h-[35px] md:h-[46px] bg-white"></span>
                 {/*  msft div */}
                 <div>
-                  <h3 className="text-[48px] md:text-[48px] leading-[58px] md:leading-[58px] font-medium text-[#fff]">
+                  <h3 className="text-[30px] md:text-[48px] leading-[28px] md:leading-[58px] font-medium text-[#fff]">
                     1.3{" "}
-                    <span className="text-[28px] md:text-[28px] leading-[38px] md:leading-[38px] font-normal">
+                    <span className="text-[19px] md:text-[28px] leading-[32px] md:leading-[38px] font-normal">
                       msft
                     </span>{" "}
                   </h3>
