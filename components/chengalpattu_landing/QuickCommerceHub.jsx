@@ -3,15 +3,15 @@ import React from "react";
 const connectivityData = [
   [
     { label: "Chennai – Trichy Highway", distance: "1 km" },
-    { label: "Thirumani Railway Station", distance: "12 km" },
+    // { label: "Thirumani Railway Station", distance: "12 km" },
     { label: "Chennai Airport", distance: "44 km" },
-    { label: "Sriperumbadur", distance: "42 km" },
+    { label: "Mahindra World City", distance: "18 km" },
+    // { label: "Sriperumbadur", distance: "42 km" },
   ],
   [
-    { label: "Mahindra World City", distance: "18 km" },
     { label: "Maramalai Nagar Industrial Area", distance: "26 km" },
     { label: "Oragadam Industrial Corridor", distance: "35 km" },
-    { label: "Sriperumbadur Industrial Corridor", distance: "40 km" },
+    // { label: "Sriperumbadur Industrial Corridor", distance: "40 km" },
   ],
 ];
 
@@ -49,11 +49,9 @@ export default function QuickCommerceHub() {
           </div>
 
           <p className="text-[#E0E0E0]! lg:text-[24px]  text-[18px] leading-[22px] md:leading-[34px]">
-            Located just 56 km from Chennai, Chengalpattu has rapidly
-            transformed into a key industrial hub. With the new peripheral ring
-            road connecting it to the Chennai port, and a new SIDCO industrial
-            estate at Kodur Village, announced in 2021, Chengalpattu is set to
-            further boost local industry.
+            Located just 50 KM from CBD, Chengalpattu has rapidly transformed
+            into a key industrial hub. Chengalpattu is set to further boost
+            local industry.
           </p>
 
           <div className="flex gap-[0px] flex-col md:flex-row">

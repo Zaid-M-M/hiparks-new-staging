@@ -301,12 +301,12 @@ const WarehousingForm = () => {
                 Start <br className="lg:hidden" /> your operations <br />
                 <div className="flex items-start flex-col lg:flex-row overflow-visible">
                   <span className="font-normal leading-[35px] tracking-[-1.9px] lg:leading-[58px] whitespace-nowrap">
-                    in a Grade-A industrial park
+                    in a Grade-A Industrial Park
                   </span>
                 </div>
                 <div className="flex items-start flex-col lg:flex-row overflow-visible">
                   <span className="font-normal leading-[35px] tracking-[-1.9px] lg:leading-[58px] whitespace-nowrap">
-                    near Chennai
+                    near South Chennai
                   </span>
                   <img
                     className="lg:mt-[5px] ml-0 pt-2 lg:pt-0 lg:ml-5 w-[80px] lg:w-[170px]! block lg:inline-block 2xl:w-[210px]! shrink-0 abstract_svg"
@@ -355,8 +355,9 @@ const WarehousingForm = () => {
 
           {/* Right Section - Form */}
           <div className="w-full lg:w-[50%] campaigninput bg-white flex flex-col gap-7 p-[20px] md:p-[30px] items-start">
-            <h2 className="text-[24px] 2xl:max-w-[80%] bw-r pb-3.5 text-[#2E3133]">
-              Expand in Chengalpattu, with Horizon.
+            <h2 className="text-[24px] 2xl:max-w-[100%] bw-r pb-3.5 text-[#2E3133]">
+              Find the right industrial space for your business in Chengalpattu,
+              with Horizon
             </h2>
 
             <form ref={formRef} onSubmit={sendEmail} className="w-full">

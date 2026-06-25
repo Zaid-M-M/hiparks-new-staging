@@ -87,11 +87,14 @@ const TrustedBySection = () => {
                 March 2024.
               </p>
               <p className="bw-r md:text-[17px] lg:text-[17px] 1280:text-[20px] md:leading-[30px]">
-                Yazaki’s campus in Chengalpattu spans approximately 348,800 sq
+                Yazaki's campus in Chengalpattu spans approximately 348,800 sq
                 ft of built-up area, purpose-designed for high-volume wiring
-                harness manufacturing. The project reflects Horizon’s
-                solution-led approach to delivering compliant, scalable, and
-                ESG-aligned manufacturing infrastructure for global OEMs.
+                harness manufacturing. Today, the facility supports a workforce
+                of over 3,000 employees, reflecting a people-first approach that
+                prioritises employee well-being, safety, and operational
+                excellence. The project reflects Horizon's solution-led approach
+                to delivering compliant, scalable, and ESG-aligned manufacturing
+                infrastructure for global OEMs.
               </p>
             </div>
           </div>

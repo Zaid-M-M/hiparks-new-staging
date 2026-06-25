@@ -18,7 +18,8 @@ const dummyLeasingData = [
   },
 ];
 
-const dummyBrochurePath = "/assets/docs/park_brochure.pdf";
+const dummyBrochurePath =
+  "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2024/07/Chengalpattu_Park-Brochure_New.pdf";
 
 const CampaignWrapper = () => {
   return (
