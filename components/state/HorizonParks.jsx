@@ -3,11 +3,34 @@ import ParksSliderF from "./ParkSliderF";
 
 const HorizonParks = ({ data }) => {
   return (
-    <div className="w-full md:pb-[80px] lg:pb-[100px] lg:pt-[50px] md:pt-[40px] pt-[22.5] pb-[45px] fix min-h-[100vh]">
+    <div className="w-full md:pb-[40px] lg:pb-[40px] lg:pt-[90px] md:pt-[50px] pt-[22.5] pb-[20px] fix min-h-[100vh] relative">
+      <img
+        class="purple_vctr  hidden lg:block absolute top-0 right-0 md:top-[-250px] md:right-[50px] lg:w-[450px] md:w-[350px] w-[300px]"
+        src="/purple_vector.svg"
+      ></img>
+      <img
+        class="green_vctr  hidden lg:block absolute top-0 right-0 md:top-[-230px] md:right-[-100px] lg:w-[450px] md:w-[350px] w-[300px]"
+        src="/green_vector.svg"
+      ></img>
       <div className="flex flex-col pb-8 lg:pb-[60px] justify-between md:gap-[20px] gap-[25px] 1366:gap-[60px] xl:flex-row ">
-        <div className=" max-w-[600px] md:max-w-[100%] xl:max-w-[45%]">
+        <div className=" max-w-[600px] md:max-w-[100%] xl:max-w-[45%] relative">
           <div className="flex flex-col md:flex-col  relative  md:w-[460px] lg:w-[auto]">
-            <div className="flex items-start gap-2 lg:gap-[0px] xl:gap-5 flex-col">
+            <div className="flex items-start gap-2 lg:gap-[0px] xl:gap-5 flex-col relative">
+              <div className="relative lg:absolute lg:top-[-50px] bw-m px-[8px] py-[3px] md:px-[10px] md:py-[7px] w-fit border border-[rgba(0,0,0,0.10)] bg-[rgba(0,0,0,0.03)] backdrop-blur-[60px] text-black">
+                <a
+                  href="/"
+                  className="text-[13px] md:text-[13px] lg:text-[16px]"
+                >
+                  Home
+                </a>{" "}
+                /{" "}
+                <a
+                  href="#"
+                  className="text-[13px] md:text-[13px] lg:text-[16px]"
+                >
+                  {data.name}
+                </a>
+              </div>
               <h2
                 className="text-[32px] hparkhead leading-[42px] lg:leading-[66px] md:text-[45px] xl:text-[48px] 1366:text-[54px] 1440:text-[59px] xl:leading-[58px] 1366:leading-[64px] 1440:leading-[69px] flex flex-col max-h-fit justify-start bw-m lg:w-[auto] capitalize tracking-[-0.04em]"
                 dangerouslySetInnerHTML={{ __html: data.stitle1 }}
@@ -25,18 +48,13 @@ const HorizonParks = ({ data }) => {
                 />
               </div>
             </div>
-            {/* <div className="flex items-center justify-start gap-5">
-              <span className="text-[56px] bw-r tracking-[-0.04em] leading-[74px] flex items-center ">
-                In Delhi
-              </span>
-              <div>
-                <img
-                  src="/abstract_pattern.svg"
-                  className="object-cover h-[58px] lg:w-[318px] md:w-[318px] w-[100px]"
-                  alt="Grade A Box"
-                />
-              </div>
-            </div> */}
+          </div>
+          <div class="hidden 1024:h-auto 1024:block relative top-auto lg:bottom-[0px] lg:mt-[50px]">
+            <img
+              src="/state/state_pg_arrow_img.svg"
+              alt="state_pg_arrow_img"
+              class="object-contain w-full max-h-[500px]"
+            />
           </div>
         </div>
         <div className="flex flex-col xl:gap-6 gap-3 xl:max-w-1/2 max-w-full">

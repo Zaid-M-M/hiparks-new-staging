@@ -131,14 +131,16 @@ export default async function CombinedPage({ params }) {
   if (stateData) {
     return (
       <main>
-        <HeroSection data={stateData.hero} />
+        <HorizonParks data={stateData.parks} />
+
         <MakeIndia data={stateData.makeindia} />
+        {/* <HeroSection data={stateData.hero} /> */}
         <IndustrialLandScape
           data={stateData.industrialLandscape}
           arrow={stateData}
         />
         <IndicatorsF data={stateData.indicators} />
-        <HorizonParks data={stateData.parks} />
+
         <FAQSection data2={stateData.faqs2} data={stateData.faqs} />
         <HorizonRegion data={stateData.regionSlider} />
         <RelatedLinks slug={slug} />

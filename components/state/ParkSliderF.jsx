@@ -78,7 +78,7 @@ const ParksSliderF = () => {
         try {
           const res = await fetch(
             `https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-json/wp/v2/parks?categories=${industrialCategoryId}`,
-            { cache: "no-store" }
+            { cache: "no-store" },
           );
           if (res.ok) {
             const data = await res.json();
@@ -113,7 +113,7 @@ const ParksSliderF = () => {
         try {
           const res = await fetch(
             `https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-json/wp/v2/incity_parks?categories=${incityCategoryId}`,
-            { cache: "no-store" }
+            { cache: "no-store" },
           );
           if (res.ok) {
             const data = await res.json();
@@ -133,7 +133,7 @@ const ParksSliderF = () => {
               potential:
                 park.acf?.incity_development_potential?.replace(
                   /<[^>]+>/g,
-                  ""
+                  "",
                 ) || "",
               usage: park.acf?.incity_land_usage || "",
               certification: park.acf?.incity_igbc_status || "",
@@ -148,12 +148,12 @@ const ParksSliderF = () => {
       // Combine and dedupe
       const combined = [...industrialParks, ...incityParks];
       const uniqueParks = Array.from(
-        new Map(combined.map((p) => [p.id, p])).values()
+        new Map(combined.map((p) => [p.id, p])).values(),
       );
 
       // FILTER OUT EXCLUDED PARKS HERE (before rendering)
       const filteredParks = uniqueParks.filter(
-        (park) => !EXCLUDED_SLUGS.includes(park.slug)
+        (park) => !EXCLUDED_SLUGS.includes(park.slug),
       );
 
       setParks(filteredParks);
@@ -234,7 +234,7 @@ const ParksSliderF = () => {
   };
 
   return (
-    <div className="w-full flex flex-col overflow-hidden">
+    <div className="w-full flex flex-col overflow-hidden lg:mt-[0px] md:mt-[0px] mt-[0px]">
       {renderContent()}
     </div>
   );

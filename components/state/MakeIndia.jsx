@@ -7,7 +7,7 @@ const MakeIndia = ({ data }) => {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <div className=" md:py-[80px] lg:py-[100px] py-[45px] flex flex-col gap-8 lg:gap-16 relative overflow-hidden">
+    <div className=" md:pt-[40px] md:pb-[80px] lg:pt-[40px] lg:pb-[100px] pt-[20px] pb-[45px] flex flex-col gap-8 lg:gap-16 relative overflow-hidden">
       {/* Background vectors */}
       <img
         className="purple_vctr hidden md:block absolute -bottom-40 -right-20 md:w-[370px] w-[300px]"
