@@ -92,35 +92,32 @@ import React from "react";
 
 const amenities = [
   {
-    icon: "/Campaign/icons/buildheight.svg",
-    title: "Building Height -12 m clear at eaves",
+    icon: "/sustainable_landing/icons/stats/igbc.svg",
+    title: "IGBC Platinum Certification 18 Parks",
   },
   {
-    icon: "/Campaign/icons/wide.svg",
-    title: "Wide-span column-free warehouse design",
-  },
-  { icon: "/Campaign/icons/udl.svg", title: "UDL 5T/sqm floor, FM2-compliant" },
-  {
-    icon: "/Campaign/icons/optimized.svg",
-    title: "Optimized layouts for inbound and outbound movement",
+    icon: "/sustainable_landing/icons/stats/gresb-rating.svg",
+    title: "5-Star GRESB Rating",
   },
   {
-    icon: "/Campaign/icons/dock.svg",
-    title: "1.2 m dock height with dock pits and rolling shutters",
+    icon: "/sustainable_landing/icons/stats/solar-panel.svg",
+    title: "23.45 MWp rooftop solar installed",
   },
   {
-    icon: "/Campaign/icons/concrete.svg",
-    title: "16.5 m concrete truck apron",
+    icon: "/sustainable_landing/icons/stats/co2.svg",
+    title: "29,681.73 tonnes of CO₂ emissions reduced",
   },
-  { icon: "/Campaign/icons/internal.svg", title: "12 m wide internal roads" },
   {
-    icon: "/Campaign/icons/power.svg",
-    title: "Reliable power, water , utility infrastructure",
+    icon: "/sustainable_landing/icons/stats/water-recycle.svg",
+    title: "100% water recycling systems implemented",
   },
-  { icon: "/Campaign/icons/ev.svg", title: "EV charging infrastructure" },
   {
-    icon: "/Campaign/icons/temperature.svg",
-    title: "Temperature-controlled zones",
+    icon: "/sustainable_landing/icons/stats/rainwater-harvesting.svg",
+    title: "430+ rainwater recharge pits",
+  },
+  {
+    icon: "/sustainable_landing/icons/stats/led-light.svg",
+    title: "100% LED-enabled park operations",
   },
 ];
 
@@ -157,20 +154,20 @@ const Features = () => {
         alt=""
       />
 
-      {/* Orange Vector */}
+      {/* Purple Vector */}
       <img
         className="absolute z-0 w-[200px] md:w-[300px] lg:w-[400px] -top-20 -right-20 lg:-right-32"
-        src="/orange_vector.svg"
+        src="/purple_vector.svg"
         alt=""
       />
 
       <div className="relative z-10 fix container flex flex-col gap-9 lg:gap-[30px]">
         <div className="flex flex-col gap-3">
           <h1 className="lg:text-[56px] text-[30px] tracking-[-2.2px] font-medium leading-none text-black">
-            Sustainability works best <br />
+            Sustainability Works Best <br />
             <div className="flex items-center flex-wrap pt-3 lg:pt-0">
               <span className="font-normal tracking-[-2.2px] leading-[20px] lg:leading-[70px]">
-                when it’s built into the infrastructure
+                When It’s Built Into The Infrastructure
               </span>
               <img
                 className="pt-5 lg:pt-0 lg:ml-6 w-[80px] lg:w-[210px] block lg:inline-block abstract_svg"
@@ -186,12 +183,12 @@ const Features = () => {
             the global top quintile for ESG performance.
           </p>
           <h4 className="font-semibold sm:text-xl lg:text-[24px] text-[18px] text-black leading-[28px] sm:leading-[34px]">
-            In a short span of 5 years, we’ve delivered impactful sustainable
-            operations:
+            In A Short Span Of 5 Years, We’ve Delivered Impactful Sustainable
+            Operations:
           </h4>
         </div>
 
-        <div className="flex flex-wrap gap-[14px]">
+        <div className="flex flex-wrap gap-[14px] justify-center">
           {amenities.map((item, index) => (
             <div
               key={index}
@@ -200,7 +197,7 @@ const Features = () => {
               <img
                 src={item.icon}
                 alt={item.title}
-                className="lg:w-[90px] w-[70px] mb-2"
+                className="lg:w-[90px] lg:h-[90px] mb-2"
               />
               <p className="font-semibold text-[12px] xl:text-[15px] leading-[125%] text-[#2E3133]">
                 {item.title}

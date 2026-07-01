@@ -114,9 +114,9 @@ const CampaignNewsletter = () => {
           {/* LEFT CONTENT COLUMNS */}
           <div className="w-full xl:max-w-[55%] 2xl:max-w-[53%] flex flex-col gap-5 md:gap-10 items-start text-white ">
             {/* Title using custom scale from design matrix */}
-            <h2 className="text-[28px] sm:text-[34px] 2xl:text-[38px] font-medium md:tracking-[0.7px]  leading-[120%] tracking-[-1.92px]">
-              Discuss with us how Horizon can  support you in achieving your
-              green goals.
+            <h2 className="text-[28px] sm:text-[34px] 2xl:text-[38px] font-medium tracking-[-4%]  leading-[120%]">
+              Discuss with us how Horizon can <br /> support you in achieving
+              your green goals.
             </h2>
 
             {/* Translucent Informational Contact Wrapper Box */}

@@ -6,8 +6,7 @@ import Features from "./Features";
 import TrustedBySection from "./TrustedBySection";
 import IndiaMapSection from "./IndiaMapSection";
 import CampaignNewsletter from "./CampaignNewsletter";
-import Slider from "../ecommerce/Ecom_sec5/Slider";
-// import Slider from "./Brandweserve/Slider";
+import BrandsSlider from "./BrandsSlider";
 
 const dummyLeasingData = [
   {
@@ -28,10 +27,13 @@ const CampaignWrapper = () => {
       <ContMain
         leasing_details={dummyLeasingData}
         park_brochure={dummyBrochurePath}
+        // secbg="/sustainable_landing/suslcta.webp"
+        secbg="bg-[url(/sustainable_landing/suslcta.webp)]"
+        downtext="DOWNLOAD BROCHURE"
       />
       <IndiaMapSection />
       <TrustedBySection />
-      <Slider />
+      <BrandsSlider />
       <CampaignNewsletter />
     </div>
   );

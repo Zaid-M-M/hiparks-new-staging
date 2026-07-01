@@ -2,28 +2,28 @@ import React from "react";
 
 const testimonials = [
   {
-    logo: "/Campaign/trusted/delhivery.svg",
-    company: "Delhivery",
-    name: "Sunny Raja",
-    designation: "Head - Commercial and Infrastructure",
+    logo: "/Campaign/trusted/vestas.png",
+    company: "Vestas",
+    name: "Ganesan Nagaraj",
+    designation: "Senior Director - Head of Operations",
     quote:
-      "Horizon does not just come with a proposal. They take the time to understand our requirements and deliver solutions that work for our operations.",
+      "Horizon helped us integrate sustainability into the facility design while delivering ahead of schedule without compromising on safety or quality.",
   },
   {
-    logo: "/Campaign/trusted/carryyou.png",
-    company: "Carry You",
-    name: "Akash Gawri",
-    designation: "Director - Carry You",
+    logo: "/Campaign/trusted/dsv.png",
+    company: "DSV",
+    name: "Gaurav Gupta",
+    designation: "Managing Director",
     quote:
-      "With Horizon, everything gets sorted with a single email. Their team is responsive, reliable, and helps us stay focused on running our core business.",
+      "The sustainability initiatives, from solar-powered infrastructure to advanced water recycling systems, contributed to improved operational efficiency.",
   },
   {
-    logo: "/Campaign/trusted/rhenus.png",
-    company: "Rhenus Logistics",
+    logo: "/Campaign/trusted/bent.png",
+    company: "Benteler Automotive",
     name: "Marcus Fornell",
     designation: "Director - Warehousing Solutions",
     quote:
-      " Horizon has been highly accommodating to our specific business requirements and evolving operational needs, making them a reliable long-term partner.",
+      "Safety, cleanliness, and sustainability are clearly embedded into Horizon's approach, supported by a highly responsive team.",
   },
 ];
 
@@ -36,7 +36,7 @@ const TrustedBySection = () => {
             <span className="txt_gradient_sustain ">Trusted By Businesses</span>
             <br />
             <span className="text-white bw-r leading-[110%] lg:tracking-[-2.2px] tracking-[-1.5px] ">
-              Operating At Scale
+              Building For Long-Term Growth
             </span>{" "}
             <img
               src="/abstract_pattern_sustain.png"
@@ -68,13 +68,14 @@ const TrustedBySection = () => {
 
               {/* Quote text */}
               <p className="relative z-10 bw-r text-[15px] lg:text-[20px]  leading-[170%] text-[#000] flex-grow">
-                &ldquo;{item.quote}&rdquo;
+                {/* &ldquo;{item.quote}&rdquo; */}
+                {item.quote}
               </p>
 
               {/* Divider + attribution */}
               <div className="relative z-10 flex flex-col gap-4 md:justify-center">
                 <div className="w-full h-[1.5px] bg-[#CDCDCD] md:max-w-[80%]"></div>
-                <div className="flex flex-row items-center md:justify-between md:max-w-[80%] gap-4 md:gap-2 2xl:gap-4">
+                <div className="flex flex-row items-center md:justify-between w-fit gap-4 md:gap-2 2xl:gap-4">
                   <div className="flex-shrink-0">
                     <img
                       src={item.logo}
@@ -84,7 +85,7 @@ const TrustedBySection = () => {
                     />
                   </div>
                   <div className="block w-[1px] h-[44px] bg-[#000] flex-shrink-0"></div>
-                  <div className="flex flex-col min-h-[52px] md:h-auto  gap-[2px]">
+                  <div className="flex flex-col gap-[2px]">
                     <span className="bw-sb text-[15px] md:text-[17px] text-[#2E3133] leading-[130%]">
                       {item.name}
                     </span>

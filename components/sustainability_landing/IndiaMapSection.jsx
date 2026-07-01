@@ -9,7 +9,7 @@ const stats = [
 
 const legend = [
   { color: "#F47920", label: "Industrial Parks" },
-  { color: "#4CAF50", label: "InCity Centers" },
+  { color: "#4CAF50", label: "InCity Parks" },
 ];
 
 const IndiaMapSection = () => {
@@ -24,8 +24,8 @@ const IndiaMapSection = () => {
         src="/purple_vector.svg"
       /> */}
       <img
-        className="orange_vctr absolute z-0 w-[200px] md:w-[300px] lg:w-[400px] lg:-top-40 -top-20 right-5 lg:right-20 "
-        src="/orange_vector.svg"
+        className="green_vctr absolute z-0 w-[200px] md:w-[300px] lg:w-[400px] lg:-top-40 -top-20 right-5 lg:right-20 "
+        src="/green_vector.svg"
       />
       <img
         className=" purple_vctr absolute z-0 w-[200px] md:w-[300px] lg:w-[400px] top-0 lg:-top-20 -right-10 lg:-right-32"
@@ -33,9 +33,11 @@ const IndiaMapSection = () => {
       />
       <div className="ml-[max(5%,calc((100vw-1340px)/2))] lg:mr-0 mr-[5%]">
         <h2 className="bw-m text-[26px] leading-[35px] lg:leading-normal tracking-[-1.76px] lg:text-[40px] xl:text-[44px] text-[#2E3133]">
-          Strategically Located <br className="lg:hidden" /> Grade A Parks
-          Across India, <br />
-          <span className="bw-r">Close To Major Consumption Markets.</span>
+          Strategically Located Industrial And{" "}
+          <br className="lg:hidden" /> Logistics Parks Across India's <br />
+          <span className="bw-r">
+            Major Manufacturing And Supply Chain Corridors.
+          </span>
           <img
             src="/abstract_pattern_sustain.png"
             className="abstract_svg block lg:ml-5 pt-2 lg:pt-0 lg:inline-block"
@@ -71,7 +73,7 @@ const IndiaMapSection = () => {
                       .join(" ")}
                   >
                     <span className="bw-b font-semibold text-[35px] 2xl:text-[56px] leading-[70px] flex items-end justify-center">
-                      <span className="txt_gradient leading-[128%] font-semibold">
+                      <span className="txt_gradient_sustain leading-[128%] font-semibold">
                         {stat.value}
                       </span>
                       {stat.sup && (

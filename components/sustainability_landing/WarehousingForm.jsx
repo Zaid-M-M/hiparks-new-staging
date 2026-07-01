@@ -164,34 +164,6 @@ const WarehousingForm = () => {
     }
   };
 
-  const getTemplateId = (location) => {
-    const north = [
-      "Farukhnagar-I",
-      "Farukhnagar-II",
-      "Bilaspur",
-      "Koka",
-      "Luhari",
-    ];
-    const south = [
-      "Kothur",
-      "Patancheru",
-      "Dobbaspet-I",
-      "Dobbaspet-II",
-      "Malur",
-      "Hoskote",
-      "Hosur",
-      "Chengalpattu",
-      "Redhills-I",
-      "Mappedu",
-      "MWC",
-      "Oragadam",
-      "Oragadam-II",
-    ];
-    if (north.includes(location)) return "template_8xqcdvi";
-    if (south.includes(location)) return "template_a6m74s3";
-    return "template_r9mkbyb";
-  };
-
   const sendEmail = async (e) => {
     e.preventDefault();
     setStatusMessage("");
@@ -200,17 +172,15 @@ const WarehousingForm = () => {
     setLoading(true);
 
     try {
-      const templateId = getTemplateId(locationType);
-
       await Promise.all([
         emailjs.sendForm(
           "service_38rulc9",
-          templateId,
+          "template_mwtx6i9",
           formRef.current,
           "SsPYHKCapw4h-xBn_",
         ),
         fetch(
-          "https://script.google.com/macros/s/AKfycbxg37VAUtKWvT0jKRStPB-b2pvgSY5oUdN8r61Umd2IMWADbiLRGYrm-WQ20uFjx_AIlg/exec",
+          "https://script.google.com/macros/s/AKfycbwHLtjTktbShQO-k2c3f_9qxF84x8G64r78W3oq12tWqFgIniiWOjaRYXs9_4A97Jncbw/exec",
           {
             method: "POST",
             mode: "no-cors",
@@ -267,7 +237,9 @@ const WarehousingForm = () => {
     <div
       id="book-a-site-visit"
       className="min-h-screen lg:pt-0 w-full flex flex-col justify-between bg-cover bg-center"
-      style={{ backgroundImage: `url("/Campaign/hero-c.webp")` }}
+      style={{
+        backgroundImage: `url("/sustainable_landing/suslandspot.webp")`,
+      }}
     >
       <div className="fix pt-10">
         <div className="w-[323px] flex gap-[14px]">

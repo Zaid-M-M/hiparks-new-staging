@@ -12,9 +12,16 @@ import ContCard from "./ContCard";
 //     email: "aanchal.kaul@hiparks.com",
 //   },
 // ];
-const ContMain = ({ leasing_details, park_brochure }) => {
+const ContMain = ({
+  leasing_details,
+  park_brochure,
+  secbg = "bg-[url(/parkdetail/contact_bg.jpg)]",
+  downtext = "DOWNLOAD PARK BROCHURE",
+}) => {
   return (
-    <div className="bg-[url(/parkdetail/contact_bg.jpg)] w-full bg-cover bg-no-repeat xl:h-[285px] flex items-center">
+    <div
+      className={` ${secbg} w-full bg-cover bg-no-repeat xl:h-[285px] flex items-center`}
+    >
       <div className="fix">
         <div className="1440:pl-[100px] lg:px-10 py-12 flex lg:flex-row flex-col w-full lg:gap-0 gap-5 lg:justify-between lg:items-center">
           <h2 className="lg:text-[32px] text-[30px] leading-[42px] bw-m uppercase text-white ">
@@ -53,7 +60,7 @@ const ContMain = ({ leasing_details, park_brochure }) => {
                     target="_blank"
                     className="flex items-center gap-[10px] text-[12px] px-[18px] py-[12px] lg:px-[22px] lg:py-[15px] w-fit lg:text-[16px] uppercase inter-sb tracking-[1.6px] bg-black text-white cursor-pointer hover:opacity-80 transition-opacity duration-300"
                   >
-                    Download Park Brochure
+                    {downtext}
                     <img
                       className="w-[23px] md:w-[24px] lg:w-[25px]"
                       src="/wht_download_icon.svg"
