@@ -158,6 +158,8 @@ export async function POST(request) {
       "Conversation Form",
       "Phone Inquiry Form",
       "Fulfilment Centre Campaign",
+      "Chengalpattu Park Chennai",
+      "Sustainability Campaign",
     ]);
 
     const {

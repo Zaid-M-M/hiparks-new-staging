@@ -193,7 +193,7 @@ const WarehousingForm = () => {
           body: JSON.stringify({
             tenantName: organisation,
             leadName: name,
-            Form_Type__c: "Fulfilment Centre Campaign",
+            Form_Type__c: "Sustainability Campaign",
             requirement: space || undefined,
             description: message,
             selectLocation: locationType,
@@ -320,7 +320,7 @@ const WarehousingForm = () => {
               <input
                 type="hidden"
                 name="Form_Type__c"
-                value="Fulfilment Centre Campaign"
+                value="Sustainability Campaign"
               />
               <input type="hidden" name="source" value={source} />
               <input
