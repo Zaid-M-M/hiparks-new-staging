@@ -34,8 +34,8 @@ const IndiaMapSection = () => {
       <div className="ml-[max(5%,calc((100vw-1340px)/2))] lg:mr-0 mr-[5%]">
         <h2 className="bw-m text-[26px] leading-[35px] lg:leading-normal tracking-[-1.76px] lg:text-[40px] xl:text-[44px] text-[#2E3133]">
           Strategically Located <br className="lg:hidden" /> Grade A Parks
-          Across India, <br />
-          <span className="bw-r">Close To Major Consumption Markets.</span>
+          Across India <br />
+          <span className="bw-r">Close To Major Consumption Markets</span>
           <img
             src="/abstract_pattern.webp"
             className="abstract_svg block lg:ml-5 pt-2 lg:pt-0 lg:inline-block"
