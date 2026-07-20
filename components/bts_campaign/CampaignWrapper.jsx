@@ -17,7 +17,9 @@ const dummyLeasingData = [
   },
 ];
 
-const dummyBrochurePath = "/assets/docs/park_brochure.pdf";
+const dummyBrochurePath =
+  "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/New-Horizon-Brochure.pdf";
+const downtext = "DOWNLOAD BROCHURE";
 
 const CampaignWrapper = () => {
   return (
@@ -28,6 +30,7 @@ const CampaignWrapper = () => {
       <ContMain
         leasing_details={dummyLeasingData}
         park_brochure={dummyBrochurePath}
+        downtext={downtext}
       />
       <IndiaMapSection />
       <TrustedBySection />
