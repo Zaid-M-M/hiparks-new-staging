@@ -300,7 +300,7 @@ const WarehousingForm = () => {
     <div
       id="book-a-site-visit"
       className="min-h-screen lg:pt-0 w-full flex flex-col justify-between bg-cover bg-center"
-      style={{ backgroundImage: `url("/Campaign/hero-c.webp")` }}
+      style={{ backgroundImage: `url("/bts_campaign/bts_hero.webp")` }}
     >
       <div className="fix pt-10">
         <div className="w-[323px] flex gap-[14px]">
