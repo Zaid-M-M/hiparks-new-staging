@@ -326,8 +326,8 @@ const WarehousingForm = () => {
       <div className="fix pb-20">
         <div className="flex flex-col pt-12 lg:flex-row items-end justify-end gap-12 lg:gap-8">
           {/* Left Section */}
-          <div className="lg:w-[50%] flex flex-col justify-center gap-5 lg:gap-10 w-full lg:pb-6">
-            <div className="flex flex-col gap-7">
+          <div className="lg:w-[50%] flex flex-col justify-center gap-5 lg:gap-[20px] w-full lg:pb-6">
+            <div className="flex flex-col gap-[15px]">
               <h1 className="lg:text-[48px] text-[32px] bw-m leading-[35px] tracking-[-1.9px] lg:leading-[66px] text-white">
                 57% of our network serves
                 <div className="flex items-start flex-col lg:flex-row overflow-visible">
@@ -341,7 +341,7 @@ const WarehousingForm = () => {
                   />
                 </div>
               </h1>
-              <p className="lg:text-[24px] text-[18px] lg:max-w-[80%] text-[#fff]">
+              <p className="lg:text-[24px] text-[18px] lg:max-w-[100%] text-[#fff]">
                 Horizon Industrial Parks delivers built-to-suit, Grade-A
                 manufacturing facilities for diverse industries including
                 automotive, engineering, aerospace, chemicals and more.
