@@ -537,6 +537,7 @@ export default function Footer() {
     pathname === "/campaign/chengalpattu-landing" ||
     pathname === "/campaign/sustainability-landing" ||
     pathname === "/campaign/bts_campaign" ||
+    pathname === "/campaign/enquiry_campaign" ||
     pathname === "/campaign/grade-a-fulfillment-centers-in-india";
 
   const formRef = useRef();

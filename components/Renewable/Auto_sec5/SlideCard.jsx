@@ -26,7 +26,7 @@ import React from "react";
 
 const SlideCard = ({ src }) => {
   return (
-    <div className="flex items-center justify-center border-t border-x border-[#CDCDCD] aspect-square min-w-full">
+    <div className="flex items-center justify-center border-y border-x border-[#CDCDCD] aspect-square min-w-full">
       <img src={src} alt="brand" className="lg:w-auto w-[80%] object-contain" />
     </div>
   );
