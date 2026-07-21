@@ -326,7 +326,7 @@ const WarehousingForm = () => {
       <div className="fix pb-20">
         <div className="flex flex-col pt-12 lg:flex-row items-end justify-end gap-12 lg:gap-8">
           {/* Left Section */}
-          <div className="lg:w-[50%] flex flex-col justify-center gap-5 lg:gap-[20px] w-full lg:pb-6">
+          <div className="lg:w-[60%] flex flex-col justify-center gap-5 lg:gap-[20px] w-full lg:pb-6">
             <div className="flex flex-col gap-[15px]">
               <h1 className="lg:text-[48px] text-[32px] bw-m leading-[35px] tracking-[-1.9px] lg:leading-[66px] text-white">
                 57% of our network serves
@@ -363,7 +363,7 @@ const WarehousingForm = () => {
           </div>
 
           {/* Right Section - Form */}
-          <div className="w-full lg:w-[50%] campaigninput bg-white flex flex-col gap-7 p-[20px] md:p-[30px] items-start">
+          <div className="w-full lg:w-[40%] campaigninput bg-white flex flex-col gap-7 p-[20px] md:p-[30px] items-start">
             <h2 className="text-[24px] 2xl:max-w-[80%] bw-r pb-3.5 text-[#2E3133]">
               Let’s build infrastructure tailored to your manufacturing
               requirements.
