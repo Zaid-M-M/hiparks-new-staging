@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 
 const sec2_data = [
   {
-    image: "/enquiry_campaign/p1.webp",
+    image: "/enquiry_campaign/P1_N.webp",
     label: "Auto Components",
   },
   {
@@ -81,7 +81,6 @@ const EC_Partner = () => {
                   <div className="relative w-full h-full xl:w-[auto] xl:h-[auto]">
                     <img
                       src={item.image}
-                      alt={item.label}
                       className="w-full h-auto object-cover"
                     />
                   </div>
