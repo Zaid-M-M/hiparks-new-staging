@@ -49,13 +49,19 @@ const EC_Partner = () => {
               decisions and seamless delivery-at-scale for your business.
             </p>
             <p className="bw-r md:text-[17px] lg:text-[17px] 1280:text-[20px] md:leading-[30px] mb-[20px] text-[#000]">
-              Value additions like turnkey delivery, renewable energy, cold
-              storage, skilling centres and staff accommodation help our
-              customers scale with confidence and make us the go-to- partner for
-              ready-to-move in, built-to-suit, and plug & play requirements.
+              Value additions like{" "}
+              <b>
+                turnkey delivery, renewable energy, cold storage, skilling
+                centres and staff accommodation
+              </b>{" "}
+              help our customers scale with confidence and make us the go-to-
+              partner for{" "}
+              <b>
+                ready-to-move in, built-to-suit, and plug & play requirements.
+              </b>
             </p>
             <p className="bw-r md:text-[17px] lg:text-[17px] 1280:text-[20px] md:leading-[30px] mb-[20px] text-[#000]">
-              With all our operational parks IGBC certified, we embed
+              With all our operational parks <b>IGBC certified</b>, we embed
               sustainability, efficiency, and long- term value into every
               development - helping occupiers meet global ESG expectations with
               certainty.
