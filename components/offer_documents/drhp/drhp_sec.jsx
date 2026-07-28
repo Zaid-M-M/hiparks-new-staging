@@ -46,7 +46,7 @@ const Drhp_sec = () => {
     <div id="drhp-section" className="w-full bg-[#EBEBEB]">
       <div className="fix relative w-full lg:pt-[70px] lg:pb-[86px] pt-[45px] pb-[45px]">
         <div className="flex gap-[5px] lg:gap-[50px] 1280:gap-[60px] 1366:gap-[60px] justify-between flex-col lg:flex-row">
-          <div className="w-[312px] md:w-[240px] 1280:w-[312px] mb-[15px] lg:mb-[0px] relative">
+          <div className="w-[312px] md:w-[240px] 1280:w-[408px] mb-[15px] lg:mb-[0px] relative">
             <h1 className="1280:text-[56px] 1280:leading-[66px] 1280:tracking-[-3.04px] lg:text-[37px] lg:leading-[43px] lg:tracking-[-2.04px] text-[30px] leading-[36px] tracking-[-1px] bw-r">
               DRHP
             </h1>
