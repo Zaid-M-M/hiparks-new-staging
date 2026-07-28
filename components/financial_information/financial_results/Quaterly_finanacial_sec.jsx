@@ -42,8 +42,8 @@ const Quaterly_finanacial_sec = () => {
         <div className="flex gap-[5px] lg:gap-[20px] 1280:gap-[10px] 1366:gap-[10px] justify-between flex-col lg:flex-row">
           <div className="w-[312px] md:w-[240px] 1280:w-[470px] mb-[15px] lg:mb-[0px] relative">
             <h1 className="1280:text-[44px] 1280:leading-[58px] 1280:tracking-[-3.04px] lg:text-[37px] lg:leading-[43px] lg:tracking-[-2.04px] text-[30px] leading-[36px] tracking-[-1px] bw-r">
-              Quaterly<br></br>
-              <span className="bw-r">Financials Statements</span>
+              Quaterly Financials<br></br>
+              <span className="bw-r">Statements</span>
             </h1>
           </div>
 
