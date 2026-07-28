@@ -4,22 +4,22 @@ import Btn from "@/components/global/Btn";
 
 const C_info_data = [
   {
-    title: "Director Report (FY 2024-25)",
+    title: "Financial Summary BREP Asia II Indian Holding Co I (NQ) PTE. LTD.",
     download_img: "/download_icon.svg",
-    mark_img: "/Invester/green_mark.svg",
-    pdf: "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/annual_report/Director_Report.pdf",
+    mark_img: "/Invester/orange_mark.svg",
+    pdf: "",
   },
 ];
 
-const Annual_reports_sec = () => {
+const Group_company_finance_sec = () => {
   return (
     <div className="w-full bg-[#fff]">
       <div className="fix relative w-full lg:pt-[70px] lg:pb-[86px] pt-[45px] pb-[45px]">
         <div className="flex gap-[5px] lg:gap-[50px] 1280:gap-[10px] 1366:gap-[10px] justify-between flex-col lg:flex-row">
           <div className="w-[312px] md:w-[240px] 1280:w-[312px]  mb-[15px] lg:mb-[0px] relative">
             <h1 className="1280:text-[48px] 1280:leading-[58px] 1280:tracking-[-3.04px] lg:text-[37px] lg:leading-[43px] lg:tracking-[-2.04px]  text-[30px] leading-[36px] tracking-[-1px]  bw-r">
-              Director<br></br>
-              <span className="bw-r">Report</span>
+              Group Company <br></br>
+              <span className="bw-r">Financial Statements</span>
             </h1>
           </div>
           <div className="md:w-[auto] lg:w-[1000px] 1280:w-[1000px]">
@@ -29,7 +29,7 @@ const Annual_reports_sec = () => {
                   href={info_data.pdf}
                   key={index}
                   target="_blank"
-                  className="flex justify-between items-center gap-[50px] 1280:w-[48%] md:w-[48%] lg:w-[47%] w-[100%] h-[65px] md:h-[65px] lg:h-[70px] 1280:h-[100px] bg-[#ACD5AE] bw-r text-[20px] md:text-[20px] md:leading-[23px] 1440:text-[26px] 1440:leading-[36px] 1366:text-[26px] 1280:text-[24px] 1280:leading-[31px] leading-[23px] tracking-[-1.04px] md:py-[20px] md:px-[15px] py-[22px] px-[20px] 1280:px-[25px] relative overflow-hidden"
+                  className="flex justify-between items-center gap-[50px] 1280:w-[48%] md:w-[48%] lg:w-[47%] w-[100%] h-[65px] md:h-[65px] lg:h-[70px] 1280:h-[100px] bg-[#f7c99b] bw-r text-[20px] md:text-[20px] md:leading-[23px] 1280:text-[22px] 1280:leading-[32px] leading-[23px] tracking-[-1.04px] md:py-[20px] md:px-[15px] py-[22px] px-[20px] 1280:px-[25px] relative overflow-hidden"
                 >
                   {info_data.title}
                   <img
@@ -50,4 +50,4 @@ const Annual_reports_sec = () => {
   );
 };
 
-export default Annual_reports_sec;
+export default Group_company_finance_sec;

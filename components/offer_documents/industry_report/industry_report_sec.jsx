@@ -31,7 +31,7 @@
 //               {C_info_data.map((info_data, index) => (
 //                 <a
 //                   href="#"
-//                   className="flex justify-between items-center gap-[83px] 1280:w-[48%] md:w-[48%] lg:w-[47%] w-[100%] h-[65px] md:h-[65px] lg:h-[70px] 1280:h-[100px] bg-[#ACD5AE] bw-r text-[20px] md:text-[20px] md:leading-[23px] 1440:text-[28px] 1440:leading-[36px] 1366:text-[26px] 1280:text-[24px] 1280:leading-[31px] leading-[23px] tracking-[-1.04px] md:py-[20px] md:px-[15px] py-[22px] px-[20px] 1280:px-[25px] relative overflow-hidden"
+//                   className="flex justify-between items-center gap-[30px] 1280:w-[48%] md:w-[48%] lg:w-[47%] w-[100%] h-[65px] md:h-[65px] lg:h-[70px] 1280:h-[100px] bg-[#ACD5AE] bw-r text-[20px] md:text-[20px] md:leading-[23px] 1440:text-[28px] 1440:leading-[36px] 1366:text-[26px] 1280:text-[24px] 1280:leading-[31px] leading-[23px] tracking-[-1.04px] md:py-[20px] md:px-[15px] py-[22px] px-[20px] 1280:px-[25px] relative overflow-hidden"
 //                 >
 //                   {info_data.title}
 //                   <img
@@ -95,7 +95,7 @@
 //                   href={info_data.pdf} // <-- opens the PDF
 //                   target="_blank" // <-- new tab
 //                   rel="noopener noreferrer" // <-- security
-//                   className="flex justify-between items-center gap-[83px] 1280:w-[48%] md:w-[48%] lg:w-[47%] w-[100%] h-[65px] md:h-[65px] lg:h-[70px] 1280:h-[100px] bg-[#ACD5AE] bw-r text-[20px] md:text-[20px] md:leading-[23px] 1440:text-[28px] 1440:leading-[36px] 1366:text-[26px] 1280:text-[24px] 1280:leading-[31px] leading-[23px] tracking-[-1.04px] md:py-[20px] md:px-[15px] py-[22px] px-[20px] 1280:px-[25px] relative overflow-hidden cursor-pointer hover:bg-[#96c79a] transition-colors"
+//                   className="flex justify-between items-center gap-[30px] 1280:w-[48%] md:w-[48%] lg:w-[47%] w-[100%] h-[65px] md:h-[65px] lg:h-[70px] 1280:h-[100px] bg-[#ACD5AE] bw-r text-[20px] md:text-[20px] md:leading-[23px] 1440:text-[28px] 1440:leading-[36px] 1366:text-[26px] 1280:text-[24px] 1280:leading-[31px] leading-[23px] tracking-[-1.04px] md:py-[20px] md:px-[15px] py-[22px] px-[20px] 1280:px-[25px] relative overflow-hidden cursor-pointer hover:bg-[#96c79a] transition-colors"
 //                 >
 //                   {info_data.title}
 //                   <img
@@ -155,7 +155,7 @@
 //                   href={info_data.pdf}
 //                   target="_blank"
 //                   rel="noopener noreferrer"
-//                   className="flex justify-between items-center gap-[83px] 1280:w-[48%] md:w-[48%] lg:w-[47%] w-[100%] h-[65px] md:h-[65px] lg:h-[70px] 1280:h-[100px] bg-[#ACD5AE] bw-r text-[20px] md:text-[20px] md:leading-[23px] 1440:text-[28px] 1440:leading-[36px] 1366:text-[26px] 1280:text-[24px] 1280:leading-[31px] leading-[23px] tracking-[-1.04px] md:py-[20px] md:px-[15px] py-[22px] px-[20px] 1280:px-[25px] relative overflow-hidden cursor-pointer "
+//                   className="flex justify-between items-center gap-[30px] 1280:w-[48%] md:w-[48%] lg:w-[47%] w-[100%] h-[65px] md:h-[65px] lg:h-[70px] 1280:h-[100px] bg-[#ACD5AE] bw-r text-[20px] md:text-[20px] md:leading-[23px] 1440:text-[28px] 1440:leading-[36px] 1366:text-[26px] 1280:text-[24px] 1280:leading-[31px] leading-[23px] tracking-[-1.04px] md:py-[20px] md:px-[15px] py-[22px] px-[20px] 1280:px-[25px] relative overflow-hidden cursor-pointer "
 //                 >
 //                   <span className="relative z-10 bw-r ">{info_data.title}</span>
 //                   <img
@@ -213,7 +213,7 @@ const Industry_report_sec = () => {
                   href={info_data.pdf}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex justify-between items-center gap-[83px] 1280:w-[48%] md:w-[48%] lg:w-[47%] w-[100%] h-[75px] md:h-[65px] lg:h-[70px] 1280:h-[100px] bg-[#ACD5AE] bw-r text-[20px] md:text-[20px] md:leading-[23px] 1440:text-[28px] 1440:leading-[36px] 1366:text-[26px] 1280:text-[24px] 1280:leading-[31px] leading-[23px] tracking-[-1.04px] md:py-[20px] md:px-[15px] py-[22px] px-[25px] 1280:px-[40px] relative overflow-hidden cursor-pointer "
+                  className="flex justify-between items-center gap-[30px] 1280:w-[48%] md:w-[48%] lg:w-[47%] w-[100%] h-[75px] md:h-[65px] lg:h-[70px] 1280:h-[100px] bg-[#ACD5AE] bw-r text-[20px] md:text-[20px] md:leading-[23px] 1280:text-[24px] 1280:leading-[34px] leading-[23px] tracking-[-1.04px] md:py-[20px] md:px-[15px] py-[22px] px-[25px] 1280:px-[40px] relative overflow-hidden cursor-pointer "
                 >
                   <span className="relative z-10 bw-r ">{info_data.title}</span>
                   <img
