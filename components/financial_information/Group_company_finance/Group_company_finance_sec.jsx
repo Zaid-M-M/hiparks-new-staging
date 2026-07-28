@@ -15,9 +15,9 @@ const Group_company_finance_sec = () => {
   return (
     <div className="w-full bg-[#fff]">
       <div className="fix relative w-full lg:pt-[70px] lg:pb-[86px] pt-[45px] pb-[45px]">
-        <div className="flex gap-[5px] lg:gap-[50px] 1280:gap-[10px] 1366:gap-[10px] justify-between flex-col lg:flex-row">
-          <div className="w-[312px] md:w-[240px] 1280:w-[312px]  mb-[15px] lg:mb-[0px] relative">
-            <h1 className="1280:text-[48px] 1280:leading-[58px] 1280:tracking-[-3.04px] lg:text-[37px] lg:leading-[43px] lg:tracking-[-2.04px]  text-[30px] leading-[36px] tracking-[-1px]  bw-r">
+        <div className="flex gap-[5px] lg:gap-[20px] 1280:gap-[10px] 1366:gap-[10px] justify-between flex-col lg:flex-row">
+          <div className="w-[312px] md:w-[240px] 1280:w-[470px]  mb-[15px] lg:mb-[0px] relative">
+            <h1 className="1280:text-[44px] 1280:leading-[58px] 1280:tracking-[-3.04px] lg:text-[37px] lg:leading-[43px] lg:tracking-[-2.04px]  text-[30px] leading-[36px] tracking-[-1px]  bw-r">
               Group Company <br></br>
               <span className="bw-r">Financial Statements</span>
             </h1>
@@ -29,7 +29,7 @@ const Group_company_finance_sec = () => {
                   href={info_data.pdf}
                   key={index}
                   target="_blank"
-                  className="flex justify-between items-center gap-[50px] 1280:w-[48%] md:w-[48%] lg:w-[47%] w-[100%] h-[65px] md:h-[65px] lg:h-[70px] 1280:h-[100px] bg-[#f7c99b] bw-r text-[20px] md:text-[20px] md:leading-[23px] 1280:text-[22px] 1280:leading-[32px] leading-[23px] tracking-[-1.04px] md:py-[20px] md:px-[15px] py-[22px] px-[20px] 1280:px-[25px] relative overflow-hidden"
+                  className="flex justify-between items-center gap-[20px] 1280:w-[48%] md:w-[48%] lg:w-[47%] w-[100%] h-[65px] md:h-[65px] lg:h-[70px] 1280:h-[100px] bg-[#f7c99b] bw-r text-[20px] md:text-[20px] md:leading-[23px] 1280:text-[20px] 1280:leading-[26px] leading-[23px] tracking-[-1.04px] md:py-[20px] md:px-[15px] py-[22px] px-[20px] 1280:px-[25px] relative overflow-hidden"
                 >
                   {info_data.title}
                   <img
