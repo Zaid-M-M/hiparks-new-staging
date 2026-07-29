@@ -5,7 +5,7 @@ const C_info_data = [
   {
     title: "Material Contracts & Documents",
     pdf: "/offer-documents/material-contracts", // EXACT filename match!
-    download_img: "/download_icon.svg",
+    download_img: "/arrow_btn.svg",
     mark_img: "/Invester/orange_mark.svg",
   },
 ];
@@ -36,7 +36,7 @@ const Material_contacts_sec = () => {
                   <img
                     src={info_data.download_img}
                     alt="Download"
-                    className="lg:w-[30px] w-[30px] 1280:w-[40px] relative z-10"
+                    className="lg:w-[20px] w-[20px] 1280:w-[20px] relative z-10"
                   />
                   <img
                     className="absolute left-0 1280:w-[85px] 1366:w-[85px] w-[60px] bottom-[-5px] pointer-events-none"
