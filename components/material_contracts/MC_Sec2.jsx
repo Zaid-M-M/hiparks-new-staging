@@ -96,34 +96,82 @@ const MC_accordion_data = [
     mark_img: "/Invester/green_mark.svg",
     bg: "#ACD5AE",
     docs: [
-      { title: "Bagur Logistics Park Private Limited", pdf: "" },
+      {
+        title: "Bagur Logistics Park Private Limited",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/credit_rating_report/Bagur_Logistics_Parks_Private_Limited.pdf",
+      },
       {
         title: "Embassy Industrial Parks Hosur Private Limited",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/credit_rating_report/Embassy_Industrial_Parks_Hosur_Private_Limited.pdf",
+      },
+      {
+        title: "Faruknagar Logistics Parks LLP",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/credit_rating_report/Farukhnagar_Logistics_Parks_LLP.pdf",
+      },
+      {
+        title: "FRK II Industrial Park Private Limited",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/credit_rating_report/FRK_II_Industrial_Park_Private_Limited.pdf",
+      },
+      {
+        title: "Goodluck Buildtech Private Limited",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/credit_rating_report/Goodluck_Buildtech_Private_Limited.pdf",
+      },
+      {
+        title: "Horizon Industrial Parks Private Limited",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/credit_rating_report/Horizon_Industrial_Parks_Limited.pdf",
+      },
+      {
+        title: "ILV Distripark (MWC) Private Limited",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/credit_rating_report/ILV_Distripark_(MWC)_Private_Limited.pdf",
+      },
+      {
+        title: "ILV Distripark Private Limited",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/credit_rating_report/ILV_Distripark_Private_Limited.pdf.pdf",
+      },
+      {
+        title: "Jindpur Industrial Parks Private Limited",
         pdf: "",
       },
-      { title: "Faruknagar Logistics Parks LLP", pdf: "" },
-      { title: "FRK II Industrial Park Private Limited", pdf: "" },
-      { title: "Goodluck Buildtech Private Limited", pdf: "" },
-      { title: "Horizon Industrial Parks Private Limited", pdf: "" },
-      { title: "ILV Distripark (MWC) Private Limited", pdf: "" },
-      { title: "ILV Distripark Private Limited", pdf: "" },
-      { title: "Jindpur Industrial Parks Private Limited", pdf: "" },
-      { title: "Kalina Warehousing Private Limited", pdf: "" },
-      { title: "Lakshmipathi Realtors Private Limited", pdf: "" },
-      { title: "LI Industrial Parks Private Limited", pdf: "" },
+      {
+        title: "Kalina Warehousing Private Limited",
+        pdf: "",
+      },
+      {
+        title: "Lakshmipathi Realtors Private Limited",
+        pdf: "",
+      },
+      {
+        title: "LI Industrial Parks Private Limited",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/credit_rating_report/LI_Industrial_Parks_Private_Limited.pdf",
+      },
       {
         title: "Maur Logistics and Industrial Parks Private Limited",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/credit_rating_report/Malur_Logistics_and_Industrial_Parks_Private_Limited.pdf",
       },
       {
         title: "Panvel Logistics and Warehousing Solutions Private Limited",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/credit_rating_report/Panvel_Logistics_and_Warehousing_Solutions_Private_Limited.pdf",
       },
-      { title: "Panvel Warehousing Private Limited", pdf: "" },
-      { title: "Redhills Industrial Parks Private Limited", pdf: "" },
-      { title: "Vertical Logistics Park LLP", pdf: "" },
-      { title: "Vidarbha Cargo Private Limited", pdf: "" },
-      { title: "XSIO Warehousing Private Limited", pdf: "" },
+      {
+        title: "Panvel Warehousing Private Limited",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/credit_rating_report/Panvel_Warehousing_Private_Limited.pdf",
+      },
+      {
+        title: "Redhills Industrial Parks Private Limited",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/credit_rating_report/Redhills_Industrial_Park_Private_Limited.pdf",
+      },
+      {
+        title: "Vertical Logistics Park LLP",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/credit_rating_report/Vertical_Logistics_Park_LLP.pdf",
+      },
+      {
+        title: "Vidarbha Cargo Private Limited",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/credit_rating_report/Vidarbha_Cargo_Private_Limited.pdf",
+      },
+      {
+        title: "XSIO Warehousing Private Limited",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/credit_rating_report/XSIO_Warehousing_Private_Limited.pdf",
+      },
     ],
   },
   {
@@ -210,19 +258,19 @@ const MC_accordion_data = [
     docs: [
       {
         title: "Embassy-Maini Logistics Bangalore Private Limited",
-        pdf: "/offer-documents/material-contracts",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/fresh_coi/Embassy_Maini_Logistics_Bangalore_Private_Limited.pdf",
       },
       {
         title: "Embassy Industrial Parks Private Limited",
-        pdf: "/offer-documents/material-contracts",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/fresh_coi/Embassy_Industrial_Parks_Private_Limited.PDF",
       },
       {
         title: "Horizon Industrial Parks Private Limited",
-        pdf: "/offer-documents/material-contracts",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/fresh_coi/Horizon_Industrial_Parks_Private_Limited.pdf",
       },
       {
         title: "Horizon Industrial Parks Limited",
-        pdf: "/offer-documents/material-contracts",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/fresh_coi/Horizon_Industrial_Parks_Limited.pdf",
       },
     ],
   },
@@ -273,15 +321,15 @@ const MC_accordion_data = [
       {
         title:
           "Talegaon Industrial Parks, Juturna Developers, Volumnus Developers",
-        pdf: "/offer-documents/material-contracts",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/deed_of_adherence/Talegaon_Industrial_Parks_Juturna_Developers_Volumnus.pdf",
       },
       {
         title: "Banamakanahalli Industrial and Logistics Private Limited",
-        pdf: "/offer-documents/material-contracts",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/deed_of_adherence/Banamakanahalli_Industrial_and_Logistics_Private_Limited.pdf",
       },
       {
         title: "Bhiwandi Industrial & Logistics Parks Private Limited",
-        pdf: "/offer-documents/material-contracts",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/deed_of_adherence/Bhiwandi_Industrial_and_Logistics_Parks_Private_Limited.pdf",
       },
     ],
   },
@@ -349,30 +397,36 @@ const MC_accordion_data = [
       { title: "Registrar Agreement", pdf: "" },
       { title: "Cash Escrow and Sponsor Bank Agreement", pdf: "" },
       { title: "Syndicate Agreement", pdf: "" },
-      { title: "Monitoring Agency Agreement", pdf: "" },
+      {
+        title: "Monitoring Agency Agreement",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Monitoring_Agency_Agreement.pdf",
+      },
       { title: "Underwriting Agreement", pdf: "" },
       { title: "MOA & AOA", pdf: "" },
       {
         title: "Certificate of Incorporation – JEM Cements Private Limited",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Certificate_of_Incorporation_JEM_Cements_Private_Limited.pdf",
       },
       {
         title: "LLP Acquisition Agreement – Vertical Logistic Park LLP",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/LLP_Acquisition_Agreement_Vertical_Logistics_Parks_LLP.pdf",
       },
       {
         title:
           "Certificate of Registration – Change of Registered Office to Maharashtra",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Certificate_of_Registration_Change_of_Registered_Office_to_Maharashtra.pdf",
       },
       {
         title: "Employment Agreement – Urvish Jayantilal Rambhia",
         pdf: "",
       },
-      { title: "Option Agreement – Altronix Warehousing Seven", pdf: "" },
+      {
+        title: "Option Agreement – Altronix Warehousing Seven",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Option_Agreement_Alotronix_Warehousing_Seven.pdf",
+      },
       {
         title: "Amendment Agreement – Bagur Logistics Park Private Limited",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Amendment_Agreement_Bagur_Logistics_Park_Private_Limited.pdf",
       },
       {
         title:
@@ -382,37 +436,55 @@ const MC_accordion_data = [
       {
         title:
           "Partnership Acquisition Agreement – Faruknagar Logistics Parks LLP",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Partnership_Acquisition_Agreement_Farukhnagar_Logistics_Parks_LLP.pdf",
       },
       {
         title:
           "Amended and Restated LLP Agreement – Bagur Logistics Park Private Limited",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Amended_and_Restated_LLP_Agreement_Bagur_Logistics_Park_Private_Limited.pdf",
       },
       {
         title: "Investment Agreement – XSIO Warehousing Private Limited",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Investment_Agreement_XSIO_Warehousing_Private_Limited.pdf",
       },
-      { title: "Scheme of Amalgamation I", pdf: "" },
-      { title: "NCLT Order – Scheme of Amalgamation I", pdf: "" },
+      {
+        title: "Scheme of Amalgamation I",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Scheme_of_Amalgamation_I.pdf",
+      },
+      {
+        title: "NCLT Order – Scheme of Amalgamation I",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/NCLT_Order_Scheme_of_Amalgamation_I.pdf",
+      },
       { title: "Registrar Letter – Scheme of Amalgamation I", pdf: "" },
-      { title: "Scheme of Amalgamation II", pdf: "" },
-      { title: "NCLT Order – Scheme of Amalgamation II", pdf: "" },
+      {
+        title: "Scheme of Amalgamation II",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Scheme of Amalgamation II.pdf",
+      },
+      {
+        title: "NCLT Order – Scheme of Amalgamation II",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/NCLT_Order_Scheme_of_Amalgamation_II.pdf",
+      },
       { title: "Registrar Letter – Scheme of Amalgamation II", pdf: "" },
       {
         title: "Investment Agreement – Vidarbha Cargo / XSIO Logistics Parks",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Investment_Agreement_Vidarbha_Cargo_XSIO_Logistics_Parks.pdf",
       },
       { title: "KPI Certificate", pdf: "" },
-      { title: "Valuation Certificate – Bagur Logistics Park Shares", pdf: "" },
-      { title: "Valuation Certificate – Bagur Logistics Park OCDs", pdf: "" },
+      {
+        title: "Valuation Certificate – Bagur Logistics Park Shares",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Valuation_Certificate_Bagur_Logistics_Park_Shares.pdf",
+      },
+      {
+        title: "Valuation Certificate – Bagur Logistics Park OCDs",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Valuation_Certificate_Bagur_Logistics_Park_OCDs.pdf",
+      },
       {
         title: "Call Option Agreement – Vision Softtech Facilities",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Call_Option_Agreement_Vision_Softech_Facilities.pdf",
       },
       {
         title: "Put Option Agreement – Vision Softtech Facilities",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Put_Option_Agreement_Vision_Softech_Facilities.pdf",
       },
       {
         title:
@@ -421,8 +493,14 @@ const MC_accordion_data = [
       },
       { title: "Loan Utilisation Certificate", pdf: "" },
       { title: "Due Diligence Certificate", pdf: "" },
-      { title: "CDSL Tripartite Agreement", pdf: "" },
-      { title: "NSDL Tripartite Agreement", pdf: "" },
+      {
+        title: "CDSL Tripartite Agreement",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/CDSL_Tripartite_Agreement.pdf",
+      },
+      {
+        title: "NSDL Tripartite Agreement",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/NSDL_Tripartite_Agreement.pdf",
+      },
       { title: "In-principle Listing Approvals – BSE and NSE", pdf: "" },
       { title: "BRLM Letter to SEBI – Pre-IPO Placement", pdf: "" },
       { title: "SEBI Final Observation Letter", pdf: "" },
@@ -475,6 +553,11 @@ const MC_Sec1 = () => {
     setOpenIndex(openIndex === index ? -1 : index);
   };
 
+  const getDownloadHref = (url, title) =>
+    url
+      ? `/api/download-pdf?url=${encodeURIComponent(url)}&filename=${encodeURIComponent(title)}`
+      : "#";
+
   return (
     <div id="MC-section2" className="w-full bg-[#EBEBEB]">
       <div className="fix relative w-full lg:pt-[70px] lg:pb-[86px] pt-[45px] pb-[45px]">
@@ -513,7 +596,10 @@ const MC_Sec1 = () => {
                           {item.docs.map((doc, docIndex) => (
                             <a
                               key={docIndex}
-                              href={doc.pdf}
+                              href={getDownloadHref(doc.pdf, doc.title)}
+                              onClick={(e) => {
+                                if (!doc.pdf) e.preventDefault();
+                              }}
                               rel="noopener noreferrer"
                               style={{ backgroundColor: item.bg }}
                               className="flex justify-between items-center gap-[15px] 1280:w-[31%] md:w-[48%] lg:w-[47%] w-[100%] h-[75px] md:h-[65px] lg:h-[70px] 1280:h-[100px] bw-r text-[16px] md:text-[15px] md:leading-[18px] xl:text-[18px] xl:leading-[22px] leading-[19px] tracking-[-1.04px] md:py-[20px] md:px-[15px] py-[22px] px-[25px] 1280:px-[40px] relative overflow-hidden cursor-pointer "
