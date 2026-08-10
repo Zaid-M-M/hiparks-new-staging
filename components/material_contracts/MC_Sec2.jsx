@@ -10,12 +10,15 @@ const MC_accordion_data = [
     mark_img: "/Invester/orange_mark.svg",
     bg: "#F7C99B",
     docs: [
-      { title: "Bagur Logistics Parks Pvt Ltd", pdf: "" },
+      {
+        title: "Bagur Logistics Parks Pvt Ltd",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/valuation_report/Bagur_Logistics_Parks_Pvt_Ltd.pdf",
+      },
       { title: "BRE Asia III/Horizon Share Exchange Ratio", pdf: "" },
       { title: "BRE Asia Urban/Horizon Share Exchange Ratio", pdf: "" },
       {
         title: "Embassy Industrial Parks Hosur Private Limited – OCDs",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/valuation_report/Embassy_Industrial_Parks_Hosur_Private_Limited_OCDs.pdf",
       },
       {
         title: "Everstrat Zenith Private Limited – Class B OCDs",
@@ -23,7 +26,7 @@ const MC_accordion_data = [
       },
       {
         title: "Everstrat Zenith Private Limited – Equity Shares",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/valuation_report/Evertstrat_Zenith_Private_Limited_Equity_Shares.pdf",
       },
       { title: "Farukhnagar Logistics Parks LLP", pdf: "" },
       {
@@ -41,7 +44,7 @@ const MC_accordion_data = [
       { title: "Kothur Logistics Parks Private Limited", pdf: "" },
       {
         title: "Kothur Logistics Parks Private Limited - CCDs",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/valuation_report/Kothur_Logistics_Parks_Private_Limited.pdf",
       },
       {
         title:
@@ -56,7 +59,7 @@ const MC_accordion_data = [
       {
         title:
           "Panvel Logistics and Warehousing Solutions Private Limited – Equity Shares",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/valuation_report/Panvel_Logistics_and_Warehousing_Solutions_Private_Limited_Equity_Shares.pdf",
       },
       {
         title:
@@ -70,17 +73,26 @@ const MC_accordion_data = [
           "Sriperumbudur Industrial and Enterprise Private Limited - Equity Shares",
         pdf: "",
       },
-      { title: "Vertical Logistics Parks LLP", pdf: "" },
+      {
+        title: "Vertical Logistics Parks LLP",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/valuation_report/Vertical_Logistics_Parks_LLP.pdf",
+      },
       { title: "Vidarbha Cargo Private Limited", pdf: "" },
       { title: "Vidarbha Cargo Private Limited - OCDs", pdf: "" },
-      { title: "Vision Softtech Facilities - CCDs", pdf: "" },
+      {
+        title: "Vision Softtech Facilities - CCDs",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/valuation_report/Vision_Softech_Facilities_CCDs.pdf",
+      },
       { title: "Vision Softtech Facilities - Equity Shares", pdf: "" },
       { title: "Volumnus Developers Private Limited - OCRPS", pdf: "" },
       {
         title: "XSIO Industrial Parks Private Limited - Equity Shares",
         pdf: "",
       },
-      { title: "XSIO Industrial Parks Private Limited - OCDs", pdf: "" },
+      {
+        title: "XSIO Industrial Parks Private Limited - OCDs",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/valuation_report/XSIO_Industrial_Parks_Private_Limited_OCDs.pdf",
+      },
       {
         title: "XSIO Logistics Parks Private Limited - Equity Shares",
         pdf: "",
@@ -183,33 +195,45 @@ const MC_accordion_data = [
     docs: [
       {
         title: "DRA Projects and Bagur Logistics Parks Private Limited - SPA",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/share_purchase_agreement/DRA_Projects_and_Bagur_Logistics_Parks_Private_Limited_SPA.PDF",
       },
-      { title: "Bagur Logistics Park Private Limited - SPA", pdf: "" },
+      {
+        title: "Bagur Logistics Park Private Limited - SPA",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/share_purchase_agreement/Bagur_Logistics_Park_Private_Limited_SPA.pdf",
+      },
       {
         title:
           "Goodluck Buildtech Private Limited/Jindpur Industrial Parks Private Limited - SPA",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/share_purchase_agreement/Goodluck_Buildtech_Jindpur_Industrial_Parks_SPA.pdf",
       },
       {
         title:
           "Vidarbha Cargo Private Limited/XSIO Logistics Parks Private Limited - SPA",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/share_purchase_agreement/Vidarbha_Cargo_and_XSIO_Logistics_Parks_Private_SPA.pdf",
       },
       {
         title:
           "Goodluck Buildtech Private Limited/Jindpur Industrial Parks Private Limited - SPA",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/share_purchase_agreement/Goodluck_Buildtech_Jindpur_Industrial_Parks_SPA_1.pdf",
       },
       { title: "Panvel Warehousing Private Limited - SPA", pdf: "" },
       {
         title:
           "Panvel Logistics and Warehousing Solutions Private Limited/Embassy Industrial Parks Hosur Private Limited - SPA",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/share_purchase_agreement/Panvel_Logistics_and_Embassy_Industrial_Parks_Hosur_SPA.pdf",
       },
-      { title: "Pluto Valencia Business Parks - SPA", pdf: "" },
-      { title: "BRE Asia II Indian Holding Company I - SPA", pdf: "" },
-      { title: "Mindcomp/Onrique - SPA", pdf: "" },
+      {
+        title: "Pluto Valencia Business Parks - SPA",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/share_purchase_agreement/Pluto_Valencia_Business_Parks_SPA.pdf",
+      },
+      {
+        title: "BRE Asia II Indian Holding Company I - SPA",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/share_purchase_agreement/BRE_Asia_II_India_Holding_Company_I_SPA.pdf",
+      },
+      {
+        title: "Mindcomp/Onrique - SPA",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/share_purchase_agreement/Mindcomp_and_Onrique_SPA.pdf",
+      },
     ],
   },
   {
@@ -219,17 +243,35 @@ const MC_accordion_data = [
     mark_img: "/Invester/green_mark.svg",
     bg: "#ACD5AE",
     docs: [
-      { title: "Allcargo/Venkatapura/Kalina/Panvel - SSPA", pdf: "" },
-      { title: "Kothur Logistics Park Private Limited - SSPA", pdf: "" },
-      { title: "Mindcomp/Onrique - SSPA", pdf: "" },
+      {
+        title: "Allcargo/Venkatapura/Kalina/Panvel - SSPA",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/share_purchase_and_subscription_agreement/Allcargo_Venkatapura_Kalina_Panvel_SSPA.pdf",
+      },
+      {
+        title: "Kothur Logistics Park Private Limited - SSPA",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/share_purchase_and_subscription_agreement/Kothur_Logistics_Park_Private_Limited_SSPA.pdf",
+      },
+      {
+        title: "Mindcomp/Onrique - SSPA",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/share_purchase_and_subscription_agreement/Mindcomp_and_Onrique_SSPA.pdf",
+      },
       {
         title:
           "Panvel Logistics and Warehousing Solutions Private Limited - SSPA",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/share_purchase_and_subscription_agreement/Panvel_Logistics_and_Warehousing_Solutions_Private_Limited_SSPA.pdf",
       },
-      { title: "Redhills/Everstrat Zenith - SSPA", pdf: "" },
-      { title: "Vidarbha Cargo Private Limited - SSPA", pdf: "" },
-      { title: "Vision Softtech - SSPA", pdf: "" },
+      {
+        title: "Redhills/Everstrat Zenith - SSPA",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/share_purchase_and_subscription_agreement/Redhills_Everstrat_Zenith_SSPA.pdf",
+      },
+      {
+        title: "Vidarbha Cargo Private Limited - SSPA",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/share_purchase_and_subscription_agreement/Vidarbha_Cargo_Private_Limited_SSPA.pdf",
+      },
+      {
+        title: "Vision Softtech - SSPA",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/share_purchase_and_subscription_agreement/Vision_Softech_SSPA.pdf",
+      },
     ],
   },
   {
@@ -241,11 +283,11 @@ const MC_accordion_data = [
     docs: [
       {
         title: "Kothur Logistics Park Private Limited - SSA",
-        pdf: "/offer-documents/material-contracts",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/share_subscription_agreement/Kothur_Logistics_Park_Private_Limited_SSA.pdf",
       },
       {
         title: "KCP 2/KCP 3/Sriperumbudur - SSA",
-        pdf: "/offer-documents/material-contracts",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/share_subscription_agreement/KCP2_KCP3_and_Sriperumbudur_SSA.pdf",
       },
     ],
   },
@@ -361,9 +403,18 @@ const MC_accordion_data = [
     mark_img: "/Invester/green_mark.svg",
     bg: "#ACD5AE",
     docs: [
-      { title: "Board Resolution – Authorizing the Issue", pdf: "" },
-      { title: "Shareholders' Resolution – Approving the Issue", pdf: "" },
-      { title: "Board Resolution – Approval of Issue Size", pdf: "" },
+      {
+        title: "Board Resolution – Authorizing the Issue",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/resolutions/Board_Resolution_Authorizing_the_Issue.pdf",
+      },
+      {
+        title: "Shareholders' Resolution – Approving the Issue",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/resolutions/Shareholders_Resolution_Approving_the_Issue.pdf",
+      },
+      {
+        title: "Board Resolution – Approval of Issue Size",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/resolutions/Board_Resolution_Approval_of_Issue_Size.pdf",
+      },
       { title: "Audit Committee Resolution – Approval of KPIs", pdf: "" },
       {
         title: "Board / IPO Committee Resolution – Approval of DRHP",
@@ -386,7 +437,7 @@ const MC_accordion_data = [
       {
         title:
           "Letter Agreement – Volumnus / Juturna / Talegaon / Vadakupattu / VKP-2 / Oragadam",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Letter_Agreement_Volumnus_Juturna_Talegaon_Vadakkupattu_VKP_2_Oragadam.pdf",
       },
       {
         title:
@@ -394,7 +445,10 @@ const MC_accordion_data = [
         pdf: "",
       },
       { title: "Issue Agreement", pdf: "" },
-      { title: "Registrar Agreement", pdf: "" },
+      {
+        title: "Registrar Agreement",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Registrar_Agreement.pdf",
+      },
       { title: "Cash Escrow and Sponsor Bank Agreement", pdf: "" },
       { title: "Syndicate Agreement", pdf: "" },
       {
@@ -431,7 +485,7 @@ const MC_accordion_data = [
       {
         title:
           "Amended and Restated LLP Agreement – Faruknagar Logistics Parks LLP",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Amended_and_Restated_LLP_Agreement_Farukhnagar_Logistics_Parks_LLP.pdf",
       },
       {
         title:
@@ -469,7 +523,10 @@ const MC_accordion_data = [
         title: "Investment Agreement – Vidarbha Cargo / XSIO Logistics Parks",
         pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Investment_Agreement_Vidarbha_Cargo_XSIO_Logistics_Parks.pdf",
       },
-      { title: "KPI Certificate", pdf: "" },
+      {
+        title: "KPI Certificate",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/KPI_Certificate.pdf",
+      },
       {
         title: "Valuation Certificate – Bagur Logistics Park Shares",
         pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Valuation_Certificate_Bagur_Logistics_Park_Shares.pdf",
@@ -491,8 +548,14 @@ const MC_accordion_data = [
           "Examination Report – Restated Consolidated Financial Information",
         pdf: "",
       },
-      { title: "Loan Utilisation Certificate", pdf: "" },
-      { title: "Due Diligence Certificate", pdf: "" },
+      {
+        title: "Loan Utilisation Certificate",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Loan_Utilisation_Certificate.pdf",
+      },
+      {
+        title: "Due Diligence Certificate",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Due_Diligence_Certificate.pdf",
+      },
       {
         title: "CDSL Tripartite Agreement",
         pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/CDSL_Tripartite_Agreement.pdf",

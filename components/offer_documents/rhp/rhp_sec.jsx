@@ -8,12 +8,12 @@ const C_info_data = [
     id: "rhp",
     title: "Red Herring Prospectus",
     mark_img: "/Invester/green_mark.svg",
-    pdf: "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/offer_documents/Draft-Red-Herring-Prospectus.pdf",
+    pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/offer_document/rhp/Apex_Issuers_Website_Disclaimer_(RHP)(13954886.4).pdf",
   },
 ];
 
 const RHP_AV_PDF =
-  "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/offer_documents/RHP-AV.pdf";
+  "https://phpstack-725513-4957654.cloudwaysapps.com/offer_document/rhp/Apex_Issuers_AV_website_disclaimer_(RHP)_(LW_August_6_2026)(14078728.2).pdf";
 
 const Rhp_sec = () => {
   const [activeItem, setActiveItem] = useState(null);
