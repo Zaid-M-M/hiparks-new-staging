@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 const matsub_data = [
   {
-    title: "LI Industrial Parks Private Limited",
+    title: "LI Industrial Park Private Limited",
     download_img: "/download_icon.svg",
     mark_img: "/Invester/green_mark.svg",
     pdf_url:
@@ -11,7 +11,7 @@ const matsub_data = [
     year: "FY 2025-26",
   },
   {
-    title: "Malur Logistics and Industrial Parks Pvt Ltd",
+    title: "Malur Logistics and Industrial Park Pvt Ltd",
     download_img: "/download_icon.svg",
     mark_img: "/Invester/green_mark.svg",
     pdf_url:
@@ -43,7 +43,7 @@ const matsub_data = [
     year: "FY 2025-26",
   },
   {
-    title: "Farukhnagar Logistics Parks LLP",
+    title: "Farukhnagar Logistics Park LLP",
     download_img: "/download_icon.svg",
     mark_img: "/Invester/green_mark.svg",
     pdf_url:
@@ -55,42 +55,42 @@ const matsub_data = [
     download_img: "/download_icon.svg",
     mark_img: "/Invester/green_mark.svg",
     pdf_url:
-      "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/material-subsidiaries/2025_26/FRK-II-Industrial-Park-Pvt-Ltd-25-26.pdf",
+      "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/material-subsidiaries/2025_26/FRK_II_Industrial_Parks_Private_Limited.pdf",
     year: "FY 2025-26",
   },
-  {
-    title: "LI Industrial Parks Private Limited Audit Report",
-    download_img: "/download_icon.svg",
-    mark_img: "/Invester/green_mark.svg",
-    pdf_url:
-      "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/material-subsidiaries/2025_26/LI-Industrial-Parks-Private-Limited-Audit-Report-25-26.pdf",
-    year: "FY 2025-26",
-  },
-  {
-    title: "LI Industrial Parks Private Limited Signed Financial Statements",
-    download_img: "/download_icon.svg",
-    mark_img: "/Invester/green_mark.svg",
-    pdf_url:
-      "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/material-subsidiaries/2025_26/LI-Industrial-Parks-Private-Limited-Signed-Financial-Statements-25-26.pdf",
-    year: "FY 2025-26",
-  },
-  {
-    title: "Malur Logistics and Industrial Parks Pvt Ltd Audit Report",
-    download_img: "/download_icon.svg",
-    mark_img: "/Invester/green_mark.svg",
-    pdf_url:
-      "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/material-subsidiaries/2025_26/Malur-Logistics-and-Industrial-Parks-Pvt-Ltd-Audit-Report-25-26.pdf",
-    year: "FY 2025-26",
-  },
-  {
-    title:
-      "Malur Logistics and Industrial Parks Pvt Ltd Signed Financial Statements",
-    download_img: "/download_icon.svg",
-    mark_img: "/Invester/green_mark.svg",
-    pdf_url:
-      "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/material-subsidiaries/2025_26/Malur-Logistics-and-Industrial-Parks-Pvt-Ltd-Signed-Financial-Statements-25-26.pdf",
-    year: "FY 2025-26",
-  },
+  // {
+  //   title: "LI Industrial Parks Private Limited Audit Report",
+  //   download_img: "/download_icon.svg",
+  //   mark_img: "/Invester/green_mark.svg",
+  //   pdf_url:
+  //     "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/material-subsidiaries/2025_26/LI-Industrial-Parks-Private-Limited-Audit-Report-25-26.pdf",
+  //   year: "FY 2025-26",
+  // },
+  // {
+  //   title: "LI Industrial Parks Private Limited Signed Financial Statements",
+  //   download_img: "/download_icon.svg",
+  //   mark_img: "/Invester/green_mark.svg",
+  //   pdf_url:
+  //     "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/material-subsidiaries/2025_26/LI-Industrial-Parks-Private-Limited-Signed-Financial-Statements-25-26.pdf",
+  //   year: "FY 2025-26",
+  // },
+  // {
+  //   title: "Malur Logistics and Industrial Parks Pvt Ltd Audit Report",
+  //   download_img: "/download_icon.svg",
+  //   mark_img: "/Invester/green_mark.svg",
+  //   pdf_url:
+  //     "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/material-subsidiaries/2025_26/Malur-Logistics-and-Industrial-Parks-Pvt-Ltd-Audit-Report-25-26.pdf",
+  //   year: "FY 2025-26",
+  // },
+  // {
+  //   title:
+  //     "Malur Logistics and Industrial Parks Pvt Ltd Signed Financial Statements",
+  //   download_img: "/download_icon.svg",
+  //   mark_img: "/Invester/green_mark.svg",
+  //   pdf_url:
+  //     "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/material-subsidiaries/2025_26/Malur-Logistics-and-Industrial-Parks-Pvt-Ltd-Signed-Financial-Statements-25-26.pdf",
+  //   year: "FY 2025-26",
+  // },
   {
     title: "Panvel Logistics and Warehousing Solutions Pvt Ltd",
     download_img: "/download_icon.svg",
@@ -100,7 +100,7 @@ const matsub_data = [
     year: "FY 2025-26",
   },
   {
-    title: "Talegaon Industrial Parks Pvt Ltd",
+    title: "Talegaon Industrial Park Pvt Ltd",
     download_img: "/download_icon.svg",
     mark_img: "/Invester/green_mark.svg",
     pdf_url:

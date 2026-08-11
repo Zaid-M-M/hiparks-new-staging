@@ -7,7 +7,7 @@ const C_info_data = [
     title: "Financial Summary BREP Asia II Indian Holding Co I (NQ) PTE. LTD.",
     download_img: "/download_icon.svg",
     mark_img: "/Invester/orange_mark.svg",
-    pdf: "",
+    pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/financial_information/group_company_fi/Financial_Summary_BREP_Asia_II_Indian_Holding_Co_I_(NQ)_PTE_LTD.pdf",
   },
 ];
 

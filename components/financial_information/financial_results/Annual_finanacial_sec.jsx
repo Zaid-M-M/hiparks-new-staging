@@ -3,19 +3,19 @@ import React, { useState } from "react";
 
 const hip_data = [
   {
-    title: "Consolidated Audit Report",
-    download_img: "/download_icon.svg",
-    mark_img: "/Invester/orange_mark.svg",
-    pdf_url:
-      "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/annual_audit/2025_26/Consolidated-Audit-Report-FY26.pdf",
-    year: "FY 2025-26",
-  },
-  {
     title: "Consolidated Financial Statements",
     download_img: "/download_icon.svg",
     mark_img: "/Invester/orange_mark.svg",
     pdf_url:
       "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/annual_audit/2025_26/Consolidated-Financial-Statements-FY26.pdf",
+    year: "FY 2025-26",
+  },
+  {
+    title: "Consolidated Audit Report",
+    download_img: "/download_icon.svg",
+    mark_img: "/Invester/orange_mark.svg",
+    pdf_url:
+      "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/annual_audit/2025_26/Consolidated-Audit-Report-FY26.pdf",
     year: "FY 2025-26",
   },
   {
@@ -34,48 +34,70 @@ const hip_data = [
       "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/annual_audit/2025_26/Standalone-Financial-Statements-FY26.pdf",
     year: "FY 2025-26",
   },
-  // {
-  //   title: "Consolidated Financial Statements",
-  //   download_img: "/download_icon.svg",
-  //   mark_img: "/Invester/orange_mark.svg",
-  //   pdf_url: "",
-  //   year: "FY 2024-25",
-  // },
-  // {
-  //   title: "Consolidated Audit Report",
-  //   download_img: "/download_icon.svg",
-  //   mark_img: "/Invester/orange_mark.svg",
-  //   pdf_url: "",
-  //   year: "FY 2024-25",
-  // },
-  // {
-  //   title: "Standalone Financial Statements",
-  //   download_img: "/download_icon.svg",
-  //   mark_img: "/Invester/orange_mark.svg",
-  //   pdf_url: "",
-  //   year: "FY 2024-25",
-  // },
-  // {
-  //   title: "Standalone Audit Report",
-  //   download_img: "/download_icon.svg",
-  //   mark_img: "/Invester/orange_mark.svg",
-  //   pdf_url: "",
-  //   year: "FY 2024-25",
-  // },
-  // {
-  //   title: "Standalone Audit Report",
-  //   download_img: "/download_icon.svg",
-  //   mark_img: "/Invester/orange_mark.svg",
-  //   pdf_url: "",
-  //   year: "FY 2025-26",
-  // },
-  // {
-  //   title: "Standalone Audit Report",
-  //   download_img: "/download_icon.svg",
-  //   mark_img: "/Invester/orange_mark.svg",
-  //   pdf_url: "",
-  //   year: "FY 2025-26",
-  // },
+  {
+    title: "Consolidated Financial Statements FY 2025",
+    download_img: "/download_icon.svg",
+    mark_img: "/Invester/orange_mark.svg",
+    pdf_url:
+      "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/financial_result/2024-25/Consolidated_Financial_Statements_March_25_HIPL.pdf",
+    year: "FY 2024-25",
+  },
+  {
+    title: "Consolidated Audit Report FY 2025",
+    download_img: "/download_icon.svg",
+    mark_img: "/Invester/orange_mark.svg",
+    pdf_url:
+      "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/financial_result/2024-25/HIPL_Audit_report_Consol_24-25.pdf",
+    year: "FY 2024-25",
+  },
+  {
+    title: "Standalone Financial Statements FY 2025",
+    download_img: "/download_icon.svg",
+    mark_img: "/Invester/orange_mark.svg",
+    pdf_url:
+      "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/financial_result/2024-25/Horizon_Standalone_Signed_FS_March-25.pdf",
+    year: "FY 2024-25",
+  },
+  {
+    title: "Standalone Audit Report FY 2025",
+    download_img: "/download_icon.svg",
+    mark_img: "/Invester/orange_mark.svg",
+    pdf_url:
+      "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/financial_result/2024-25/HIPL_SFS_Audit_report_24-25.pdf",
+    year: "FY 2024-25",
+  },
+  {
+    title: "Consol HIPPL Signed March 2024",
+    download_img: "/download_icon.svg",
+    mark_img: "/Invester/orange_mark.svg",
+    pdf_url:
+      "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/financial_result/2023-24/Consol_HIPPL_Signed_March_2024.pdf",
+    year: "FY 2023-24",
+  },
+  {
+    title: "HIPPL Standlaone Signed March 2024",
+    download_img: "/download_icon.svg",
+    mark_img: "/Invester/orange_mark.svg",
+    pdf_url:
+      "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/financial_result/2023-24/HIPPL_Standlaone_Signed_March_2024.pdf",
+    year: "FY 2023-24",
+  },
+  {
+    title: "HIPPL Standalone FS signed March 2023",
+    download_img: "/download_icon.svg",
+    mark_img: "/Invester/orange_mark.svg",
+    pdf_url:
+      "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/financial_result/2022-23/HIPPL_Standalone_FS_signed_31_March_2023.pdf",
+    year: "FY 2022-23",
+  },
+  {
+    title: "Signed Financials HIPPL Consolidated FS F23",
+    download_img: "/download_icon.svg",
+    mark_img: "/Invester/orange_mark.svg",
+    pdf_url:
+      "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/financial_result/2022-23/Signed_Financials_HIPPL_Consolidated_FS_F23.pdf",
+    year: "FY 2022-23",
+  },
 ];
 
 const Annual_finanacial_sec = () => {

@@ -186,7 +186,7 @@ import React from "react";
 const C_info_data = [
   {
     title: "India’s Industrial & Logistics Sector",
-    pdf: "/offer_documents/IndustryReportonIndiasIndustrial&LogisticsSector.pdf", // EXACT filename match!
+    pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/offer_document/industry_report/JLL_Project_Apex_Industry_report_June2026.pdf", // EXACT filename match!
     download_img: "/download_icon.svg",
     mark_img: "/Invester/green_mark.svg",
   },

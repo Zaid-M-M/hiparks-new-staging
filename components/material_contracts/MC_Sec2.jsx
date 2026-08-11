@@ -371,34 +371,49 @@ const MC_accordion_data = [
     mark_img: "/Invester/orange_mark.svg",
     bg: "#F7C99B",
     docs: [
-      { title: "Kothur Logistics Park Private Limited", pdf: "" },
+      {
+        title: "Kothur Logistics Park Private Limited",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/shareholders_agreement/Kothur_Logistics_Park_Private_Limited.pdf",
+      },
       {
         title:
           "Talegaon Industrial Parks, Juturna Developers, Volumnus Developers",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/shareholders_agreement/Talegaon_Industrial_Parks_Juturna_Developers_Volumnus_Developers.pdf",
       },
       {
         title:
           "KCP-2 Industrial Parks, KCP-3 Industrial Parks, Sriperumbudur Industrial",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/shareholders_agreement/KCP2_Industrial_Parks_KCP3_Industrial_Parks_Sriperumbudur_Industrial.pdf",
       },
       {
         title: "Banamakanahalli Industrial and Logistics Private Limited",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/shareholders_agreement/Banamakanahalli_Industrial_and_Logistics_Private_Limited.pdf",
       },
       {
         title: "Bhiwandi Industrial & Logistics Parks Private Limited",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/shareholders_agreement/Bhiwandi_Industrial_&_Logistics_Parks_Private_Limited.pdf",
       },
-      { title: "XSIO Warehousing Private Limited", pdf: "" },
-      { title: "Vidarbha Cargo Private Limited", pdf: "" },
+      {
+        title: "XSIO Warehousing Private Limited",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/shareholders_agreement/XSIO_Warehousing_Private_Limited.pdf",
+      },
+      {
+        title: "Vidarbha Cargo Private Limited",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/shareholders_agreement/Vidarbha_Cargo_Private_Limited.pdf",
+      },
       {
         title:
           "Vidarbha Cargo Private Limited, XSIO Logistics Parks Private Limited",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/shareholders_agreement/Vidarbha_Cargo_Private_Limited_XSIO_Logistics_Parks_Private_Limited.pdf",
       },
-      { title: "XSIO Industrial Parks Private Limited", pdf: "" },
-      { title: "Vision Softtech Facilities Private Limited", pdf: "" },
+      {
+        title: "XSIO Industrial Parks Private Limited",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/shareholders_agreement/XSIO_Industrial_Parks_Private_Limited.pdf",
+      },
+      {
+        title: "Vision Softtech Facilities Private Limited",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/shareholders_agreement/Vision_Softech_Facilities_Private_Limited.pdf",
+      },
     ],
   },
   {
@@ -434,12 +449,15 @@ const MC_accordion_data = [
         title: "M S K C & Associates LLP, S G C O & Co LLP",
         pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/consents/MSKC_&_Associates_LLP_SGCO_&_Co_LLP.pdf",
       },
-      { title: "D M K H & Co., Chartered Accountants", pdf: "" },
-      { title: "Deloitte Haskins & Sells LLP", pdf: "" },
+      {
+        title: "D M K H & Co., Chartered Accountants",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/consents/DMKH_Consent.pdf",
+      },
+      // { title: "Deloitte Haskins & Sells LLP", pdf: "" },
       { title: "Independent Architect", pdf: "" },
       {
         title: "Company Directors, Company Secretary and others",
-        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/consents/Company_Secretary.pdf",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/consents/Directors_Consent.pdf",
       },
       {
         title: "Industry Report Provider",
@@ -466,7 +484,10 @@ const MC_accordion_data = [
         title: "Board Resolution – Approval of Issue Size",
         pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/resolutions/Board_Resolution_Approval_of_Issue_Size.pdf",
       },
-      { title: "Audit Committee Resolution – Approval of KPIs", pdf: "" },
+      {
+        title: "Audit Committee Resolution – Approval of KPIs",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/resolutions/Audit_Committee_Resolution_Approval_of_KPIs.pdf",
+      },
       {
         title: "Board / IPO Committee Resolution – Approval of DRHP",
         pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/resolutions/Board_IPO_Committee_Resolution_Approval_of_DRHP.pdf",
@@ -496,21 +517,33 @@ const MC_accordion_data = [
       {
         title:
           "Issue Certificates – WAP / Objects / Basis of Issue Price / Eligibility / Creditors / Indebtedness / Statutory Dues",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Issue_Certificates.pdf",
       },
-      { title: "Issue Agreement", pdf: "" },
+      {
+        title: "Issue Agreement",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Issue_Agreement.pdf",
+      },
       {
         title: "Registrar Agreement",
         pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Registrar_Agreement.pdf",
       },
-      { title: "Cash Escrow and Sponsor Bank Agreement", pdf: "" },
-      { title: "Syndicate Agreement", pdf: "" },
+      {
+        title: "Cash Escrow and Sponsor Bank Agreement",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Cash_and_Escrow_Agreement.pdf",
+      },
+      {
+        title: "Syndicate Agreement",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Syndicate_Agreement.pdf",
+      },
       {
         title: "Monitoring Agency Agreement",
         pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Monitoring_Agency_Agreement.pdf",
       },
       { title: "Underwriting Agreement", pdf: "" },
-      { title: "MOA & AOA", pdf: "" },
+      {
+        title: "MOA & AOA",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/MOA&AOA.pdf",
+      },
       {
         title: "Certificate of Incorporation – JEM Cements Private Limited",
         pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Certificate_of_Incorporation_JEM_Cements_Private_Limited.pdf",
@@ -526,7 +559,7 @@ const MC_accordion_data = [
       },
       {
         title: "Employment Agreement – Urvish Jayantilal Rambhia",
-        pdf: "",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Employment_Agreement_Urvish_Jayantilal_Rambhia.pdf",
       },
       {
         title: "Option Agreement – Altronix Warehousing Seven",
@@ -563,7 +596,10 @@ const MC_accordion_data = [
         title: "NCLT Order – Scheme of Amalgamation I",
         pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/NCLT_Order_Scheme_of_Amalgamation_I.pdf",
       },
-      { title: "Registrar Letter – Scheme of Amalgamation I", pdf: "" },
+      {
+        title: "Registrar Letter – Scheme of Amalgamation I",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Registrar_Letter_Scheme_of_Amalgamation_I.pdf",
+      },
       {
         title: "Scheme of Amalgamation II",
         pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Scheme of Amalgamation II.pdf",
@@ -572,7 +608,10 @@ const MC_accordion_data = [
         title: "NCLT Order – Scheme of Amalgamation II",
         pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/NCLT_Order_Scheme_of_Amalgamation_II.pdf",
       },
-      { title: "Registrar Letter – Scheme of Amalgamation II", pdf: "" },
+      {
+        title: "Registrar Letter – Scheme of Amalgamation II",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Registrar_Letter_Scheme_of_Amalgamation_II.pdf",
+      },
       {
         title: "Investment Agreement – Vidarbha Cargo / XSIO Logistics Parks",
         pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Investment_Agreement_Vidarbha_Cargo_XSIO_Logistics_Parks.pdf",
@@ -620,10 +659,19 @@ const MC_accordion_data = [
       },
       { title: "In-principle Listing Approvals – BSE and NSE", pdf: "" },
       { title: "BRLM Letter to SEBI – Pre-IPO Placement", pdf: "" },
-      { title: "SEBI Final Observation Letter", pdf: "" },
+      {
+        title: "SEBI Final Observation Letter",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/SEBI_Final_Observation_Letter.pdf",
+      },
       { title: "Annual Report FY24", pdf: "" },
-      { title: "Annual Report FY25", pdf: "" },
-      { title: "Annual Report FY26", pdf: "" },
+      {
+        title: "Annual Report FY25",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Annual_Report_FY25.pdf",
+      },
+      {
+        title: "Annual Report FY26",
+        pdf: "https://phpstack-725513-4957654.cloudwaysapps.com/material_contracts/other_material/Annual_Report_FY26.pdf",
+      },
     ],
   },
 ];
