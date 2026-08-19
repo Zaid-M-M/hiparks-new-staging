@@ -159,6 +159,7 @@ export async function POST(request) {
       "Phone Inquiry Form",
       "Fulfilment Centre Campaign",
       "Chengalpattu Park Chennai",
+      "Mappedu Park Page Chennai",
       "Sustainability Campaign",
     ]);
 

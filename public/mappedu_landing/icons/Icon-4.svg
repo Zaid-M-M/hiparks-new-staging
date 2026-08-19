@@ -1,0 +1,36 @@
+<svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M34.9434 45.5996H37.9223" stroke="black" stroke-miterlimit="10"/>
+<path d="M40.9209 45.5996H43.8998" stroke="black" stroke-miterlimit="10"/>
+<path d="M46.8984 45.5996H49.8774" stroke="black" stroke-miterlimit="10"/>
+<path d="M52.877 45.5996H55.8559" stroke="black" stroke-miterlimit="10"/>
+<path d="M34.9434 39.623H37.9223" stroke="black" stroke-miterlimit="10"/>
+<path d="M40.9209 39.623H43.8998" stroke="black" stroke-miterlimit="10"/>
+<path d="M46.8984 39.623H49.8774" stroke="black" stroke-miterlimit="10"/>
+<path d="M52.877 39.623H55.8559" stroke="black" stroke-miterlimit="10"/>
+<path d="M34.9434 33.6426H37.9223" stroke="black" stroke-miterlimit="10"/>
+<path d="M40.9209 33.6426H43.8998" stroke="black" stroke-miterlimit="10"/>
+<path d="M46.8984 33.6426H49.8774" stroke="black" stroke-miterlimit="10"/>
+<path d="M52.877 33.6426H55.8559" stroke="black" stroke-miterlimit="10"/>
+<path d="M34.9434 27.668H37.9223" stroke="black" stroke-miterlimit="10"/>
+<path d="M40.9209 27.668H43.8998" stroke="black" stroke-miterlimit="10"/>
+<path d="M46.8984 27.668H49.8774" stroke="black" stroke-miterlimit="10"/>
+<path d="M52.877 27.668H55.8559" stroke="black" stroke-miterlimit="10"/>
+<path d="M34.9434 51.5801H37.9223" stroke="black" stroke-miterlimit="10"/>
+<path d="M40.9209 51.5801H43.8998" stroke="black" stroke-miterlimit="10"/>
+<path d="M46.8984 51.5801H49.8774" stroke="black" stroke-miterlimit="10"/>
+<path d="M52.877 51.5801H55.8559" stroke="black" stroke-miterlimit="10"/>
+<path d="M34.9434 57.5547H37.9223" stroke="black" stroke-miterlimit="10"/>
+<path d="M40.9209 57.5547H43.8998" stroke="black" stroke-miterlimit="10"/>
+<path d="M46.8984 57.5547H49.8774" stroke="black" stroke-miterlimit="10"/>
+<path d="M52.877 57.5547H55.8559" stroke="black" stroke-miterlimit="10"/>
+<mask id="mask0_12192_3019" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="20" y="20" width="51" height="51">
+<path d="M20.333 20H70.333V71H20.333V20Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_12192_3019)">
+<path d="M45.3984 63.5318V69.5098" stroke="#F47920" stroke-miterlimit="10"/>
+<path d="M30.4542 69.5098H21.4873V27.6644H30.4542" stroke="#2BB04C" stroke-miterlimit="10"/>
+<path d="M60.3447 27.6644H69.3116V69.5098H60.3447" stroke="#2BB04C" stroke-miterlimit="10"/>
+<path d="M39.4209 69.5098V63.5318H51.3767V69.5098" stroke="#F47920" stroke-miterlimit="10"/>
+</g>
+<path d="M60.3447 69.5098H30.4551V21.6864H60.3447V69.5098Z" stroke="black" stroke-miterlimit="10"/>
+</svg>

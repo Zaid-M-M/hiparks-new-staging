@@ -126,3 +126,15 @@ export async function fetchParksDataByZone(zone) {
 
   return zoneFilteredData;
 }
+
+export async function fetchParkSlidesByName(parkName) {
+  const parksData = await fetchParksData();
+  const target = normalize(parkName);
+
+  for (const parks of Object.values(parksData)) {
+    const park = (parks || []).find((p) => normalize(p.name) === target);
+    if (park) return park.slides;
+  }
+
+  return [];
+}
