@@ -9,7 +9,7 @@ const WarehousingForm = () => {
     <>
       <div
         id="book-a-site-visit"
-        className="h-[565px] gap-[20px] lg:min-h-screen lg:pt-0 w-full flex flex-col justify-start lg:justify-between bg-cover bg-center md:bg-bottom lg:bg-center bg-[url('/mappedu_landing/Mappedo_Mobile.webp')] lg:bg-[url('/mappedu_landing/Mappedo_Hero.webp')]"
+        className="h-[565px] gap-[20px] lg:h-auto lg:pt-0 w-full flex flex-col justify-start lg:justify-between bg-cover bg-center md:bg-bottom lg:bg-center bg-[url('/mappedu_landing/Mappedo_Mobile.webp')] lg:bg-[url('/mappedu_landing/Mappedo_Hero.webp')]"
       >
         <div className="fix !my-[0px] lg:my-auto  pt-[30px] lg:pt-10">
           <div className="w-[323px] flex gap-[14px]">
@@ -35,9 +35,9 @@ const WarehousingForm = () => {
         <div className="fix !my-[0px] lg:my-auto  pb-20">
           <div className="flex flex-col pt-[20px] lg:pt-12 lg:flex-row items-end justify-end gap-12 lg:gap-20">
             {/* Left Section */}
-            <div className="lg:w-[50%] flex flex-col justify-center gap-3 lg:gap-10 w-full lg:pb-6">
+            <div className="lg:w-[55%] flex flex-col justify-center gap-3 lg:gap-10 w-full lg:pb-6">
               <div className="flex flex-col gap-4 lg:gap-7">
-                <h1 className="lg:text-[48px] text-[32px] bw-m leading-[35px] tracking-[-1.9px] lg:leading-[66px] text-white">
+                <h1 className="lg:text-[43px] 2xl:text-[48px] text-[32px] bw-m leading-[35px] tracking-[-1.9px] lg:leading-[53px] 2xl:leading-[58px] text-white">
                   Grow your operations in a Grade-A
                   {/* <div className="flex items-start flex-col lg:flex-row overflow-visible">
                     <span className="font-normal leading-[35px] tracking-[-1.9px] lg:leading-[58px] whitespace-nowrap">
@@ -100,7 +100,7 @@ const WarehousingForm = () => {
             </div>
 
             {/* Desktop Right Section - Form */}
-            <div className="w-full lg:w-[50%] campaigninput bg-white hidden lg:flex flex-col gap-7 p-[20px] md:p-[30px] items-start">
+            <div className="w-full lg:w-[45%] campaigninput bg-white hidden lg:flex flex-col gap-7 p-[20px] md:p-[30px] items-start">
               <Mappedu_Form />
             </div>
           </div>
