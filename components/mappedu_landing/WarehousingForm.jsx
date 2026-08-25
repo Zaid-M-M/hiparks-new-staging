@@ -66,7 +66,7 @@ const WarehousingForm = () => {
       </span>{" "}
     </h3> */}
                     <span className="font-['Barlow'] text-[#FFF] text-[18px] md:text-[24px] 2xl:text-[28px] leading-normal [leading-trim:both] [text-edge:cap]">
-                      <span className="font-medium">0.25 </span>
+                      <span className="font-medium">0.21 </span>
                       <span className="font-normal">
                         msft Available for Lease
                       </span>

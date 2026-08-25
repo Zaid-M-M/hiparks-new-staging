@@ -16,7 +16,7 @@
 //   const [showBar, setShowBar] = useState(true);
 //   const [atTop, setAtTop] = useState(false);
 
-//   const topBarHeight = 80;
+//   const topBarHeight = 150;
 
 //   const pathname = usePathname();
 
@@ -87,6 +87,8 @@
 //   const borderClass = isTransparentPage
 //     ? "border-0"
 //     : "border-b border-gray-300";
+
+//   if (pathname.includes("/campaign")) return null;
 
 //   return (
 //     <div className="lg:!block !hidden">
@@ -206,7 +208,6 @@
 //     </div>
 //   );
 // }
-// 22-06-2026
 
 "use client";
 import React, { useState, useEffect, useRef } from "react";
@@ -224,9 +225,10 @@ export default function TopBarF() {
   const { isNavOpen, setIsNavOpen } = useNav();
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [showBar, setShowBar] = useState(true);
-  const [atTop, setAtTop] = useState(false);
+  const [atTop, setAtTop] = useState(true);
 
-  const topBarHeight = 80;
+  // Dynamic height calculation based on scroll position
+  const topBarHeight = atTop ? 150 : 80;
 
   const pathname = usePathname();
 
@@ -250,10 +252,10 @@ export default function TopBarF() {
 
   // FIXED SCROLL HANDLING
   useEffect(() => {
-    // Set correct initial state
+    const threshold = 100;
     const currentY = window.scrollY;
 
-    setAtTop(currentY <= topBarHeight);
+    setAtTop(currentY <= threshold);
     lastScrollY.current = currentY;
 
     let ticking = false;
@@ -263,7 +265,7 @@ export default function TopBarF() {
 
       if (!ticking) {
         window.requestAnimationFrame(() => {
-          setAtTop(currentY <= topBarHeight);
+          setAtTop(currentY <= threshold);
 
           if (currentY > lastScrollY.current && currentY > 100) {
             setShowBar(false);
@@ -303,13 +305,15 @@ export default function TopBarF() {
   return (
     <div className="lg:!block !hidden">
       <motion.div
-        initial={{ y: 0 }}
-        animate={{ y: showBar ? 0 : -topBarHeight }}
+        initial={{ y: 0, height: 100 }}
+        animate={{
+          y: showBar ? 0 : -topBarHeight,
+          height: topBarHeight,
+        }}
         transition={{ duration: 0.4, ease: [0.7, 0, 0.4, 1] }}
         className={`fixed top-0 left-0 w-full transition-colors duration-500
                     z-[100000] flex justify-between items-center
                     px-[max(5%,calc((100vw-1340px)/2))] ${bgClass} ${borderClass}`}
-        style={{ height: topBarHeight }}
       >
         <div
           className="flex items-center pr-4"
