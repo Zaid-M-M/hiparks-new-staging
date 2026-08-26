@@ -121,9 +121,9 @@ export default function HeroBannerClient() {
           We are officially listed on the Indian Stock Exchange! NSE: HORIZONIND
           BSE: 54480 Thank you investors, customers and partners for your
           support and belief in what we are building.{" "}
-          {/* <span className="inline-block ml-[15px] md:ml-[40px] md:mr-[40px]">
+          <span className="inline-block ml-[15px] md:ml-[40px] md:mr-[40px]">
             |
-          </span> */}
+          </span>
         </span>
       </p>
       <style jsx>{`
