@@ -19,7 +19,7 @@ export default function HeroBannerClient() {
   const MotionWrapper = isDesktop ? motion.div : "div";
 
   return (
-    <section className="relative w-full text-white h-[auto] md:h-[70vh] lg:h-[70vh] xl:h-[100vh] lg:aspect-[16/8.3] 1920:aspect-[16/7.7] lg:object-bottom overflow-hidden aspect-[9/15]">
+    <section className="relative w-full text-[#f47922] h-[auto] md:h-[70vh] lg:h-[70vh] xl:h-[100vh] lg:aspect-[16/8.3] 1920:aspect-[16/7.7] lg:object-bottom overflow-hidden aspect-[9/15]">
       <p className="font-medium absolute top-0 left-0 z-20 w-full overflow-hidden bg-black/100 py-2 text-[14px] md:text-[19px] flex">
         <span className="inline-block min-w-max whitespace-nowrap hero-marquee">
           We are officially listed on the Indian Stock Exchange! NSE: HORIZONIND
