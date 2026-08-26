@@ -299,7 +299,7 @@ function Card4({ progress, offsetY }) {
                 Backed by Blackstone
               </h2>
               <p className="bw-l text-white text-[16px] leading-[25px] lg:text-[16px] lg:leading-[25px] xl:text-[20px] xl:leading-[30px]">
-                As a Blackstone Logistics Platform, and with access to its
+                As a Blackstone Sponsored Platform, and with access to its
                 global scale, capital, and best practices, Horizon is redefining
                 industrial infrastructure in India. Our strong local
                 partnerships, combined with Blackstone’s global insights, give

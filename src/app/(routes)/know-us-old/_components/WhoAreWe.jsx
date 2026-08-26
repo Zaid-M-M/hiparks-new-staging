@@ -25,7 +25,7 @@ const WhoAreWe = () => {
             }
           });
         },
-        { threshold: 0.5 } // play when at least 50% of video is visible
+        { threshold: 0.5 }, // play when at least 50% of video is visible
       );
 
       observer.observe(videoRef.current);
@@ -35,7 +35,6 @@ const WhoAreWe = () => {
       };
     }
   }, []);
-
 
   return (
     <div className="relative w-full min-h-full pt-[45px] pb-[45px] overflow-hidden 768:pb-[60px] 1024:pb-[80px] 1280:pb-[85px]">
@@ -84,10 +83,17 @@ const WhoAreWe = () => {
           <div className="flex flex-col 1024:w-[60%] lg:flex-1">
             <div className="flex flex-col gap-[10px] 1024:gap-[12px] 1280:gap-[30px]">
               <p className="bw-r text-[16px] 768:text-[22px] 768:leading-[28px] 1024:text-[16px] 1280:text-[20px] leading-[26px] 1024:leading-[25px] 1280:leading-[30px]">
-                Horizon is creating high-performance ecosystems that power the country’s growth. We provide infrastructure that powers manufacturing and enables efficient storage and movement of goods.
+                Horizon is creating high-performance ecosystems that power the
+                country’s growth. We provide infrastructure that powers
+                manufacturing and enables efficient storage and movement of
+                goods.
               </p>
               <p className="bw-r text-[16px] 768:text-[22px] 768:leading-[28px] 1024:text-[16px] 1280:text-[20px] leading-[26px] 1024:leading-[25px] 1280:leading-[30px]">
-                As a Blackstone logistics platform, we leverage the group’s vast experience in global real estate management and best practices. This combined with our talented team, deep local expertise and strong partnerships empowers to deliver world class and premium industrial and warehousing solutions.
+                As a Blackstone Sponsored Platform, we leverage the group’s vast
+                experience in global real estate management and best practices.
+                This combined with our talented team, deep local expertise and
+                strong partnerships empowers to deliver world class and premium
+                industrial and warehousing solutions.
               </p>
             </div>
             <div className="flex items-end 1280:items-start pt-[20px] 1024:pt-[5%] h-full">
@@ -95,18 +101,21 @@ const WhoAreWe = () => {
             </div>
           </div>
         </div>
-
       </div>
 
       {/* Section 2 with video */}
       <div className="relative">
-
-        <img className="green_vctr hidden md:block absolute top-[-80px] right-[20px] lg:top-[-110px] lg:right-[150px] lg:w-[auto] md:w-[350px] w-[300px]" src='/green_vector.svg' />
-        <img className="orange_vctr hidden md:block absolute top-[-100px] right-[-100px] lg:top-[-100px] lg:right-[-50px] lg:w-[auto]  md:w-[350px] w-[300px]" src='/orange_vector.svg' />
+        <img
+          className="green_vctr hidden md:block absolute top-[-80px] right-[20px] lg:top-[-110px] lg:right-[150px] lg:w-[auto] md:w-[350px] w-[300px]"
+          src="/green_vector.svg"
+        />
+        <img
+          className="orange_vctr hidden md:block absolute top-[-100px] right-[-100px] lg:top-[-100px] lg:right-[-50px] lg:w-[auto]  md:w-[350px] w-[300px]"
+          src="/orange_vector.svg"
+        />
 
         <div className="relative flex flex-col-reverse h-full w-full sm:pt-[80px] items-center justify-between gap-1 768:gap-[32px] pt-8 fix 1024:flex-row">
           <div className="flex flex-col w-full lg:w-[50%] pt-2.5 768:pt-0 gap-[18px] 1280:gap-[34px]">
-
             <div className="flex items-left gap-4 sm:mt-1 1024:gap-0 relative flex-col w-fit ">
               <h1 className="bw-m text-[35px] 768:text-[45px] 768:leading-[55px] 1280:leading-[74px] whitespace-nowrap tracking-[-0.04em] 1024:text-[62px] 1280:text-[64px] 1366:text-[64px] leading-[74px]">
                 360° Customization.
@@ -132,11 +141,18 @@ const WhoAreWe = () => {
             <div>
               <div className="flex flex-col gap-[14px] w-full sm:w-[90%] 1024:w-[86%] pb-[20px] 1280:pb-[34px]">
                 <p className="bw-r text-[16px] 768:text-[22px] 768:leading-[28px] 1024:text-[16px] 1280:text-[20px] leading-[26px] 1024:leading-[25px] 1280:leading-[30px]">
-                  Beyond just strategically located industrial and logistics parks, we are committed to providing integrated solutions that surpass our customers’ expectations. These include design and construction, leasing, operations, and asset management—ensuring efficiency, quality, and agility at every step
+                  Beyond just strategically located industrial and logistics
+                  parks, we are committed to providing integrated solutions that
+                  surpass our customers’ expectations. These include design and
+                  construction, leasing, operations, and asset
+                  management—ensuring efficiency, quality, and agility at every
+                  step
                 </p>
                 <p className="bw-r text-[16px] 768:text-[22px] 768:leading-[28px] 1024:text-[16px] 1280:text-[20px] leading-[26px] 1024:leading-[25px] 1280:leading-[30px]">
-                  We empower our customers to get a head start and focus on their core business by also offering value adds in the form of solutions for renewable energy, CAPEX for fitouts, technology integration and more.
-
+                  We empower our customers to get a head start and focus on
+                  their core business by also offering value adds in the form of
+                  solutions for renewable energy, CAPEX for fitouts, technology
+                  integration and more.
                 </p>
               </div>
               <div>
@@ -160,11 +176,9 @@ const WhoAreWe = () => {
               ></iframe>
             </div>
           </div>
-
         </div>
       </div>
     </div>
-
   );
 };
 

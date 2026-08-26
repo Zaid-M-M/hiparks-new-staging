@@ -20,84 +20,110 @@ export default function HeroBannerClient() {
 
   return (
     <section className="relative w-full text-white h-[auto] md:h-[70vh] lg:h-[70vh] xl:h-[100vh] lg:aspect-[16/8.3] 1920:aspect-[16/7.7] lg:object-bottom overflow-hidden aspect-[9/15]">
-      <p className="absolute top-0 left-0 z-20 w-full overflow-hidden bg-black/100 py-2 text-[14px] md:text-[19px] flex gap-[20px]">
+      <p className="font-medium absolute top-0 left-0 z-20 w-full overflow-hidden bg-black/100 py-2 text-[14px] md:text-[19px] flex">
         <span className="inline-block min-w-max whitespace-nowrap hero-marquee">
           We are officially listed on the Indian Stock Exchange! NSE: HORIZONIND
           BSE: 54480 Thank you investors, customers and partners for your
           support and belief in what we are building.{" "}
-          <span className="inline-block ml-[15px]">|</span>
+          <span className="inline-block ml-[15px] md:ml-[40px] md:mr-[40px]">
+            |
+          </span>
         </span>
         <span className="inline-block min-w-max whitespace-nowrap hero-marquee">
           We are officially listed on the Indian Stock Exchange! NSE: HORIZONIND
           BSE: 54480 Thank you investors, customers and partners for your
           support and belief in what we are building.{" "}
-          <span className="inline-block ml-[15px]">|</span>
+          <span className="inline-block ml-[15px] md:ml-[40px] md:mr-[40px]">
+            |
+          </span>
         </span>
         <span className="inline-block min-w-max whitespace-nowrap hero-marquee">
           We are officially listed on the Indian Stock Exchange! NSE: HORIZONIND
           BSE: 54480 Thank you investors, customers and partners for your
           support and belief in what we are building.{" "}
-          <span className="inline-block ml-[15px]">|</span>
+          <span className="inline-block ml-[15px] md:ml-[40px] md:mr-[40px]">
+            |
+          </span>
         </span>
         <span className="inline-block min-w-max whitespace-nowrap hero-marquee">
           We are officially listed on the Indian Stock Exchange! NSE: HORIZONIND
           BSE: 54480 Thank you investors, customers and partners for your
           support and belief in what we are building.{" "}
-          <span className="inline-block ml-[15px]">|</span>
+          <span className="inline-block ml-[15px] md:ml-[40px] md:mr-[40px]">
+            |
+          </span>
         </span>
         <span className="inline-block min-w-max whitespace-nowrap hero-marquee">
           We are officially listed on the Indian Stock Exchange! NSE: HORIZONIND
           BSE: 54480 Thank you investors, customers and partners for your
           support and belief in what we are building.{" "}
-          <span className="inline-block ml-[15px]">|</span>
+          <span className="inline-block ml-[15px] md:ml-[40px] md:mr-[40px]">
+            |
+          </span>
         </span>
         <span className="inline-block min-w-max whitespace-nowrap hero-marquee">
           We are officially listed on the Indian Stock Exchange! NSE: HORIZONIND
           BSE: 54480 Thank you investors, customers and partners for your
           support and belief in what we are building.{" "}
-          <span className="inline-block ml-[15px]">|</span>
+          <span className="inline-block ml-[15px] md:ml-[40px] md:mr-[40px]">
+            |
+          </span>
         </span>
         <span className="inline-block min-w-max whitespace-nowrap hero-marquee">
           We are officially listed on the Indian Stock Exchange! NSE: HORIZONIND
           BSE: 54480 Thank you investors, customers and partners for your
           support and belief in what we are building.{" "}
-          <span className="inline-block ml-[15px]">|</span>
+          <span className="inline-block ml-[15px] md:ml-[40px] md:mr-[40px]">
+            |
+          </span>
         </span>
         <span className="inline-block min-w-max whitespace-nowrap hero-marquee">
           We are officially listed on the Indian Stock Exchange! NSE: HORIZONIND
           BSE: 54480 Thank you investors, customers and partners for your
           support and belief in what we are building.{" "}
-          <span className="inline-block ml-[15px]">|</span>
+          <span className="inline-block ml-[15px] md:ml-[40px] md:mr-[40px]">
+            |
+          </span>
         </span>
         <span className="inline-block min-w-max whitespace-nowrap hero-marquee">
           We are officially listed on the Indian Stock Exchange! NSE: HORIZONIND
           BSE: 54480 Thank you investors, customers and partners for your
           support and belief in what we are building.{" "}
-          <span className="inline-block ml-[15px]">|</span>
+          <span className="inline-block ml-[15px] md:ml-[40px] md:mr-[40px]">
+            |
+          </span>
         </span>
         <span className="inline-block min-w-max whitespace-nowrap hero-marquee">
           We are officially listed on the Indian Stock Exchange! NSE: HORIZONIND
           BSE: 54480 Thank you investors, customers and partners for your
           support and belief in what we are building.{" "}
-          <span className="inline-block ml-[15px]">|</span>
+          <span className="inline-block ml-[15px] md:ml-[40px] md:mr-[40px]">
+            |
+          </span>
         </span>
         <span className="inline-block min-w-max whitespace-nowrap hero-marquee">
           We are officially listed on the Indian Stock Exchange! NSE: HORIZONIND
           BSE: 54480 Thank you investors, customers and partners for your
           support and belief in what we are building.{" "}
-          <span className="inline-block ml-[15px]">|</span>
+          <span className="inline-block ml-[15px] md:ml-[40px] md:mr-[40px]">
+            |
+          </span>
         </span>
         <span className="inline-block min-w-max whitespace-nowrap hero-marquee">
           We are officially listed on the Indian Stock Exchange! NSE: HORIZONIND
           BSE: 54480 Thank you investors, customers and partners for your
           support and belief in what we are building.{" "}
-          <span className="inline-block ml-[15px]">|</span>
+          <span className="inline-block ml-[15px] md:ml-[40px] md:mr-[40px]">
+            |
+          </span>
         </span>
         <span className="inline-block min-w-max whitespace-nowrap hero-marquee">
           We are officially listed on the Indian Stock Exchange! NSE: HORIZONIND
           BSE: 54480 Thank you investors, customers and partners for your
           support and belief in what we are building.{" "}
-          <span className="inline-block ml-[15px]">|</span>
+          {/* <span className="inline-block ml-[15px] md:ml-[40px] md:mr-[40px]">
+            |
+          </span> */}
         </span>
       </p>
       <style jsx>{`
@@ -114,6 +140,55 @@ export default function HeroBannerClient() {
           }
         }
       `}</style>
+
+      {/* <div className="absolute top-0 left-0 z-20 w-full overflow-hidden bg-black">
+        <div className="flex w-max animate-marquee">
+         
+          <span className="txt_gradient inline-block whitespace-nowrap py-2 text-[14px] md:text-[19px] px-5 font-medium">
+            We are officially listed on the Indian Stock Exchange! NSE:
+            HORIZONIND BSE: 54480 Thank you investors, customers and partners
+            for your support and belief in what we are building.
+            <span className="inline-block mx-[15px]">|</span>
+          </span>
+
+          <span className="txt_gradient inline-block whitespace-nowrap py-2 text-[14px] md:text-[19px] px-5 font-medium">
+            We are officially listed on the Indian Stock Exchange! NSE:
+            HORIZONIND BSE: 54480 Thank you investors, customers and partners
+            for your support and belief in what we are building.
+            <span className="inline-block mx-[15px]">|</span>
+          </span>
+
+          <span className="txt_gradient inline-block whitespace-nowrap py-2 text-[14px] md:text-[19px] px-5 font-medium">
+            We are officially listed on the Indian Stock Exchange! NSE:
+            HORIZONIND BSE: 54480 Thank you investors, customers and partners
+            for your support and belief in what we are building.
+            <span className="inline-block mx-[15px]">|</span>
+          </span>
+        </div>
+      </div> */}
+
+      {/* <style jsx>{`
+        .animate-marquee {
+          animation: marquee 40s linear infinite;
+        }
+
+        @keyframes marquee {
+          from {
+            transform: translateX(0);
+          }
+          to {
+            transform: translateX(-33.333%);
+          }
+        }
+
+        .txt_gradient {
+          -webkit-text-fill-color: transparent;
+          background: linear-gradient(92deg, #8f53a1 37.32%, #f47922 98.38%);
+          -webkit-background-clip: text;
+          background-clip: text;
+        }
+      `}</style> */}
+
       <video
         autoPlay
         muted

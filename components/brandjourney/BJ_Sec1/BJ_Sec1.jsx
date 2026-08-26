@@ -63,7 +63,7 @@ const BJ_Sec1 = () => {
               </p>
 
               <p className="text-[17px] leading-[27px] md:text-[18px] md:leading-[28px] xl:text-[20px] xl:leading-[30px]  mb-[16px] bw-r ">
-                As a Blackstone logistics platform, we leverage the group’s vast
+                As a Blackstone Sponsored Platform, we leverage the group’s vast
                 experience in global real estate management and best practices,
                 with our deep local expertise to deliver world class and premium
                 industrial and warehousing solutions.
