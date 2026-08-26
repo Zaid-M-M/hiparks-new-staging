@@ -522,7 +522,7 @@ export default function HeroBannerClient() {
                   href="/capabilities-overview/" // 👈 your target URL
                   className="flex items-center w-full gap-1.5 sm:gap-1 2xl:gap-4 group justify-between"
                 >
-                  <span className="text-[10px] whitespace-nowrap sm:text-[10px] xl:text-[16px] tracking-[0.04em] uppercase bw-sb ">
+                  <span className="text-white text-[10px] whitespace-nowrap sm:text-[10px] xl:text-[16px] tracking-[0.04em] uppercase bw-sb ">
                     Core Capabilities
                   </span>
                   <div className="w-[16px] h-[16px] 1280:w-[24px] 1280:h-[24px] contents">
@@ -540,7 +540,7 @@ export default function HeroBannerClient() {
                   href="/integrated-solutions-overview/" // 👈 your target URL
                   className="flex items-center w-full gap-1.5 sm:gap-1 2xl:gap-4 group justify-between"
                 >
-                  <span className="text-[10px] whitespace-nowrap xl:text-[16px] tracking-[0.04em] uppercase bw-sb ">
+                  <span className="text-white text-[10px] whitespace-nowrap sm:text-[10px] xl:text-[16px] tracking-[0.04em] uppercase bw-sb ">
                     Integrated Solutions
                   </span>
                   <div className="w-[16px] h-[16px] 1280:w-[24px] 1280:h-[24px] contents">
