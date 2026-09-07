@@ -37,7 +37,7 @@ const Quaterly_finanacial_sec = () => {
   );
 
   return (
-    <div className="w-full bg-[#F7F7F7]">
+    <div className="w-full bg-[#fff]">
       <div className="fix relative w-full lg:pt-[70px] lg:pb-[86px] pt-[45px] pb-[45px]">
         <div className="flex gap-[5px] lg:gap-[20px] 1280:gap-[10px] 1366:gap-[10px] justify-between flex-col lg:flex-row">
           <div className="w-[312px] md:w-[240px] 1280:w-[470px] mb-[15px] lg:mb-[0px] relative">

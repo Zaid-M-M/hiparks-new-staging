@@ -44,7 +44,7 @@
 //             </div>
 //             <div className="1280:max-w-[600px] 1440:max-w-[658px] 1536:max-w-[700px] md:max-w-[100%] lg:max-w-[55%] max-w-[658px]">
 //               <p className="bw-r md:text-[17px] lg:text-[17px] 1280:text-[20px] md:leading-[30px] mb-[20px]">
-//                 Horizon Industrial Parks is Blackstone's logistics platform in
+//                 Horizon Industrial Parks is Blackstone Sponsored Platform in
 //                 India.
 //               </p>
 //               <p className="bw-r md:text-[17px] lg:text-[17px] 1280:text-[20px] md:leading-[30px] mb-[20px]">
@@ -138,7 +138,7 @@
 //             </div>
 //             <div className="1280:max-w-[600px] 1440:max-w-[658px] 1536:max-w-[700px] md:max-w-[100%] lg:max-w-[55%] max-w-[658px]">
 //               <p className="bw-r md:text-[17px] lg:text-[17px] 1280:text-[20px] md:leading-[30px] mb-[20px]">
-//                 Horizon Industrial Parks is Blackstone's logistics platform in
+//                 Horizon Industrial Parks is Blackstone Sponsored Platform in
 //                 India.
 //               </p>
 //               <p className="bw-r md:text-[17px] lg:text-[17px] 1280:text-[20px] md:leading-[30px] mb-[20px]">
@@ -324,7 +324,7 @@ const Parkssec1 = () => {
             </div>
             <div className="1280:max-w-[600px] 1440:max-w-[658px] 1536:max-w-[700px] md:max-w-[100%] lg:max-w-[55%] max-w-[658px]">
               <p className="bw-r md:text-[17px] lg:text-[17px] 1280:text-[20px] md:leading-[30px] mb-[20px]">
-                Horizon Industrial Parks is Blackstone's logistics platform in
+                Horizon Industrial Parks is Blackstone Sponsored Platform in
                 India.
               </p>
               <p className="bw-r md:text-[17px] lg:text-[17px] 1280:text-[20px] md:leading-[30px] mb-[20px]">

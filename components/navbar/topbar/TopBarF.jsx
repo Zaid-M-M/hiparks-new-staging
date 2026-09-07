@@ -227,10 +227,11 @@ export default function TopBarF() {
   const [showBar, setShowBar] = useState(true);
   const [atTop, setAtTop] = useState(true);
 
-  // Dynamic height calculation based on scroll position
-  const topBarHeight = atTop ? 150 : 80;
-
   const pathname = usePathname();
+
+  // Dynamic height on the homepage only; fixed on all inside pages
+  const isHomePage = pathname === "/";
+  const topBarHeight = isHomePage ? (atTop ? 150 : 80) : 80;
 
   // Use ref instead of state for scroll tracking
   const lastScrollY = useRef(0);
@@ -314,6 +315,7 @@ export default function TopBarF() {
         className={`fixed top-0 left-0 w-full transition-colors duration-500
                     z-[100000] flex justify-between items-center
                     px-[max(5%,calc((100vw-1340px)/2))] ${bgClass} ${borderClass}`}
+        style={{ height: topBarHeight }}
       >
         <div
           className="flex items-center pr-4"
