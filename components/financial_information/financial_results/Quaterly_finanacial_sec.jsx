@@ -3,30 +3,30 @@ import React, { useState } from "react";
 
 const hip_data = [
   {
-    title: "Consolidated Financial Statements",
+    title: "Quarterly Results Presentation_Q1 FY27",
     download_img: "/download_icon.svg",
     mark_img: "/Invester/green_mark.svg",
     pdf_url: "",
-    year: "Q1 FY 2024-25",
+    year: "Q1 FY 2026-27",
   },
   {
-    title: "Standalone Financial Statements",
+    title: "Quarterly Results _Q1 FY27_Call Transcript",
     download_img: "/download_icon.svg",
     mark_img: "/Invester/green_mark.svg",
     pdf_url: "",
-    year: "Q1 FY 2024-25",
+    year: "Q1 FY 2026-27",
   },
   {
-    title: "Standalone Financial Statements FY 2025",
+    title: "Quarterly Results_Q1 FY27_Call Recording",
     download_img: "/download_icon.svg",
     mark_img: "/Invester/green_mark.svg",
-    pdf_url: "",
-    year: "Q2 FY 2024-25",
+    pdf_url: "/financial-information/video/",
+    year: "Q1 FY 2026-27",
   },
 ];
 
 const Quaterly_finanacial_sec = () => {
-  const [hipSelectedYear, setHipSelectedYear] = useState("Q1 FY 2024-25");
+  const [hipSelectedYear, setHipSelectedYear] = useState("Q1 FY 2026-27");
 
   const hipYears = [...new Set(hip_data.map((item) => item.year))].sort(
     (a, b) => b - a,
