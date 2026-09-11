@@ -3,37 +3,22 @@ import React, { useState } from "react";
 
 const hip_data = [
   {
-    title: "Earnings Presentation",
+    title: "Consolidated Audit Report and Financial Statements",
     download_img: "/download_icon.svg",
-    mark_img: "/Invester/orange_mark.svg",
+    mark_img: "/Invester/green_mark.svg",
     pdf_url: "",
     year: "Q1 FY 2026-27",
   },
   {
-    title: "Earnings Call Transcript",
+    title: "Standalone Audit Report and Financial Statements",
     download_img: "/download_icon.svg",
-    mark_img: "/Invester/orange_mark.svg",
+    mark_img: "/Invester/green_mark.svg",
     pdf_url: "",
-    year: "Q1 FY 2026-27",
-  },
-  {
-    title: "Earnings Call Recording",
-    download_img: "/download_icon.svg",
-    mark_img: "/Invester/orange_mark.svg",
-    pdf_url: "/financial-information/video/",
-    year: "Q1 FY 2026-27",
-  },
-  {
-    title: "Earnings Call Invite",
-    download_img: "/download_icon.svg",
-    mark_img: "/Invester/orange_mark.svg",
-    pdf_url:
-      "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/quarterly_financial/Horizon_Industrial_Parks_Q1_FY27_Earnings_Call_Invite.pdf",
     year: "Q1 FY 2026-27",
   },
 ];
 
-const Quaterly_finanacial_sec = () => {
+const Quarterly_Audited_sec = () => {
   const [hipSelectedYear, setHipSelectedYear] = useState("Q1 FY 2026-27");
 
   const hipYears = [...new Set(hip_data.map((item) => item.year))].sort(
@@ -45,13 +30,13 @@ const Quaterly_finanacial_sec = () => {
   );
 
   return (
-    <div className="w-full bg-[#F7F7F7]">
+    <div className="w-full bg-[#fff]">
       <div className="fix relative w-full lg:pt-[70px] lg:pb-[86px] pt-[45px] pb-[45px]">
         <div className="flex gap-[5px] lg:gap-[20px] 1280:gap-[10px] 1366:gap-[10px] justify-between flex-col lg:flex-row">
           <div className="w-[312px] md:w-[240px] 1280:w-[470px] mb-[15px] lg:mb-[0px] relative">
             <h1 className="1280:text-[44px] 1280:leading-[58px] 1280:tracking-[-3.04px] lg:text-[37px] lg:leading-[43px] lg:tracking-[-2.04px] text-[30px] leading-[36px] tracking-[-1px] bw-r">
-              Quarterly
-              <span className="bw-r"> Results</span>
+              Quarterly Audited
+              <span className="bw-r"> Financial Statements</span>
             </h1>
           </div>
 
@@ -81,7 +66,7 @@ const Quaterly_finanacial_sec = () => {
                       key={index}
                       href={hip_pdf.pdf_url}
                       target="_blank"
-                      className="flex justify-between items-center gap-[5px] w-[100%] md:w-[48%] xl:w-[49%] h-[70px] 1280:h-[100px] bg-[#f7c99b] bw-r text-[17px] md:text-[14px] md:leading-[17px] xl:text-[20px] xl:leading-[26px] leading-[23px] tracking-[-1.04px] md:py-[20px] md:px-[15px] py-[22px] px-[20px] 1280:pl-[30px] 1280:pr-[25px] relative overflow-hidden"
+                      className="flex justify-between items-center gap-[5px] w-[100%] md:w-[48%] xl:w-[49%] h-[70px] 1280:h-[100px] bg-[#ACD5AE] bw-r text-[17px] md:text-[14px] md:leading-[17px] xl:text-[20px] xl:leading-[26px] leading-[23px] tracking-[-1.04px] md:py-[20px] md:px-[15px] py-[22px] px-[20px] 1280:pl-[30px] 1280:pr-[25px] relative overflow-hidden"
                     >
                       {hip_pdf.title}
                       <img
@@ -104,4 +89,4 @@ const Quaterly_finanacial_sec = () => {
   );
 };
 
-export default Quaterly_finanacial_sec;
+export default Quarterly_Audited_sec;

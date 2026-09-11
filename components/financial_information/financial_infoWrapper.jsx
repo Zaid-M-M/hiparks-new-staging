@@ -8,6 +8,7 @@ import Agm_egm_sec from "./agm_egm/agm_egm_sec";
 import Board_meeting_sec from "./board_meeting/board_meeting_sec";
 import Financial_results_secF from "./financial_results/Financial_results_secF";
 import Quaterly_finanacial_sec from "./financial_results/Quaterly_finanacial_sec";
+import Quarterly_Audited_sec from "./financial_results/Quarterly_Audited_sec";
 import Annual_finanacial_sec from "./financial_results/Annual_finanacial_sec";
 const financial_infoWrapper = () => {
   return (
@@ -15,6 +16,7 @@ const financial_infoWrapper = () => {
       <Finan_info_Sec1 />
       <Annual_Report_finance_sec />
       <Quaterly_finanacial_sec />
+      <Quarterly_Audited_sec />
       <Annual_finanacial_sec />
       <Financial_results_secF />
       <Group_company_finance_sec />
