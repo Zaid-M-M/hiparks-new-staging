@@ -83,6 +83,7 @@ export const menuLinks = {
     { text: "Offer Documents", url: "/offer-documents/" },
     { text: "Financial Information", url: "/financial-information/" },
     { text: "Corporate Governance", url: "/corporate-governance/" },
+    { text: "Press Release", url: "/press-release-new/" },
     // { text: "Investor Resources", url: "/investor-resources/" },
   ],
 };
