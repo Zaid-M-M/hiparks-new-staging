@@ -3,24 +3,32 @@ import React, { useState } from "react";
 
 const hip_data = [
   {
-    title: "Quarterly Results Presentation_Q1 FY27",
+    title: "Earnings Presentation",
     download_img: "/download_icon.svg",
     mark_img: "/Invester/green_mark.svg",
     pdf_url: "",
     year: "Q1 FY 2026-27",
   },
   {
-    title: "Quarterly Results _Q1 FY27_Call Transcript",
+    title: "Earnings Call Transcript",
     download_img: "/download_icon.svg",
     mark_img: "/Invester/green_mark.svg",
     pdf_url: "",
     year: "Q1 FY 2026-27",
   },
   {
-    title: "Quarterly Results_Q1 FY27_Call Recording",
+    title: "Earnings Call Recording",
     download_img: "/download_icon.svg",
     mark_img: "/Invester/green_mark.svg",
     pdf_url: "/financial-information/video/",
+    year: "Q1 FY 2026-27",
+  },
+  {
+    title: "Earnings Call Invite",
+    download_img: "/download_icon.svg",
+    mark_img: "/Invester/green_mark.svg",
+    pdf_url:
+      "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-content/uploads/2025/12/financial-information/quarterly_financial/Horizon_Industrial_Parks_Q1_FY27_Earnings_Call_Invite.pdf",
     year: "Q1 FY 2026-27",
   },
 ];
