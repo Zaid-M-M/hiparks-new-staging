@@ -14,17 +14,20 @@ export default function AwardSlider({ awards }) {
 
   return (
     <Swiper
-      slidesPerView={3}
-      spaceBetween={30}
+      slidesPerView={4}
+      spaceBetween={20}
       navigation={{
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       }}
       modules={[Navigation]}
       breakpoints={{
-        320: { slidesPerView: 1 },
-        768: { slidesPerView: 2 },
-        1024: { slidesPerView: 3 },
+        320: { slidesPerView: 1, spaceBetween: 16 },
+        640: { slidesPerView: 3, spaceBetween: 16 },
+        1024: { slidesPerView: 3, spaceBetween: 20 },
+        1280: { slidesPerView: 4, spaceBetween: 16 },
+        1440: { slidesPerView: 4, spaceBetween: 24 },
+        1600: { slidesPerView: 4, spaceBetween: 30 },
       }}
       className="awards_slider"
     >
@@ -36,32 +39,32 @@ export default function AwardSlider({ awards }) {
           ? award.images
           : Array.from(
               { length: Math.floor(Math.random() * 4) + 1 }, // random 1–4 images
-              () => award.images
+              () => award.images,
             );
 
         return (
           <SwiperSlide key={index}>
             <div
               onClick={() => handleFlip(index)}
-              className="group w-full xl:h-[450px] lg:h-[350px] md:h-[350px] h-[350px] [perspective:1000px] my-[25px]"
+              className="group w-full 1440:h-[320px] xl:h-[300px] lg:h-[300px] md:h-[300px] h-[300px] [perspective:1000px] my-[25px]"
             >
               <div
-                className={`relative w-[99.8%] h-full duration-700 [transform-style:preserve-3d] px-[15px]
+                className={`relative w-[99.8%] h-full duration-700 [transform-style:preserve-3d]
                   ${flippedIndex === index ? "[transform:rotateY(180deg)]" : ""}
                   group-hover:[transform:rotateY(180deg)]
                 `}
               >
                 {/* Front */}
-                <div className="absolute left-0 w-full h-full bg-white flex items-center justify-center backface-hidden border border-[#CDCDCD] flex-col cursor-pointer text-center px-[10px] md:px-[20px]">
-                  <h2 className="text-[24px] leading-[32px] md:leading-[35px] md:text-[24px] xl:text-[28px] bw-m text-[#000] mb-[8px]">
+                <div className="absolute left-0 w-full h-full bg-white flex items-center justify-center backface-hidden border border-[#CDCDCD] flex-col cursor-pointer text-center px-[10px] md:px-[16px] 1440:px-[20px]">
+                  <h2 className="text-[22px] leading-[30px] md:text-[22px] md:leading-[30px] xl:text-[20px] xl:leading-[27px] 1366:text-[22px] 1366:leading-[29px] 1440:text-[24px] 1440:leading-[32px] bw-m text-[#000] mb-[8px]">
                     {award.title}
                   </h2>
-                  <h5 className="bw-m text-[18px] lg:text-[18px] xl:text-[20px] leading-[25px] xl:leading-[29px] xl:mb-[5px] 1440:mt-[10px] xl:mt-[0px]">
+                  <h5 className="bw-m text-[16px] leading-[22px] lg:text-[16px] xl:text-[15px] xl:leading-[21px] 1366:text-[16px] 1366:leading-[22px] 1440:text-[17px] 1440:leading-[24px] text-gray-700">
                     {award.subtitle}
                   </h5>
-                  <p className="bw-r text-[15px] lg:text-[15px] xl:text-[15px] leading-[20px] xl:leading-[24px]">
+                  {/* <p className="bw-r text-[15px] lg:text-[15px] xl:text-[15px] leading-[20px] xl:leading-[24px]">
                     {award.description}
-                  </p>
+                  </p> */}
                   <img
                     src="/brand_journey/flip_icon.svg"
                     className="absolute top-0 right-0"
@@ -87,7 +90,7 @@ export default function AwardSlider({ awards }) {
                       {images.map((img, i) => (
                         <SwiperSlide key={i}>
                           <img
-                            className="absolute bottom-0 w-[75%] left-1/2 -translate-x-1/2"
+                            className="absolute bottom-0 w-[75%] xl:w-[93%] 1440:w-[85%] left-1/2 -translate-x-1/2"
                             src={img}
                             alt="award"
                           />
@@ -96,7 +99,7 @@ export default function AwardSlider({ awards }) {
                     </Swiper>
                   ) : (
                     <img
-                      className="absolute bottom-0 w-[75%] left-1/2 -translate-x-1/2"
+                      className="absolute bottom-0 w-[75%] xl:w-[93%] 1440:w-[85%] left-1/2 -translate-x-1/2"
                       src={images[0]}
                       alt="award"
                     />

@@ -20,10 +20,6 @@ const financial_infoWrapper = () => {
       <Annual_finanacial_sec />
       <Financial_results_secF />
       <Group_company_finance_sec />
-      {/* <Financial_results_sec />
-       <Annual_reports_sec />
-      <General_meeting_sec />
-      <Board_meeting_sec /> */}
     </div>
   );
 };

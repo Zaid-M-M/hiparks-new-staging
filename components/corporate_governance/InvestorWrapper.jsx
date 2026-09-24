@@ -10,7 +10,6 @@ const InvestorWrapper = () => {
     <div className="w-full h-full">
       <Ivst_Sec1 />
       <C_info_sec />
-
       <Board_director_sec />
       <Commit_board_sec />
       <Policies_codes_sec />

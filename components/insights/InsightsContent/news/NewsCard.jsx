@@ -84,10 +84,8 @@ const NewsCard = ({ item }) => {
           />
         </div>
 
-        <div className="flex-1" />
-
         {/* Title – Desktop (hidden on mobile) */}
-        <div className="absolute left-[16px] right-[16px] bottom-[22px] transition-transform duration-300 ease-in-out group-hover:-translate-y-[70px] lg:block hidden">
+        <div className="flex-1 flex-col justify-center lg:!flex !hidden">
           <h3
             ref={titleRef}
             className="bw-m text-left text-[24px] leading-[30px] text-[#000000] line-clamp-3 overflow-hidden"
@@ -101,7 +99,7 @@ const NewsCard = ({ item }) => {
         </div>
 
         {/* Title – Mobile (hidden on desktop) */}
-        <div className="absolute left-[16px] right-[16px] top-[70px] lg:hidden block">
+        <div className="flex-1 flex-col justify-center lg:!hidden !flex">
           <h3
             ref={titleRef}
             className="bw-m text-[24px] text-left leading-[30px] text-[#000000] line-clamp-3 overflow-hidden"
@@ -114,8 +112,8 @@ const NewsCard = ({ item }) => {
           />
         </div>
 
-        {/* Read More – Desktop (shown on hover) */}
-        <div className="absolute left-[16px] right-[16px] bottom-[16px] opacity-0 translate-y-2 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:translate-y-0 lg:block hidden">
+        {/* Read More – Desktop (always visible) */}
+        <div className="lg:!block !hidden">
           <div
             className="cursor-pointer px-5 py-2 bg-transparent border border-black w-fit flex gap-2 items-center"
             onClick={(e) => {
@@ -139,7 +137,7 @@ const NewsCard = ({ item }) => {
         </div>
 
         {/* Read More – Mobile (always visible) */}
-        <div className="absolute left-[16px] right-[16px] bottom-[16px] lg:hidden block">
+        <div className="lg:!hidden !block">
           <div
             className="cursor-pointer px-5 py-2 bg-transparent border border-black w-fit flex gap-2 items-center"
             onClick={(e) => {
