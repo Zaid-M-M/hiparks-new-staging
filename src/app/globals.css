@@ -1928,3 +1928,15 @@ h6.feat_hd,
 .campaign textarea * {
   color: black !important;
 }
+
+/* Awards slider – nav button hover (border turns black) */
+.awards_slider .swiper-button-prev,
+.awards_slider .swiper-button-next {
+  border-color: #cdcdcd;
+  transition: border-color 0.3s ease;
+}
+
+.awards_slider .swiper-button-prev:not(.swiper-button-disabled):hover,
+.awards_slider .swiper-button-next:not(.swiper-button-disabled):hover {
+  border-color: #000;
+}
