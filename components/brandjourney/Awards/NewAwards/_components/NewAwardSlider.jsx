@@ -81,11 +81,19 @@ export default function NewAwardSlider({ awards }) {
 
       {/* Navigation buttons */}
       <div className="flex items-center justify-start !mt-5 gap-4 h-fit w-full">
-        <button className="custom-prev-blogs cursor-pointer h-12 w-12 transition-opacity duration-200 [&.swiper-button-disabled]:opacity-50 border border-gray-400 bg-white flex items-center justify-center">
-          <img src="/brand_journey/awprev.svg" alt="Prev" />
+        <button className="group ease-in-out hover:bg-black/80 hover:border-black/80 [&.swiper-button-disabled]:pointer-events-none custom-prev-blogs cursor-pointer h-12 w-12 transition-opacity duration-200 [&.swiper-button-disabled]:opacity-50 border border-gray-400 bg-white flex items-center justify-center">
+          <img
+            className="transition-all duration-300 ease-in-out group-hover:brightness-0 group-hover:invert w-[22px] h-[22px]"
+            src="/blk_left_arrow.svg"
+            alt="Prev"
+          />
         </button>
-        <button className="custom-next-blogs cursor-pointer h-12 w-12 transition-opacity duration-200 [&.swiper-button-disabled]:opacity-50 border border-gray-400 bg-white flex items-center justify-center">
-          <img src="/brand_journey/awnext.svg" alt="Next" />
+        <button className="group ease-in-out hover:bg-black/80 hover:border-black/80 [&.swiper-button-disabled]:pointer-events-none custom-next-blogs cursor-pointer h-12 w-12 transition-opacity duration-200 [&.swiper-button-disabled]:opacity-50 border border-gray-400 bg-white flex items-center justify-center">
+          <img
+            className="transition-all duration-300 ease-in-out group-hover:brightness-0 group-hover:invert w-[22px] h-[22px]"
+            src="/blk_right_arrow.svg"
+            alt="Next"
+          />
         </button>
       </div>
     </Swiper>

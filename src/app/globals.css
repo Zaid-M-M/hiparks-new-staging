@@ -1939,4 +1939,5 @@ h6.feat_hd,
 .awards_slider .swiper-button-prev:not(.swiper-button-disabled):hover,
 .awards_slider .swiper-button-next:not(.swiper-button-disabled):hover {
   border-color: #000;
+  background-color: #000;
 }
