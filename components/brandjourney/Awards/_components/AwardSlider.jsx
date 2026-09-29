@@ -121,16 +121,16 @@ export default function AwardSlider({ awards }) {
       <div className="swiper-button-next !text-black !right-0" /> */}
 
       <div className="flex items-center justify-start !mt-5 gap-4 h-fit w-full">
-        <button className="swiper-button-prev group ease-in-out hover:bg-black/80 hover:border-black/80 [&.swiper-button-disabled]:pointer-events-none custom-prev-blogs cursor-pointer xl:w-[80px] xl:h-[80px] h-12 w-12 transition-opacity duration-300 [&.swiper-button-disabled]:opacity-50 border border-gray-400 bg-white flex items-center justify-center">
+        <button className="swiper-button-prev group ease-in hover:bg-[linear-gradient(110deg,#8f53a1_24.35%,#f47922_107.33%)] [&.swiper-button-disabled]:pointer-events-none custom-prev-blogs cursor-pointer xl:w-[80px] xl:h-[80px] h-12 w-12 transition-all duration-400 [&.swiper-button-disabled]:opacity-50 border border-gray-400 bg-white flex items-center justify-center">
           <img
-            className="transition-all duration-200 ease-in-out group-hover:brightness-0 group-hover:invert"
+            className="transition-all duration-300 ease-in group-hover:brightness-0 group-hover:invert"
             src="/blk_left_arrow.svg"
             alt="Prev"
           />
         </button>
-        <button className="swiper-button-next group ease-in-out hover:bg-black/80 hover:border-black/80 [&.swiper-button-disabled]:pointer-events-none custom-next-blogs cursor-pointer xl:w-[80px] xl:h-[80px] h-12 w-12 transition-opacity duration-300 [&.swiper-button-disabled]:opacity-50 border border-gray-400 bg-white flex items-center justify-center">
+        <button className="swiper-button-next group ease-in hover:bg-[linear-gradient(110deg,#8f53a1_24.35%,#f47922_107.33%) [&.swiper-button-disabled]:pointer-events-none custom-next-blogs cursor-pointer xl:w-[80px] xl:h-[80px] h-12 w-12 transition-all duration-400 [&.swiper-button-disabled]:opacity-50 border border-gray-400 bg-white flex items-center justify-center">
           <img
-            className="transition-all duration-200 ease-in-out group-hover:brightness-0 group-hover:invert"
+            className="transition-all duration-300 ease-in group-hover:brightness-0 group-hover:invert"
             src="/blk_right_arrow.svg"
             alt="Next"
           />

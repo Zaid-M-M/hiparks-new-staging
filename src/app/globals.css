@@ -1938,6 +1938,5 @@ h6.feat_hd,
 
 .awards_slider .swiper-button-prev:not(.swiper-button-disabled):hover,
 .awards_slider .swiper-button-next:not(.swiper-button-disabled):hover {
-  border-color: #000;
-  background-color: #000;
+  background: linear-gradient(110deg, #8f53a1 24.35%, #f47922 107.33%);
 }

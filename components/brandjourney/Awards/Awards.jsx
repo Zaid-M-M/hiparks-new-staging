@@ -212,7 +212,7 @@ const Awards = () => {
                   </div>
 
                   {/* Right Tabs or Dropdown */}
-                  <div className="flex md:w-1/2 flex-col lg:justify-center gap-5 mt-[10px]">
+                  <div className="flex md:w-1/2 flex-col lg:justify-start gap-5 mt-[25px]">
                     {/* ✅ Show dropdown for mobile/tablet */}
                     <CustomDropdown
                       categories={years.map((y) => y.toString())}
