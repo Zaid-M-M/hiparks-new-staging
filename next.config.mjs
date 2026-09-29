@@ -762,6 +762,7 @@ const CSP = [
     "https://*.lightning.force.com https://*.visualforce.com " +
     "https://*.salesforceliveagent.com " +
     "https://*.tidio.co " +
+    "https://dunsregistered.dnb.com https://profiles.dunsregistered.com " +
     "https://phpstack-725513-2688800.cloudwaysapps.com " +
     "https://phpstack-725513-2801524.cloudwaysapps.com " +
     "https://phpstack-725513-4957654.cloudwaysapps.com",

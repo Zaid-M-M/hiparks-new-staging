@@ -34,6 +34,7 @@ export default function PDMain({ park, allParks }) {
     meta_description,
     h1_tag,
     park_name,
+    drs_iframe,
     map_button_text,
     map_button_url,
     coordinates_no,
@@ -94,6 +95,7 @@ export default function PDMain({ park, allParks }) {
         igbcLogo={igbc_logo}
         igbcStatus={igbc_status}
         park_name={park_name}
+        drs_iframe={drs_iframe}
         stats={[
           // { label: "LAND AREA", value: land_area },
           { label: "LEASABLE AREA", value: development_potential },

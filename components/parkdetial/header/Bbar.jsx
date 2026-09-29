@@ -1,11 +1,11 @@
 import React from "react";
 
-const Bbar = ({ stats }) => {
+const Bbar = ({ stats, drs_iframe }) => {
   if (!stats || !Array.isArray(stats) || stats.length === 0) return null;
 
   return (
     <div className="lg:absolute top-auto lg:bottom-0 w-full bg-[#797979ba] lg:bg-white/30 backdrop-blur-[10px] text-white py-[25px] md:py-[30px] lg:py-[24px] lg:mt-[20px]">
-      <div className="flex w-full justify-between md:justify-start flex-wrap gap-0 lg:gap-4 pl-[max(5%,calc((100vw-1340px)/2))] pr-[max(5%,calc((100vw-1340px)/2))]">
+      <div className="relative flex w-full justify-between md:justify-start flex-wrap gap-0 lg:gap-4 pl-[max(5%,calc((100vw-1340px)/2))] pr-[max(5%,calc((100vw-1340px)/2))]">
         {stats.map(
           (item, idx) =>
             item.value && (
@@ -28,6 +28,10 @@ const Bbar = ({ stats }) => {
               </div>
             ),
         )}
+        <div
+          className="absolute right-0"
+          dangerouslySetInnerHTML={{ __html: drs_iframe }}
+        ></div>
       </div>
     </div>
   );

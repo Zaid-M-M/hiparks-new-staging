@@ -12,6 +12,7 @@ const HeaderMain = ({
   igbcLogo,
   igbcStatus,
   park_name,
+  drs_iframe,
   stats = [],
 }) => {
   const formattedImage = formatMediaUrl(spotlightImage);
@@ -44,6 +45,7 @@ const HeaderMain = ({
                 className="bw-m text-white text-[28px] md:text-[43px] leading-[38px] md:leading-[53px] lg:text-[60px] lg:leading-[70px] xl:text-[64px] xl:leading-[74px] xl:tracking-[-3.04px]"
                 dangerouslySetInnerHTML={{ __html: park_name }}
               />
+
               <span className="md:w-[249px] md:h-[6px] bg-[#fff] inline-block"></span>
             </div>
 
@@ -58,12 +60,13 @@ const HeaderMain = ({
             {/* IGBC certification info if available */}
           </div>
         </div>
+
         <div className="hidden relative lg:block">
-          <Bbar stats={stats} />
+          <Bbar stats={stats} drs_iframe={drs_iframe} />
         </div>
       </div>
       <div className="block lg:hidden">
-        <Bbar stats={stats} />
+        <Bbar stats={stats} drs_iframe={drs_iframe} />
       </div>
     </>
   );
