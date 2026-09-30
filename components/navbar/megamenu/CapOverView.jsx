@@ -186,8 +186,8 @@ import TransitionLink from "@/src/app/TransitionLink";
 const capabilityGroups = [
   {
     title: "Capabilities",
-    url: "/capabilities-overview/",
     links: [
+      { text: "Capabilities Overview", url: "/capabilities-overview/" },
       { text: "Industrial Facilities", url: "/industrial-facilities/" },
       { text: "InCity Centers", url: "/incity-centers/" },
       { text: "Fulfillment Centers", url: "/fulfilment-centers/" },
@@ -221,103 +221,69 @@ const sectorLinks = [
 
 const CapOverView = ({ setIsNavOpen, isNavOpen }) => {
   return (
-    <div className="flex w-full h-[390px] overflow-hidden mt-5 pr-[5%] 1440:pr-0">
-      {/* Left gradient + image */}
-      <div
-        className="1440:w-[25%] w-[25%] flex flex-col justify-between px-7 py-10"
-        style={{
-          background:
-            "linear-gradient(-245deg, #8F53A1 19.06%, #F47922 105.78%)",
-        }}
-      >
-        <div className="flex flex-col gap-[29px]">
-          <img
-            src="/cov.webp"
-            alt="Capabilities Overview"
-            className="w-full h-fit object-cover"
-          />
-          <div className="relative z-10 flex items-center w-full justify-between cursor-pointer">
-            <TransitionLink
-              href="/capabilities-overview/"
-              isNavOpen={isNavOpen}
-              setIsNavOpen={setIsNavOpen}
-              className="text-white text-[22px] bw-m underline text-left"
-            >
-              Capabilities Overview
-            </TransitionLink>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
-              viewBox="0 0 50 50"
-              fill="none"
-            >
-              <path
-                d="M13.3281 36.666L36.6615 13.3326"
-                stroke="white"
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              <path
-                d="M13.3281 13.3326H36.6615V36.666"
-                stroke="white"
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
-        </div>
-      </div>
+    // fixup keeps the panel aligned with the menu row above it.
+    // Heading/link sizes match KnowUsOverView (Explore Horizon); left links
+    // use tighter py-2 spacing. Left column ends at 430px, so 450px leaves a
+    // 20px bottom gap.
+    <div className="fixup flex items-start h-[450px] overflow-hidden pt-5">
+      {/* Left: Capabilities + Integrated Solutions */}
+      <div className="w-[30%] shrink-0 pt-5 flex flex-col gap-5">
+        {capabilityGroups.map((group) => {
+          const headingClass =
+            "block px-5 1440:px-6 pb-5 border-b border-[#D4D4D4] text-black bw-m text-[16px] leading-[24px] xl:text-[18px] 1440:text-[20px] 1440:leading-[24px] text-left";
 
-      {/* Middle: Capabilities + Integrated Solutions */}
-      <div className="w-[20%] ml-[3.7%] pt-[10px] flex flex-col gap-[30px]">
-        {capabilityGroups.map((group) => (
-          <div key={group.title}>
-            <TransitionLink
-              href={group.url}
-              isNavOpen={isNavOpen}
-              setIsNavOpen={setIsNavOpen}
-              className="block pl-4 pb-[10px] border-b border-[#D4D4D4] text-black bw-m text-[16px] 1440:text-[18px] leading-[24px] text-left hover:text-[#F47922] transition-colors duration-200"
-            >
-              {group.title}
-            </TransitionLink>
-            <div className="flex flex-col gap-[12px] pt-[14px]">
-              {group.links.map((link) => (
+          return (
+            <div key={group.title}>
+              {group.url ? (
                 <TransitionLink
-                  key={link.url}
-                  href={link.url}
+                  href={group.url}
                   isNavOpen={isNavOpen}
                   setIsNavOpen={setIsNavOpen}
-                  className="block pl-4 text-[#595959] bw-r text-[14px] 1440:text-[16px] leading-[21px] text-left hover:text-[#F47922] transition-colors duration-200"
+                  className={`${headingClass} hover:text-[#F47922] transition-colors duration-200`}
                 >
-                  {link.text}
+                  {group.title}
                 </TransitionLink>
-              ))}
+              ) : (
+                <p className={headingClass}>{group.title}</p>
+              )}
+              <div className="flex flex-col">
+                {group.links.map((link) => (
+                  <TransitionLink
+                    key={link.url}
+                    href={link.url}
+                    isNavOpen={isNavOpen}
+                    setIsNavOpen={setIsNavOpen}
+                    className="block px-5 1440:px-6 py-2 text-[#595959] bw-m text-[16px] leading-[24px] text-left hover:text-[#F47922] transition-colors duration-200"
+                  >
+                    {link.text}
+                  </TransitionLink>
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
 
       {/* Right: Sectors Specialists */}
-      <div className="w-[40%] ml-auto h-fit bg-black">
+      <div className="flex-1 min-w-0 ml-[6%] bg-[#F4F4F4]">
         <TransitionLink
           href="/sectors-specialists/"
           isNavOpen={isNavOpen}
           setIsNavOpen={setIsNavOpen}
-          className="block px-[17px] pt-[20px] pb-[20px] border-b border-[#4D4D4D] text-white/90 bw-m text-[16px] 1440:text-[18px] leading-[24px] text-left hover:text-[#F47922] transition-colors duration-200"
+          className="block px-5 1440:px-6 py-6 border-b border-[#D4D4D4] text-black bw-m text-[16px] leading-[24px] xl:text-[18px] 1440:text-[20px] 1440:leading-[24px] text-left hover:text-[#F47922] transition-colors duration-200"
         >
           Sectors Specialists
         </TransitionLink>
-        <div className="grid grid-cols-2 gap-x-4 gap-y-[30px] px-[17px] pt-[20px] pb-[42px]">
+        {/* Box height (65 header + 4×68 rows + 28) ends in line with the
+            left column's "Value Added Solutions" link */}
+        <div className="grid grid-cols-2 pb-7">
           {sectorLinks.map((link) => (
             <TransitionLink
               key={link.url}
               href={link.url}
               isNavOpen={isNavOpen}
               setIsNavOpen={setIsNavOpen}
-              className="block text-white/70 bw-r text-[13px] 1440:text-[15px] leading-[20px] text-left hover:text-[#F47922] transition-colors duration-200"
+              className="block px-5 1440:px-6 py-[18px] whitespace-nowrap text-[#595959] bw-m text-[16px] leading-[24px] text-left hover:bg-[rgba(0,0,0,0.02)] hover:text-[#F47922] transition-colors duration-200"
             >
               {link.text}
             </TransitionLink>

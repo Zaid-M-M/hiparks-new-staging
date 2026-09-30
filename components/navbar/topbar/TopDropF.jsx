@@ -5,7 +5,7 @@
 // import SearchIcon from "../icons/SearchIcon";
 // import MenuIcon from "../icons/MenuIcon";
 // import CloseMenu from "../icons/CloseMenu";
-// import HoverDrop from "../othertab/HoverDrop";
+// import HoverDrop, { menuItems } from "../othertab/HoverDrop";
 // import TransitionLink from "@/src/app/TransitionLink";
 // import SearchInput from "./SearchInput";
 
@@ -34,37 +34,17 @@
 //     };
 //   }, []);
 
-//   // const getTargetHeight = () => {
-//   //   if (!isNavOpen) return 0;
-//   //   if (openIndex === null) return 150; // default open height
-//   //   return isLargeScreen
-//   //     ? openIndex === 0
-//   //       ? 600
-//   //       : openIndex === 1
-//   //       ? 530
-//   //       : 260
-//   //     : openIndex === 0
-//   //     ? 600
-//   //     : openIndex === 1
-//   //     ? 530
-//   //     : 220; // Network = 530px, others = 220px
-//   // };
 //   const getTargetHeight = () => {
 //     if (!isNavOpen) return 0;
 //     if (openIndex === null) return 150; // default open height
-//     return isLargeScreen
-//       ? openIndex === 0
-//         ? 600
-//         : openIndex === 1
-//           ? 530
-//           : openIndex === 6
-//             ? 440
-//             : 260
-//       : openIndex === 0
-//         ? 600
-//         : openIndex === 1
-//           ? 530
-//           : 220; // Network = 530px, others = 220px
+
+//     const openMenu = menuItems[openIndex];
+//     if (openMenu === "Network") return 600;
+//     // 80 top bar + 60 menu row + 20 gap + 390 panel
+//     if (openMenu === "Capabilities") return 550;
+//     if (openMenu === "Explore Horizon") return 440;
+
+//     return isLargeScreen ? 260 : 220;
 //   };
 //   return (
 //     <motion.div
@@ -201,46 +181,14 @@ const TopDropF = ({
     };
   }, []);
 
-  // const getTargetHeight = () => {
-  //   if (!isNavOpen) return 0;
-  //   if (openIndex === null) return 150; // default open height
-  //   return isLargeScreen
-  //     ? openIndex === 0
-  //       ? 600
-  //       : openIndex === 1
-  //       ? 530
-  //       : 260
-  //     : openIndex === 0
-  //     ? 600
-  //     : openIndex === 1
-  //     ? 530
-  //     : 220; // Network = 530px, others = 220px
-  // };
-  // const getTargetHeight = () => {
-  //   if (!isNavOpen) return 0;
-  //   if (openIndex === null) return 150; // default open height
-  //   return isLargeScreen
-  //     ? openIndex === 0
-  //       ? 600
-  //       : openIndex === 1
-  //         ? 530
-  //         : openIndex === 6
-  //           ? 440
-  //           : 460
-  //     : openIndex === 0
-  //       ? 600
-  //       : openIndex === 1
-  //         ? 530
-  //         : 220; // Network = 530px, others = 220px
-  // };
   const getTargetHeight = () => {
     if (!isNavOpen) return 0;
     if (openIndex === null) return 150; // default open height
 
     const openMenu = menuItems[openIndex];
     if (openMenu === "Network") return 600;
-    // 80 top bar + 60 menu row + 20 gap + 390 panel
-    if (openMenu === "Capabilities") return 550;
+    // 80 top bar + 60 menu row + 450 panel (CapOverView, incl. 20 top gap)
+    if (openMenu === "Capabilities") return 590;
     if (openMenu === "Explore Horizon") return 440;
 
     return isLargeScreen ? 260 : 220;

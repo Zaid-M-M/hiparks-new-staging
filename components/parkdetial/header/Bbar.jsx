@@ -28,10 +28,6 @@ const Bbar = ({ stats, drs_iframe }) => {
               </div>
             ),
         )}
-        <div
-          className="absolute right-0"
-          dangerouslySetInnerHTML={{ __html: drs_iframe }}
-        ></div>
       </div>
     </div>
   );
