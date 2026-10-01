@@ -189,7 +189,7 @@ const Awards = () => {
       />
 
       {/* Main Section */}
-      <div className="relative fix overflow-hidden pt-[45px] md:pt-[80px] pb-[45px] lg:pb-[0px]">
+      <div className="relative fix overflow-hidden pt-[45px] md:pt-[60px] pb-[45px] lg:pb-[0px]">
         <div className="flex w-full">
           <div className="w-full">
             <TabContext value={value.toString()}>
@@ -302,7 +302,7 @@ const Awards = () => {
                   value={year.toString()}
                   sx={{
                     float: "left",
-                    paddingTop: "70px",
+                    paddingTop: "30px",
                     paddingLeft: 0,
                     paddingRight: 0,
                     width: "100%",
