@@ -29,14 +29,14 @@ export default function NewAwardSlider({ awards }) {
 
         return (
           <SwiperSlide key={index} className="pr-[1px]">
-            <div className="w-full h-[500px] relative bg-white border border-[#CDCDCD] overflow-hidden">
+            <div className="w-full h-[400px] relative bg-white border border-[#CDCDCD] overflow-hidden">
               <img
                 src="/brand_journey/cardel.svg"
                 alt="Card element"
                 className="h-[50px] w-[50px] absolute top-0 right-0 z-20"
               />
               {/* Image */}
-              <div className="w-[80%] mx-auto h-[360px] flex items-center overflow-hidden justify-center">
+              <div className="w-[80%] mx-auto h-[250px] flex items-center overflow-hidden justify-center">
                 {images.length > 1 ? (
                   <Swiper
                     modules={[Autoplay]}
@@ -49,7 +49,7 @@ export default function NewAwardSlider({ awards }) {
                     {images.map((img, i) => (
                       <SwiperSlide key={i}>
                         <img
-                          className="w-full h-[360px] mx-auto"
+                          className="w-full h-[250px] mx-auto object-contain"
                           src={img}
                           alt="award"
                         />
@@ -58,7 +58,7 @@ export default function NewAwardSlider({ awards }) {
                   </Swiper>
                 ) : (
                   <img
-                    className="w-full h-[360px]"
+                    className="w-full h-[250px] mx-auto object-contain"
                     src={images[0]}
                     alt="award"
                   />

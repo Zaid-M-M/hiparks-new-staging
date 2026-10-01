@@ -75,7 +75,7 @@ const AwardsMobile = () => {
                               }}
                               transition={{ duration: 0.4, ease: "easeInOut" }}
                               className={clsx(
-                                "relative flex w-full items-center last:border-r-0 justify-center px-9 py-6 border-r border-[#CDCDCD] overflow-hidden cursor-pointer focus:outline-none",
+                                "relative flex w-full items-center last:border-r-0 justify-center px-9 py-4 border-r border-[#CDCDCD] overflow-hidden cursor-pointer focus:outline-none",
                               )}
                             >
                               <motion.h2
