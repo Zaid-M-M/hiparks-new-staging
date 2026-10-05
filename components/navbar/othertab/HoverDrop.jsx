@@ -263,7 +263,7 @@ import KnowUsOverView from "../megamenu/KnowUsOverView";
 
 export const menuItems = [
   "Network",
-  "Capabilities",
+  "Solutions",
   "Insights",
   "Sustainability & Impact",
   "Investor Relations",
@@ -275,7 +275,7 @@ export const menuLinks = {
     { text: "Culture", url: "/culture/" },
     { text: "Contact", url: "/contact-us/" },
   ],
-  Capabilities: [
+  Solutions: [
     {
       text: "Capabilities Overview",
       url: "/capabilities-overview/",
@@ -353,7 +353,7 @@ const HoverDrop = ({
               onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
             >
               <span
-                className="bw-sb text-[16px] 1440:text-[20px] tracking-[-0.8px] capitalize transition-colors duration-200"
+                className="bw-sb text-[14px] xl:text-[16px] 1440:text-[20px] tracking-[-0.8px] capitalize transition-colors duration-200"
                 style={{ color: openIndex === idx ? "#F47922" : "#A1A1A1" }}
               >
                 {item}
@@ -385,12 +385,12 @@ const HoverDrop = ({
             {/* <div className="w-full bg-white 1440:max-w-[1340px] max-w-full 1440:mx-auto"> */}
             <div
               className={`w-full bg-white ${
-                menuItems[openIndex] !== "Capabilities"
+                menuItems[openIndex] !== "Solutions"
                   ? "1440:max-w-[1340px] max-w-full 1440:mx-auto"
                   : "1440:max-w-[1340px] max-w-full 1440:mx-auto"
               }`}
             >
-              {menuItems[openIndex] === "Capabilities" ? (
+              {menuItems[openIndex] === "Solutions" ? (
                 <CapOverView
                   isNavOpen={isNavOpen}
                   setIsNavOpen={setIsNavOpen}

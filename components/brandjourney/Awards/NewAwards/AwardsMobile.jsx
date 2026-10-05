@@ -12,18 +12,6 @@ const AwardsMobile = () => {
   return (
     // <div className="relative overflow-hidden bg-[#f5f5f5]">
     <div className="relative overflow-hidden bg-[#fff]">
-      {/* Background Vectors */}
-      {/* <img
-        className="green_vctr absolute w-[200px] md:w-[300px] lg:w-[300px] xl:w-[auto] top-[0px] md:left-[-100px] left-[-80px] lg:top-[-100px] xl:left-[-300px] 1920:left-[-200px]"
-        src="/green_vector.svg"
-        alt="green vector"
-      />
-      <img
-        className="orange_vctr absolute w-[200px] md:w-[300px] lg:w-[300px] xl:w-[auto] top-[50px] md:left-[-100px] left-[0px] lg:top-[-200px] xl:left-[-200px] 1920:left-[0px]"
-        src="/orange_vector.svg"
-        alt="orange vector"
-      /> */}
-
       <div className="relative fix overflow-hidden pt-[45px] md:pt-[80px] pb-[45px] lg:pb-[0px]">
         <div className="flex w-full">
           <div className="w-full">

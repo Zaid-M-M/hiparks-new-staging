@@ -188,7 +188,7 @@ const TopDropF = ({
     const openMenu = menuItems[openIndex];
     if (openMenu === "Network") return 600;
     // 80 top bar + 60 menu row + 450 panel (CapOverView, incl. 20 top gap)
-    if (openMenu === "Capabilities") return 590;
+    if (openMenu === "Solutions") return 425;
     if (openMenu === "Explore Horizon") return 440;
 
     return isLargeScreen ? 260 : 220;

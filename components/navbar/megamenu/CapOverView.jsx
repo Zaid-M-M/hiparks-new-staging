@@ -183,18 +183,19 @@
 import React from "react";
 import TransitionLink from "@/src/app/TransitionLink";
 
-const capabilityGroups = [
+// "Solutions" mega menu: three sections side by side in one line
+const solutionGroups = [
   {
     title: "Capabilities",
+    url: "/capabilities-overview/",
     links: [
-      { text: "Capabilities Overview", url: "/capabilities-overview/" },
       { text: "Industrial Facilities", url: "/industrial-facilities/" },
       { text: "InCity Centers", url: "/incity-centers/" },
       { text: "Fulfillment Centers", url: "/fulfilment-centers/" },
     ],
   },
   {
-    title: "Integrated Solutions Overview",
+    title: "Integrated Solutions",
     url: "/integrated-solutions-overview/",
     links: [
       { text: "Enabling Agile Growth", url: "/enabling-agile-growth/" },
@@ -219,71 +220,69 @@ const sectorLinks = [
   { text: "Ecommerce", url: "/ecommerce/" },
 ];
 
+// Heading/link sizes carried over from the previous left column. Links drop
+// to 14px with tighter padding below xl so all three sections fit at 1024px.
+const headingClass =
+  "block pb-5 border-b border-[#D4D4D4] text-black bw-m text-[16px] leading-[24px] xl:text-[18px] 1440:text-[20px] 1440:leading-[24px] text-left whitespace-nowrap hover:text-[#F47922] transition-colors duration-200";
+const linkClass =
+  "block px-3 xl:px-5 1440:px-6 py-2 text-[#6B6B6B] bw-m text-[14px] xl:text-[16px] leading-[24px] text-left whitespace-nowrap hover:text-[#F47922] transition-colors duration-200";
+
 const CapOverView = ({ setIsNavOpen, isNavOpen }) => {
   return (
-    // fixup keeps the panel aligned with the menu row above it.
-    // Heading/link sizes match KnowUsOverView (Explore Horizon); left links
-    // use tighter py-2 spacing. Left column ends at 430px, so 450px leaves a
-    // 20px bottom gap.
-    <div className="fixup flex items-start h-[450px] overflow-hidden pt-5">
-      {/* Left: Capabilities + Integrated Solutions */}
-      <div className="w-[30%] shrink-0 pt-5 flex flex-col gap-5">
-        {capabilityGroups.map((group) => {
-          const headingClass =
-            "block px-5 1440:px-6 pb-5 border-b border-[#D4D4D4] text-black bw-m text-[16px] leading-[24px] xl:text-[18px] 1440:text-[20px] 1440:leading-[24px] text-left";
+    // fixup keeps the panel aligned with the menu row above it. Column widths
+    // and gaps are proportional to the design (250 / 60 / 250 / 56 / rest).
+    // 40 top + 45 heading + 4 rows × 40 = 245px of content, 40px bottom gap.
+    <div className="fixup flex items-start h-[285px] overflow-hidden pt-10">
+      {/* Capabilities + Integrated Solutions */}
+      {solutionGroups.map((group, i) => (
+        <div
+          key={group.title}
+          className={`w-[19.3%] min-w-max shrink-0 mr-[3%] ${
+            i === 0 ? "xl:mr-[4.6%]" : "xl:mr-[4.3%]"
+          }`}
+        >
+          <TransitionLink
+            href={group.url}
+            isNavOpen={isNavOpen}
+            setIsNavOpen={setIsNavOpen}
+            className={`${headingClass} px-3 xl:px-5 1440:px-6`}
+          >
+            {group.title}
+          </TransitionLink>
+          <div className="flex flex-col">
+            {group.links.map((link) => (
+              <TransitionLink
+                key={link.url}
+                href={link.url}
+                isNavOpen={isNavOpen}
+                setIsNavOpen={setIsNavOpen}
+                className={linkClass}
+              >
+                {link.text}
+              </TransitionLink>
+            ))}
+          </div>
+        </div>
+      ))}
 
-          return (
-            <div key={group.title}>
-              {group.url ? (
-                <TransitionLink
-                  href={group.url}
-                  isNavOpen={isNavOpen}
-                  setIsNavOpen={setIsNavOpen}
-                  className={`${headingClass} hover:text-[#F47922] transition-colors duration-200`}
-                >
-                  {group.title}
-                </TransitionLink>
-              ) : (
-                <p className={headingClass}>{group.title}</p>
-              )}
-              <div className="flex flex-col">
-                {group.links.map((link) => (
-                  <TransitionLink
-                    key={link.url}
-                    href={link.url}
-                    isNavOpen={isNavOpen}
-                    setIsNavOpen={setIsNavOpen}
-                    className="block px-5 1440:px-6 py-2 text-[#595959] bw-m text-[16px] leading-[24px] text-left hover:text-[#F47922] transition-colors duration-200"
-                  >
-                    {link.text}
-                  </TransitionLink>
-                ))}
-              </div>
-            </div>
-          );
-        })}
-      </div>
-
-      {/* Right: Sectors Specialists */}
-      <div className="flex-1 min-w-0 ml-[6%] bg-[#F4F4F4]">
+      {/* Sectors Specialists – text is inset 60px from the line at 1440+ */}
+      <div className="flex-1 min-w-0">
         <TransitionLink
           href="/sectors-specialists/"
           isNavOpen={isNavOpen}
           setIsNavOpen={setIsNavOpen}
-          className="block px-5 1440:px-6 py-6 border-b border-[#D4D4D4] text-black bw-m text-[16px] leading-[24px] xl:text-[18px] 1440:text-[20px] 1440:leading-[24px] text-left hover:text-[#F47922] transition-colors duration-200"
+          className={`${headingClass} pl-3 pr-3 xl:pl-5 xl:pr-5 1440:pl-[60px] 1440:pr-6`}
         >
           Sectors Specialists
         </TransitionLink>
-        {/* Box height (65 header + 4×68 rows + 28) ends in line with the
-            left column's "Value Added Solutions" link */}
-        <div className="grid grid-cols-2 pb-7">
+        <div className="grid grid-cols-2 1440:pl-9">
           {sectorLinks.map((link) => (
             <TransitionLink
               key={link.url}
               href={link.url}
               isNavOpen={isNavOpen}
               setIsNavOpen={setIsNavOpen}
-              className="block px-5 1440:px-6 py-[18px] whitespace-nowrap text-[#595959] bw-m text-[16px] leading-[24px] text-left hover:bg-[rgba(0,0,0,0.02)] hover:text-[#F47922] transition-colors duration-200"
+              className={linkClass}
             >
               {link.text}
             </TransitionLink>

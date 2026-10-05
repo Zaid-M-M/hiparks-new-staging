@@ -916,7 +916,7 @@ const menuLinks = {
       ],
     },
   ],
-  Capabilities: [
+  Solutions: [
     {
       text: "Capabilities Overview",
       subLinks: [
