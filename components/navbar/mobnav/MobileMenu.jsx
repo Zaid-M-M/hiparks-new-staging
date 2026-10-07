@@ -96,6 +96,14 @@
 //           ],
 //         },
 
+//         // Goa
+//         // {
+//         //   text: "Goa",
+//         //   subLinks: [
+//         //     { text: "Verna", url: "/industrial-and-warehousing-park-verna" },
+//         //   ],
+//         // },
+
 //         // Hyderabad
 //         {
 //           text: "Hyderabad",
@@ -188,11 +196,14 @@
 
 //         {
 //           text: "Mumbai",
-//           subLinks: [{ text: "Vashi", url: "/incity-centers/vashi/" }],
+//           subLinks: [
+//             // { text: "Kurla", url: "/incity-centers/horizon-incity-kurla" },
+//             { text: "Vashi", url: "/incity-centers/vashi/" },
+//           ],
 //         },
 //         {
 //           text: "Thane",
-//           subLinks: [{ text: "Thane", url: "incity-centers/thane/" }],
+//           subLinks: [{ text: "Thane", url: "/incity-centers/thane/" }],
 //         },
 
 //         {
@@ -218,6 +229,145 @@
 //       ],
 //     },
 
+//     // 🗺 View by States
+//     // {
+//     //   text: "View by States",
+//     //   subLinks: [
+//     //     {
+//     //       text: "Delhi",
+//     //       url: "/delhi/",
+//     //       subLinks: [
+//     //         { text: "Alipur I", url: "/incity-centers/incity-alipur-i/" },
+//     //         { text: "Alipur II", url: "/incity-centers/incity-alipur-ii/" },
+//     //         { text: "Kirti Nagar", url: "/incity-centers/kirti-nagar/" },
+//     //         { text: "Narela", url: "/incity-centers/narela/" },
+//     //         { text: "Okhla I", url: "/incity-centers/okhla-i/" },
+//     //         { text: "Okhla II", url: "/incity-centers/okhla-2/" },
+//     //         { text: "RP Bagh", url: "/incity-centers/rp-bagh/" },
+//     //         { text: "Sahibabad II", url: "/incity-centers/sahibabad-2/" },
+//     //       ],
+//     //     },
+
+//     //     {
+//     //       text: "Haryana",
+//     //       url: "/haryana/",
+//     //       subLinks: [
+//     //         { text: "Farukhnagar I", url: "/warehousing-park-farukhnagar-i/" },
+//     //         { text: "Farukhnagar II", url: "/warehousing-park-farukhnagar-ii/" },
+//     //         {
+//     //           text: "Bilaspur",
+//     //           url: "/industrial-and-warehousing-park-bilaspur/",
+//     //         },
+//     //         { text: "Koka", url: "/warehousing-park-koka/" },
+//     //         { text: "Luhari", url: "/warehousing-park-luhari-delhi-ncr/" },
+//     //         { text: "Gurugram", url: "/incity-centers/gurugram/" },
+//     //       ],
+//     //     },
+
+//     //     {
+//     //       text: "Goa",
+//     //       url: "/goa/",
+//     //       subLinks: [
+//     //         { text: "Verna", url: "/industrial-and-warehousing-park-verna/" },
+//     //       ],
+//     //     },
+
+//     //     {
+//     //       text: "Gujarat",
+//     //       url: "/gujarat/",
+//     //       subLinks: [
+//     //         {
+//     //           text: "Bhayala",
+//     //           url: "/industrial-and-warehousing-park-bhayala/",
+//     //         },
+//     //       ],
+//     //     },
+
+//     //     {
+//     //       text: "Karnataka",
+//     //       url: "/karnataka/",
+//     //       subLinks: [
+//     //         {
+//     //           text: "Dobbaspet I",
+//     //           url: "/industrial-and-warehousing-park-dobbaspet-i/",
+//     //         },
+//     //         {
+//     //           text: "Dobbaspet II",
+//     //           url: "/industrial-and-warehousing-park-dobbaspet-ii/",
+//     //         },
+//     //         { text: "Malur", url: "/warehousing-park-malur/" },
+//     //         { text: "Hoskote", url: "/hoskote/" },
+//     //         { text: "Hosur", url: "/industrial-and-warehousing-park-hosur/" },
+//     //         { text: "Yeshwantpur", url: "/incity-centers/yeshwantpur/" },
+//     //       ],
+//     //     },
+
+//     //     {
+//     //       text: "Maharashtra",
+//     //       url: "/maharashtra/",
+//     //       subLinks: [
+//     //         {
+//     //           text: "Chakan II",
+//     //           url: "/industrial-and-warehousing-park-chakan-ii/",
+//     //         },
+//     //         {
+//     //           text: "Chakan V",
+//     //           url: "/industrial-and-warehousing-park-chakan-v/",
+//     //         },
+//     //         { text: "Talegaon", url: "/talegaon/" },
+//     //         {
+//     //           text: "Bhiwandi",
+//     //           url: "/industrial-and-warehousing-park-bhiwandi/",
+//     //         },
+//     //         { text: "Nashik", url: "/industrial-and-warehousing-park-nashik/" },
+//     //         { text: "XSIO Park One", url: "/xsio-park-one/" },
+//     //         { text: "XSIO Park Three", url: "/xsio-park-three/" },
+//     //         { text: "XSIO Park Two", url: "/xsio-park-two/" },
+
+//     //         { text: "Kurla", url: "/incity-centers/horizon-incity-kurla/" }, // ✅ Added missing
+//     //         { text: "Pimpri", url: "/incity-centers/horizon-incity-pimpri/" },
+//     //         { text: "Thane", url: "/incity-centers/thane/" },
+//     //         { text: "Vardhaman Nagar", url: "/incity-centers/vardhaman-nagar/" },
+//     //         { text: "Vashi", url: "/incity-centers/vashi/" },
+//     //       ],
+//     //     },
+
+//     //     {
+//     //       text: "Tamil Nadu",
+//     //       url: "/tamil-nadu/",
+//     //       subLinks: [
+//     //         {
+//     //           text: "Chengalpattu",
+//     //           url: "/industrial-and-warehousing-park-chengalpattu/",
+//     //         },
+//     //         {
+//     //           text: "Redhills-I",
+//     //           url: "/industrial-and-warehousing-park-redhills-i/",
+//     //         },
+//     //         {
+//     //           text: "Mappedu",
+//     //           url: "/industrial-and-warehouse-park-mappedu-chennai/",
+//     //         },
+//     //         { text: "MWC", url: "/industrial-and-warehouse-park-mwc-chennai/" },
+//     //         { text: "Oragadam", url: "/oragadam/" },
+//     //         { text: "Chromepet", url: "/incity-centers/chromepet/" },
+//     //         { text: "Virugambakkam", url: "/incity-centers/virugambakkam/" },
+//     //       ],
+//     //     },
+
+//     //     {
+//     //       text: "Telangana",
+//     //       url: "/telangana/",
+//     //       subLinks: [
+//     //         { text: "Kothur", url: "/industrial-and-warehousing-park-kothur/" },
+//     //         {
+//     //           text: "Patancheru",
+//     //           url: "/industrial-and-warehousing-park-patancheru",
+//     //         },
+//     //       ],
+//     //     },
+//     //   ],
+//     // },
 //     // 🗺 View by States
 //     {
 //       text: "View by States",
@@ -279,6 +429,7 @@
 //       text: "Case Studies and Client Testimonials",
 //       url: "/case-studies-and-client-testimonials/",
 //     },
+//     // { text: "Client Testimonials", url: "/case-studies-and-client-testimonials/#client-testimonials" },
 //   ],
 //   "Sustainability & Impact": [
 //     { text: "Sustainability Overview", url: "/sustainability-overview/" },
@@ -290,7 +441,7 @@
 //     { text: "Offer Documents", url: "/offer-documents" },
 //     { text: "Financial Information", url: "/financial-information" },
 //     { text: "Corporate Governance", url: "/corporate-governance" },
-//     { text: "Press Release", url: "/press-release-new/" },
+//     // { text: "Investor Resources", url: "/investor-resources" },
 //   ],
 //   "Explore Horizon": [
 //     {
@@ -310,26 +461,11 @@
 //     { text: "Contact Us", url: "/contact-us/" },
 //   ],
 // };
-
 // const MobileMenu = ({ topBarHeight = 70 }) => {
 //   const pathname = usePathname();
 //   const [menuStack, setMenuStack] = useState([]);
 //   const [expandedFirstLevel, setExpandedFirstLevel] = useState(null);
-//   const [isScrolled, setIsScrolled] = useState(false);
-//   const { isNavOpen, setIsNavOpen } = useNav();
-
-//   useEffect(() => {
-//     const handleScroll = () => {
-//       if (window.scrollY > 35) {
-//         setIsScrolled(true);
-//       } else {
-//         setIsScrolled(false);
-//       }
-//     };
-
-//     window.addEventListener("scroll", handleScroll);
-//     return () => window.removeEventListener("scroll", handleScroll);
-//   }, []);
+//   const { isNavOpen, setIsNavOpen } = useNav(); // use global state
 
 //   const openSubMenu = (title, links) => {
 //     setMenuStack((prev) => [...prev, { title, links }]);
@@ -365,6 +501,8 @@
 //       }
 //       return (
 //         <TransitionLink
+//           // isNavOpen={isNavOpen}
+//           // setIsNavOpen={setIsNavOpen}
 //           key={idx}
 //           href={link.url}
 //           className={`block ${paddingClass} w-full text-left hover:bg-gray-100 transition-colors`}
@@ -421,12 +559,16 @@
 //     <div className="lg:hidden">
 //       {/* Top Bar */}
 //       <div
-//         className={`fixed left-0 w-full lg:z-[1000999999] z-[1099999] flex justify-between items-center px-6 bg-[#2a2a2a] transition-all duration-300 ${
-//           isScrolled ? "top-0" : "top-[35px]"
-//         }`}
+//         className="fixed top-0 left-0 w-full lg:z-[1000999999] z-[1099999] flex justify-between items-center px-6 bg-[#2a2a2a]"
 //         style={{ height: topBarHeight }}
 //       >
-//         <div className="flex items-center h-full" onClick={handleClose}>
+//         <div
+//           // isNavOpen={isNavOpen}
+//           // setIsNavOpen={setIsNavOpen}
+
+//           className="flex items-center h-full"
+//           onClick={handleClose}
+//         >
 //           <div className="w-[220px] flex gap-[14px]">
 //             <TransitionLink href="/">
 //               <img
@@ -476,6 +618,8 @@
 //                 style={{ zIndex: 10 }}
 //               >
 //                 <div className="w-full flex justify-between py-5 px-[5%]">
+//                   {/* <img src="/nav/black.svg" className="max-w-2/3" alt="" /> */}
+
 //                   <div className="w-[220px] flex gap-[14px]">
 //                     <TransitionLink href="/">
 //                       <img
@@ -529,7 +673,6 @@
 //     </div>
 //   );
 // };
-
 // export default MobileMenu;
 
 "use client";
@@ -918,7 +1061,7 @@ const menuLinks = {
   ],
   Solutions: [
     {
-      text: "Capabilities Overview",
+      text: "Capabilities",
       subLinks: [
         { text: "Overview", url: "/capabilities-overview/" },
         {
@@ -930,7 +1073,7 @@ const menuLinks = {
       ],
     },
     {
-      text: "Integrated Solutions Overview",
+      text: "Integrated Solutions",
       subLinks: [
         { text: "Overview", url: "/integrated-solutions-overview/" },
         { text: "Enabling Agile Growth", url: "/enabling-agile-growth/" },
@@ -959,14 +1102,6 @@ const menuLinks = {
       ],
     },
   ],
-  Insights: [
-    { text: "Media", url: "/media/" },
-    {
-      text: "Case Studies and Client Testimonials",
-      url: "/case-studies-and-client-testimonials/",
-    },
-    // { text: "Client Testimonials", url: "/case-studies-and-client-testimonials/#client-testimonials" },
-  ],
   "Sustainability & Impact": [
     { text: "Sustainability Overview", url: "/sustainability-overview/" },
     { text: "Environment", url: "/environment/" },
@@ -978,6 +1113,11 @@ const menuLinks = {
     { text: "Financial Information", url: "/financial-information" },
     { text: "Corporate Governance", url: "/corporate-governance" },
     // { text: "Investor Resources", url: "/investor-resources" },
+  ],
+  // Slugs must match the tab titles on /media (see InsightsContentClient)
+  Media: [
+    { text: "News", url: "/media?tab=news" },
+    { text: "Press Release", url: "/media?tab=press-release" },
   ],
   "Explore Horizon": [
     {
@@ -996,8 +1136,15 @@ const menuLinks = {
     { text: "Culture", url: "/culture/" },
     { text: "Contact Us", url: "/contact-us/" },
   ],
+  Resources: [
+    { text: "Client Testimonials", url: "/resources?tab=client-testimonials" },
+    { text: "Case Studies", url: "/resources?tab=case-studies" },
+    { text: "Events", url: "/resources?tab=events" },
+    { text: "Blogs", url: "/resources?tab=blogs" },
+    { text: "Guidebooks", url: "/resources?tab=guidebooks" },
+  ],
 };
-const MobileMenu = ({ topBarHeight = 70 }) => {
+const MobileMenu =({ topBarHeight = 70 }) => {
   const pathname = usePathname();
   const [menuStack, setMenuStack] = useState([]);
   const [expandedFirstLevel, setExpandedFirstLevel] = useState(null);

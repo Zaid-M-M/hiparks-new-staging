@@ -16,7 +16,7 @@
 //   const [showBar, setShowBar] = useState(true);
 //   const [atTop, setAtTop] = useState(false);
 
-//   const topBarHeight = 150;
+//   const topBarHeight = 80;
 
 //   const pathname = usePathname();
 
@@ -225,6 +225,11 @@ export default function TopBarF() {
   const { isNavOpen, setIsNavOpen } = useNav();
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [showBar, setShowBar] = useState(true);
+  // A page load starts at scroll 0, so `true` is the correct initial value.
+  // Starting at `false` made the first effect flip it immediately, which both
+  // animated the bar's height (100 -> 150 on "/") and flashed the background
+  // from black to white on every inside page. The scroll effect below still
+  // corrects this when the browser restores a mid-page scroll position.
   const [atTop, setAtTop] = useState(true);
 
   const pathname = usePathname();
@@ -253,10 +258,10 @@ export default function TopBarF() {
 
   // FIXED SCROLL HANDLING
   useEffect(() => {
-    const threshold = 100;
+    // Set correct initial state
     const currentY = window.scrollY;
 
-    setAtTop(currentY <= threshold);
+    setAtTop(currentY <= topBarHeight);
     lastScrollY.current = currentY;
 
     let ticking = false;
@@ -266,7 +271,7 @@ export default function TopBarF() {
 
       if (!ticking) {
         window.requestAnimationFrame(() => {
-          setAtTop(currentY <= threshold);
+          setAtTop(currentY <= topBarHeight);
 
           if (currentY > lastScrollY.current && currentY > 100) {
             setShowBar(false);
@@ -306,7 +311,12 @@ export default function TopBarF() {
   return (
     <div className="lg:!block !hidden">
       <motion.div
-        initial={{ y: 0, height: 100 }}
+        // `initial` no longer sets height. It was 100px while the real height
+        // is 80 (or 150 on "/"), so framer animated the header's height on
+        // every single desktop page load — a layout animation on an
+        // above-the-fold element, which is exactly what CLS penalises.
+        // `y` is a transform and is safe to animate.
+        initial={{ y: 0 }}
         animate={{
           y: showBar ? 0 : -topBarHeight,
           height: topBarHeight,

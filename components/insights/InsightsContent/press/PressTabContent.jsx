@@ -37,7 +37,7 @@ const PressTabContent = () => {
         pressReleaseArray.length < postsPerPage;
 
       setPressReleases((prev) =>
-        page === 1 ? pressReleaseArray : [...prev, ...pressReleaseArray],
+        page === 1 ? pressReleaseArray : [...prev, ...pressReleaseArray]
       );
       setHasMore(!isLastPage);
       if (pressReleaseArray.length > 0) {

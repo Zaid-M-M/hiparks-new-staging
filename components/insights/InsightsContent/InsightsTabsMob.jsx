@@ -34,7 +34,7 @@ export default function InsightsTabsMob({ tabs, activeTab, setActiveTab }) {
           >
             <h2
               className={clsx(
-                "text-[12px] bw-r text-left leading-tight",
+                "text-[11px] bw-r text-center leading-tight",
                 isActive ? "text-white" : "text-black",
               )}
             >
