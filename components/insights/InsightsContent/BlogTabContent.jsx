@@ -1356,7 +1356,7 @@ const BlogTabContent = ({ selectedCategory, selectedYear }) => {
       </motion.div>
 
       {/* Blog Grid */}
-      <div className="lg:mt-10">
+      <div className="md:mt-10">
         <AnimatePresence mode="wait">
           {showSkeleton ? (
             <motion.div

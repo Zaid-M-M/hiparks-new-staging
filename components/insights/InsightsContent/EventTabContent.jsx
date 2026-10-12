@@ -1889,7 +1889,7 @@ const EventTabContent = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="mt-10"
+            className="md:mt-10"
           >
             <EventGrid events={events} onEventClick={handleEventClick} />
             {hasMore && (
