@@ -61,13 +61,13 @@ const InsightsContentInner = () => {
         }
       />
 
-      <GradientIntroText
+      {/* <GradientIntroText
         className="pt-[10px] xl:pt-[30px]"
         lines={[
           "Where is Horizon making headlines?",
           "Explore recent media coverage, interviews and features on Horizon Industrial Parks.",
         ]}
-      />
+      /> */}
 
       {activeTab === "News" && <NewsTabContent />}
       {activeTab === "Press Release" && <PressTabContent />}

@@ -27,10 +27,15 @@ const CaseStudyTabContent = () => {
     if (page === 1) setShowSkeleton(true);
     try {
       const result = selectedCategory
-        ? await cmsApi.getFilteredPosts("client_stories", selectedCategory, "", {
-            per_page: postsPerPage,
-            page,
-          })
+        ? await cmsApi.getFilteredPosts(
+            "client_stories",
+            selectedCategory,
+            "",
+            {
+              per_page: postsPerPage,
+              page,
+            },
+          )
         : await cmsApi.getClientStories({ per_page: postsPerPage, page });
 
       if (requestId !== requestIdRef.current) return;
@@ -106,9 +111,17 @@ const CaseStudyTabContent = () => {
 
   return (
     <div className="fix">
+      <p className="mt-5 lg:mt-10 w-fit text-black max-w-full bw-r text-[18px] leading-[28px] md:text-[20px] md:leading-[30px] xl:text-[28px] xl:leading-[36px]">
+        How does Horizon solve complex business requirements? <br></br>See how
+        operational needs are translated into tailored industrial and logistics
+        infrastructure.
+      </p>
+
       {/* Filters */}
-      <motion.div className="!w-full mt-10 fixup">
-        {loading && caseStudies.length === 0 && availableCategories.length === 0 ? (
+      <motion.div className="!w-full mt-5 fixup">
+        {loading &&
+        caseStudies.length === 0 &&
+        availableCategories.length === 0 ? (
           <Skeleton type="filters" />
         ) : (
           <div className="flex flex-col lg:h-[82px] sm:flex-row sm:items-center gap-[16px] sm:gap-[40px] flex-1">
@@ -125,7 +138,8 @@ const CaseStudyTabContent = () => {
                     }
                     setActiveTab={(i) => {
                       if (i === 0) setSelectedCategory("");
-                      else setSelectedCategory(availableCategories[i - 1] || "");
+                      else
+                        setSelectedCategory(availableCategories[i - 1] || "");
                     }}
                     className="w-full mt-0 relative"
                   />

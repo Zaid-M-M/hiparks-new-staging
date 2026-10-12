@@ -51,13 +51,13 @@ const ResourcesContentInner = () => {
         setActiveTab={setActiveTab}
       />
 
-      <GradientIntroText
+      {/* <GradientIntroText
         className="pt-[30px] xl:pt-[50px]"
         lines={[
           "How does Horizon solve complex business requirements?",
           "See how operational needs are translated into tailored industrial and logistics infrastructure.",
         ]}
-      />
+      /> */}
 
       {activeTab === "Client Testimonials" && <TestimonialTabContent />}
       {activeTab === "Case Studies" && <CaseStudyTabContent />}

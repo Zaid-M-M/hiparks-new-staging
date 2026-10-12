@@ -126,7 +126,12 @@ const WhitePaperTabContent = () => {
 
   return (
     <div className="fix">
-      <div className="mt-10">
+      <p className="mt-5 lg:mt-10 w-fit text-black max-w-full bw-r text-[18px] leading-[28px] md:text-[20px] md:leading-[30px] xl:text-[28px] xl:leading-[36px]">
+        What should businesses understand in greater depth? <br></br>Explore
+        detailed guidebooks on key topics shaping industrial, logistics and
+        manufacturing infrastructure
+      </p>
+      <div className="mt-8">
         {/* Re‑use the same BlogGrid that renders BlogCard */}
         <WPGrid blogs={displayedPapers} activeTab="Guidebooks" />
 

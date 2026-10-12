@@ -1232,8 +1232,14 @@ const BlogTabContent = ({ selectedCategory, selectedYear }) => {
 
   return (
     <div className="fix">
+      <p className="mt-5 lg:mt-10 w-fit text-black max-w-full bw-r text-[18px] leading-[28px] md:text-[20px] md:leading-[30px] xl:text-[28px] xl:leading-[36px]">
+        What is shaping industrial and logistics infrastructure in India?{" "}
+        <br></br>Read insights into manufacturing, warehousing, supply chains
+        and emerging trends.
+      </p>
+
       {/* Filters */}
-      <motion.div className="!w-full mt-10 fixup">
+      <motion.div className="!w-full mt-5 fixup">
         {loading && blogs.length === 0 && availableCategories.length === 0 ? (
           <Skeleton type="filters" />
         ) : (

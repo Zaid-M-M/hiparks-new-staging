@@ -83,8 +83,13 @@ const TestimonialTabContent = () => {
 
   return (
     <div className="fix">
+      <p className="mt-5 lg:mt-10 w-fit text-black max-w-full bw-r text-[18px] leading-[28px] md:text-[20px] md:leading-[30px] xl:text-[28px] xl:leading-[36px]">
+        What is it like to work with Horizon Industrial Parks?<br></br> Hear
+        directly from customers about their experience with Horizon.
+      </p>
+
       {/* Filters */}
-      <motion.div className="!w-full mt-10 fixup">
+      <motion.div className="!w-full mt-5 fixup">
         {loading ? (
           <Skeleton type="filters" />
         ) : (
