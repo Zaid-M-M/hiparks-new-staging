@@ -12,7 +12,7 @@ const AwardsMobile = () => {
   return (
     // <div className="relative overflow-hidden bg-[#f5f5f5]">
     <div className="relative overflow-hidden bg-[#fff]">
-      <div className="relative fix overflow-hidden pt-[45px] md:pt-[80px] pb-[45px] lg:pb-[0px]">
+      <div className="relative fix overflow-hidden pt-[15px] md:pt-[80px] pb-[25px] lg:pb-[0px]">
         <div className="flex w-full">
           <div className="w-full">
             <div className="w-full flex justify-between items-center gap-3 flex-col md:gap-5 md:flex-row xl:gap-[100px]">
