@@ -10,7 +10,7 @@ import CustomDropdown from "@/components/ecommerce/Ecom_sec5/CustomDropdown";
 import awards from "./NewAwards/data/awardsData";
 
 const Awards = () => {
-  const [value, setValue] = useState("2025"); // default selected year
+  const [value, setValue] = useState("2026"); // default selected year
 
   // Get unique years from awards data
   const years = [...new Set(awards.map((a) => a.year))].sort((a, b) => b - a);

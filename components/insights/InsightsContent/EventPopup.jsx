@@ -98,7 +98,7 @@ const EventPopup = ({
             className="absolute inset-0 bg-black/70 backdrop-blur-[2px]"
             onClick={onClose}
           />
-          <div className="event-modal-card flex items-center justify-center relative z-[1] bg-white w-full max-w-[95vw] xl:max-w-[65vw] 1440:max-w-[750px] shadow-none xl:h-[600px] h-[550px] xl:mt-0 mt-10 overflow-hidden">
+          <div className="event-modal-card flex items-center justify-center relative z-[1] bg-white w-full max-w-[95vw] xl:max-w-[65vw] 1440:max-w-[750px] shadow-none xl:h-[600px] h-auto xl:mt-0 mt-10 overflow-hidden">
             <button
               onClick={onClose}
               aria-label="Close"

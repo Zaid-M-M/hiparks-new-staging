@@ -46,7 +46,7 @@ const AwardsMobile = () => {
                           ease: [1, 0, 0.3, 1],
                         }}
                         viewport={{ once: true, amount: 0.2 }}
-                        className="w-full bg-white grid grid-cols-3 border border-[#CDCDCD] rounded-[20px] overflow-hidden"
+                        className="w-full bg-white grid grid-cols-4 border border-[#CDCDCD] rounded-[20px] overflow-hidden"
                       >
                         {years.map((year, i) => {
                           const isActive = i === activeTab;
@@ -74,7 +74,7 @@ const AwardsMobile = () => {
                                   duration: 0.2,
                                   ease: "easeInOut",
                                 }}
-                                className="text-[20px] bw-r leading-[28px]"
+                                className="text-[17px] bw-r leading-[25px]"
                               >
                                 {year}
                               </motion.h2>

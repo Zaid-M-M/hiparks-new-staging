@@ -139,13 +139,26 @@ const awards = [
       "Recognised for excellence in developing future-ready, Grade-A industrial and logistics parks, reinforcing leadership across Northern India.",
     images: ["/brand_journey/awards/2025/Industrial_north_award_25.png"],
   },
-  // {
-  //   year: 2025,
-  //   title: "GRI Global Awards 2025",
-  //   subtitle: "Horizon Recognised for Global Industrial Excellence",
-  //   description:
-  //     "Horizon Industrial Parks has been recognised among the top three industrial and logistics developments globally at the GRI Global Awards 2025. This acknowledgement reflects our commitment to building Grade-A, sustainable, and future-ready industrial ecosystems. The recognition of our Farukhnagar II development underscores Horizon’s continued leadership in shaping high-performance logistics infrastructure that meets global benchmarks in innovation, sustainability, and impact.",
-  //   images: ["/brand_journey/award_img.png"],
-  // },
+  {
+    year: 2026,
+    title: " Best Green Warehouse Initiative",
+    subtitle: "17th Express Logistics & Supply Chain Conclave 2026",
+    description: "",
+    images: ["/brand_journey/awards/2026/17th_Express_2026.png"],
+  },
+  {
+    year: 2026,
+    title: " Industrial/Warehousing Project(North)",
+    subtitle: "The Economic Times Real Estate Conclave & Awards 2026",
+    description: "",
+    images: ["/brand_journey/awards/2026/Economic_Times_2026.png"],
+  },
+  {
+    year: 2026,
+    title: " Excellence in performance of Rooftop Solar Plants",
+    subtitle: "CII Performance Excellence Award 2026",
+    description: "",
+    images: ["/brand_journey/awards/2026/Rooftop_Solar_2026.png"],
+  },
 ];
 export default awards;
