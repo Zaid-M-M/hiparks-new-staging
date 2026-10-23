@@ -29,7 +29,7 @@ export default function NewAwardSlider({ awards }) {
 
         return (
           <SwiperSlide key={index} className="pr-[1px]">
-            <div className="w-full h-[370px] relative bg-white border border-[#CDCDCD] overflow-hidden">
+            <div className="w-full h-[355px] relative bg-white border border-[#CDCDCD] overflow-hidden">
               <img
                 src="/brand_journey/cardel.svg"
                 alt="Card element"
@@ -66,7 +66,7 @@ export default function NewAwardSlider({ awards }) {
               </div>
 
               {/* Content */}
-              <div className="p-4 flex items-center flex-col border-t border-[#CDCDCD] h-[140px] justify-center">
+              <div className="p-4 flex items-center flex-col border-t border-[#CDCDCD] h-[125px] justify-center">
                 <h2 className="text-[20px] text-center leading-[26px] bw-m text-[#000] mb-2">
                   {award.title}
                 </h2>

@@ -16,7 +16,7 @@ const AwardsMobile = () => {
         <div className="flex w-full">
           <div className="w-full">
             <div className="w-full flex justify-between items-center gap-3 flex-col md:gap-5 md:flex-row xl:gap-[100px]">
-              <div className="flex md:flex-row flex-col gap-7 md:mb-[30px] lg:mb-[40px] md:gap-10 justify-between w-full">
+              <div className="flex md:flex-row flex-col gap-4 md:mb-[30px] lg:mb-[40px] md:gap-10 justify-between w-full">
                 {/* Left Heading Section */}
                 <div className="flex gap-[10px] md:gap-[17px] flex-col">
                   <h2 className="1366:text-[56px] 1024:text-[48px] text-[28px] md:text-[35px] leading-[38px] 1366:leading-[66px] 1024:leading-[58px] 1024:tracking-[-1.92px] 1366:tracking-[-2.24px] bw-r ">
