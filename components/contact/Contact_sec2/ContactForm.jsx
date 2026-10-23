@@ -107,7 +107,7 @@ const ContactForm = () => {
         let cleaned = value.replace(/[^\d\s+]/g, "");
         cleaned = cleaned.replace(/(?!^)\+/g, "");
         setPhone(cleaned);
-        
+
         const rawPhone = cleaned.replace(/\s+/g, "");
         if (!cleaned)
           setErrors((prev) => ({ ...prev, phone: "Please Enter Phone No" }));
@@ -226,6 +226,9 @@ const ContactForm = () => {
         case "ESG":
           templateId = "template_5iougvq";
           break;
+        case "Investor Relations":
+          templateId = "template_5iougvq";
+          break;
         default:
           templateId = "template_5iougvq";
           break;
@@ -237,7 +240,7 @@ const ContactForm = () => {
           "service_38rulc9",
           templateId,
           formRef.current,
-          "SsPYHKCapw4h-xBn_"
+          "SsPYHKCapw4h-xBn_",
         ),
         // ✅ Also send data to Google Sheet
         fetch(
@@ -245,8 +248,8 @@ const ContactForm = () => {
           {
             method: "POST",
             body: new FormData(formRef.current),
-          }
-        )
+          },
+        ),
       ];
 
       await Promise.all(submitPromises);
@@ -335,7 +338,9 @@ const ContactForm = () => {
             placeholder="Phone No*"
             name="phone"
             value={phone}
-            onChange={(val) => handleChange("phone")({ target: { value: val } })}
+            onChange={(val) =>
+              handleChange("phone")({ target: { value: val } })
+            }
             className={`w-full border-b py-2 text-black placeholder-black bw-r focus:outline-none ${
               errors.phone ? "border-red-500 error_line" : "border-[#CDCDCD]"
             }`}
@@ -369,6 +374,7 @@ const ContactForm = () => {
             <option value="Projects & Development">
               Projects & Development
             </option>
+            <option value="Investor Relations">Investor Relations</option>
             <option value="ESG Grievance ">ESG Grievance </option>
           </select>
           <svg
