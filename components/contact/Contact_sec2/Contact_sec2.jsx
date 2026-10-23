@@ -25,71 +25,6 @@ const Contact_sec2 = () => {
 
             <div className="w-full pt-9 flex-1 flex flex-col justify-start xl:pt-13">
               <ContactForm />
-              {/* <form className="space-y-8 sm:space-y-10 w-full">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 xl:mb-[55px]">
-                  <input
-                    placeholder="Full Name"
-                    type="text"
-                    className="w-full border-b border-[#CDCDCD] focus:border-black focus:outline-none py-2 text-black placeholder-black bw-r"
-                  />
-                  <input
-                    placeholder="Email Address"
-                    type="email"
-                    className="w-full border-b border-[#CDCDCD] focus:border-black focus:outline-none py-2 text-black placeholder-black bw-r"
-                  />
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 xl:mb-[55px]">
-                  <input
-                    placeholder="Organization"
-                    type="text"
-                    className="w-full border-b border-[#CDCDCD] focus:border-black focus:outline-none py-2 text-black placeholder-black bw-r"
-                  />
-                  <input
-                    placeholder="Phone No"
-                    type="text"
-                    className="w-full border-b border-[#CDCDCD] focus:border-black focus:outline-none py-2 text-black placeholder-black bw-r"
-                  />
-                </div>
-
-                <div className="relative xl:mb-[40px]">
-                  <select className="w-full border-b border-[#CDCDCD] focus:border-black focus:outline-none py-2 bg-transparent appearance-none pr-8 text-black placeholder-black bw-r">
-                    <option value="">Type of Enquiry</option>
-                    <option value="option1">Option 1</option>
-                    <option value="option2">Option 2</option>
-                    <option value="option3">Option 3</option>
-                  </select>
-                  <svg
-                    className="absolute right-2 bottom-3 w-4 h-4 pointer-events-none text-black"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M6 9l6 6 6-6"
-                    />
-                  </svg>
-                </div>
-
-                <textarea
-                  placeholder="Your Message"
-                  rows="3"
-                  className="w-full border-b border-[#CDCDCD] focus:border-black focus:outline-none py-2 resize-none text-black placeholder-black bw-r"
-                />
-
-                <div className="pt-4">
-                  <button
-                    type="submit"
-                    className="w-full bg-black text-white py-3 uppercase tracking-[0.2em] hover:bg-gray-800 transition cursor-pointer"
-                  >
-                    Submit
-                  </button>
-                </div>
-              </form> */}
             </div>
           </div>
 
@@ -188,16 +123,16 @@ const Contact_sec2 = () => {
                       className="overflow-hidden mt-2 space-y-2 "
                     >
                       <p className="text-[16px] mb-[10px]">
-                        Krutika Giri &nbsp;|&nbsp;{" "}
+                        Priti Ram &nbsp;|&nbsp;{" "}
                         <a href="tel:+918879970705" className="">
                           +91 8879970705
                         </a>{" "}
                         &nbsp;|{" "}
                         <a
-                          href="mailto:krutika.giri@hiparks.com"
+                          href="mailto:contactus@hiparks.com"
                           className=" pl-[3px] text-[16px]"
                         >
-                          krutika.giri@hiparks.com
+                          contactus@hiparks.com
                         </a>
                       </p>
                     </motion.div>
@@ -235,16 +170,16 @@ const Contact_sec2 = () => {
                       className="overflow-hidden mt-2 "
                     >
                       <p className="text-[16px] mb-[10px]">
-                        Krutika Giri &nbsp;|&nbsp;{" "}
+                        Priti Ram &nbsp;|&nbsp;{" "}
                         <a href="tel:+918879970705" className="">
                           +91 8879970705
                         </a>{" "}
                         &nbsp;|{" "}
                         <a
-                          href="mailto:krutika.giri@hiparks.com"
+                          href="mailto:contactus@hiparks.com"
                           className=" pl-[3px] text-[16px]"
                         >
-                          krutika.giri@hiparks.com
+                          contactus@hiparks.com
                         </a>
                       </p>
                       {/* South */}
@@ -358,6 +293,53 @@ const Contact_sec2 = () => {
                           ankur.mukherjee@hiparks.com
                         </a>
                       </p> */}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+              <div className="col-span-1 sm:col-span-2 border-t border-white/30 my-2"></div>
+
+              {/* Investor Relation Accordion */}
+              <div className="mb-[14px] md:mb-[0px]">
+                <button
+                  className="flex items-center justify-between w-full bw-r text-left mt-5 cursor-pointer"
+                  onClick={() => toggleSection("Investor")}
+                >
+                  <span className="text-[16px]  bw-m">
+                    For Investor Relations Inquiries
+                  </span>
+                  <span>
+                    {openSection === "Investor" ? (
+                      <Minus className="w-5 h-5" />
+                    ) : (
+                      <PlusIcon className="w-5 h-5" />
+                    )}
+                  </span>
+                </button>
+
+                <AnimatePresence initial={false}>
+                  {openSection === "Investor" && (
+                    <motion.div
+                      key="incity"
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: "auto", opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.3, ease: [1, 0, 0.3, 0.7] }}
+                      className="overflow-hidden mt-2 "
+                    >
+                      <p className="text-[16px] mb-[10px]">
+                        Prapti Zaveri &nbsp;|&nbsp;{" "}
+                        <a href="tel:+912241581000" className="">
+                          +91 22 4158 1000
+                        </a>{" "}
+                        &nbsp;|{" "}
+                        <a
+                          href="mailto:investor.relations@hiparks.com"
+                          className=" pl-[3px] text-[16px]"
+                        >
+                          investor.relations@hiparks.com
+                        </a>
+                      </p>
                     </motion.div>
                   )}
                 </AnimatePresence>
