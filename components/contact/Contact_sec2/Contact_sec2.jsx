@@ -94,14 +94,14 @@ const Contact_sec2 = () => {
 
             {/* Accordions */}
             <div className="space-y-6 mt-1 xl:mt-[16px]">
-              {/* Industrial Leasing Accordion */}
+              {/* For Industrial & Incity Leasing Inquiries */}
               <div className="mb-[14px] md:mb-[0px]">
                 <button
                   className="flex items-center justify-between w-full bw-r text-left cursor-pointer"
                   onClick={() => toggleSection("industrial")}
                 >
                   <span className="text-[16px] bw-m">
-                    For Industrial Leasing Inquiries
+                    For Industrial & Incity Leasing Inquiries
                   </span>
                   <span>
                     {openSection === "industrial" ? (
@@ -122,7 +122,7 @@ const Contact_sec2 = () => {
                       transition={{ duration: 0.3, ease: [1, 0, 0.3, 0.7] }}
                       className="overflow-hidden mt-2 space-y-2 "
                     >
-                      <p className="text-[16px] mb-[10px]">
+                      <p className="text-[15px] mb-[10px]">
                         Priti Ram &nbsp;|&nbsp;{" "}
                         <a href="tel:+918879970705" className="">
                           +91 8879970705
@@ -139,177 +139,20 @@ const Contact_sec2 = () => {
                   )}
                 </AnimatePresence>
               </div>
+
               <div className="col-span-1 sm:col-span-2 border-t border-white/30 my-2"></div>
 
-              {/* Incity Leasing Accordion */}
+              {/* For Investor Relations Inquiries */}
               <div className="mb-[14px] md:mb-[0px]">
                 <button
                   className="flex items-center justify-between w-full bw-r text-left mt-5 cursor-pointer"
-                  onClick={() => toggleSection("incity")}
-                >
-                  <span className="text-[16px]  bw-m">
-                    For InCity Leasing Inquiries
-                  </span>
-                  <span>
-                    {openSection === "incity" ? (
-                      <Minus className="w-5 h-5" />
-                    ) : (
-                      <PlusIcon className="w-5 h-5" />
-                    )}
-                  </span>
-                </button>
-
-                <AnimatePresence initial={false}>
-                  {openSection === "incity" && (
-                    <motion.div
-                      key="incity"
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: "auto", opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.3, ease: [1, 0, 0.3, 0.7] }}
-                      className="overflow-hidden mt-2 "
-                    >
-                      <p className="text-[16px] mb-[10px]">
-                        Priti Ram &nbsp;|&nbsp;{" "}
-                        <a href="tel:+918879970705" className="">
-                          +91 8879970705
-                        </a>{" "}
-                        &nbsp;|{" "}
-                        <a
-                          href="mailto:contactus@hiparks.com"
-                          className=" pl-[3px] text-[16px]"
-                        >
-                          contactus@hiparks.com
-                        </a>
-                      </p>
-                      {/* South */}
-                      {/* <p className="text-[16px] mb-[10px]">
-                        <span className="bw-m text-[16px]">- South Region</span>
-                        <br />
-                        Jeyaraj Antony &nbsp;|&nbsp;{" "}
-                        <a href="tel:+919008495077" className="">
-                          +91 90084 95077
-                        </a>{" "}
-                        &nbsp;|{" "}
-                        <a
-                          href="mailto:jeyaraj.antony@hiparks.com"
-                          className=" pl-[3px] text-[16px]"
-                        >
-                          jeyaraj.antony@hiparks.com
-                        </a>
-                        <br />
-                        Michael Jackson &nbsp;|&nbsp;{" "}
-                        <a href="tel:+919789785230" className="">
-                          +91 97897 85230
-                        </a>{" "}
-                        &nbsp;|{" "}
-                        <a
-                          href="mailto:michael.jackson@hiparks.com"
-                          className=" pl-[3px] text-[16px]"
-                        >
-                          michael.jackson@hiparks.com
-                        </a>
-                        <br />
-                        Shankar U &nbsp;|&nbsp;{" "}
-                        <a href="tel:+919789222506" className="">
-                          +91 97892 22506{" "}
-                        </a>
-                        &nbsp;|{" "}
-                        <a
-                          href="mailto:shankar.u@hiparks.com"
-                          className=" pl-[3px] text-[16px]"
-                        >
-                          shankar.u@hiparks.com
-                        </a>
-                      </p> */}
-                      {/* West */}
-                      {/* <p className="text-[16px] mb-[10px]">
-                        <span className="bw-m text-[16px]">- West Region</span>
-                        <br />
-                        Muktesh Sheth &nbsp;|&nbsp;{" "}
-                        <a href="tel:+919922956032" className="">
-                          +91 99229 56032
-                        </a>{" "}
-                        &nbsp;|{" "}
-                        <a
-                          href="mailto:muktesh.sheth@hiparks.com"
-                          className=" pl-[3px] text-[16px]"
-                        >
-                          muktesh.sheth@hiparks.com
-                        </a>
-                        <br />
-                        Shubham Tekade &nbsp;|&nbsp;{" "}
-                        <a href="tel:+917756967505" className="">
-                          +91 77569 67505
-                        </a>{" "}
-                        &nbsp;|{" "}
-                        <a
-                          href="mailto:shubham.tekade@hiparks.com"
-                          className=" pl-[3px] text-[16px]"
-                        >
-                          shubham.tekade@hiparks.com
-                        </a>
-                      </p> */}
-                      {/* North */}
-                      {/* <p className="text-[16px] mb-[10px]">
-                        <span className="bw-m text-[16px]">
-                          - North and East Regions
-                        </span>
-                      
-                        <br />
-                        Saaransh Billa &nbsp;|&nbsp;{" "}
-                        <a href="tel:+919958864756" className="">
-                          +91 99588 64756
-                        </a>{" "}
-                        &nbsp;|{" "}
-                        <a
-                          href="mailto:saaransh.billa@hiparks.com"
-                          className=" pl-[3px] text-[16px]"
-                        >
-                          saaransh.billa@hiparks.com
-                        </a>
-                        <br />
-                        Ashish Sheoran &nbsp;|&nbsp;{" "}
-                        <a href="tel:+918860623900" className="">
-                          +91 88606 23900
-                        </a>{" "}
-                        &nbsp;|{" "}
-                        <a
-                          href="mailto:ashish.sheoran@hiparks.com"
-                          className=" pl-[3px] text-[16px]"
-                        >
-                          ashish.sheoran@hiparks.com
-                        </a>
-                        <br />
-                        Ankur Mukherjee &nbsp;|&nbsp;{" "}
-                        <a href="tel:+919920992904" className="">
-                          +91 99209 92904
-                        </a>{" "}
-                        &nbsp;|{" "}
-                        <a
-                          href="mailto:ankur.mukherjee@hiparks.com"
-                          className=" pl-[3px] text-[16px]"
-                        >
-                          ankur.mukherjee@hiparks.com
-                        </a>
-                      </p> */}
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </div>
-              <div className="col-span-1 sm:col-span-2 border-t border-white/30 my-2"></div>
-
-              {/* Investor Relation Accordion */}
-              <div className="mb-[14px] md:mb-[0px]">
-                <button
-                  className="flex items-center justify-between w-full bw-r text-left mt-5 cursor-pointer"
-                  onClick={() => toggleSection("Investor")}
+                  onClick={() => toggleSection("relations")}
                 >
                   <span className="text-[16px]  bw-m">
                     For Investor Relations Inquiries
                   </span>
                   <span>
-                    {openSection === "Investor" ? (
+                    {openSection === "relations" ? (
                       <Minus className="w-5 h-5" />
                     ) : (
                       <PlusIcon className="w-5 h-5" />
@@ -318,17 +161,18 @@ const Contact_sec2 = () => {
                 </button>
 
                 <AnimatePresence initial={false}>
-                  {openSection === "Investor" && (
+                  {openSection === "relations" && (
                     <motion.div
-                      key="incity"
+                      key="relations"
                       initial={{ height: 0, opacity: 0 }}
                       animate={{ height: "auto", opacity: 1 }}
                       exit={{ height: 0, opacity: 0 }}
                       transition={{ duration: 0.3, ease: [1, 0, 0.3, 0.7] }}
                       className="overflow-hidden mt-2 "
                     >
-                      <p className="text-[16px] mb-[10px]">
-                        Prapti Zaveri &nbsp;|&nbsp;{" "}
+                      <p className="text-[15px] mb-[10px]">
+                        Prapti Zaveri <br></br> Head - Investors Relations
+                        &nbsp;|&nbsp;{" "}
                         <a href="tel:+912241581000" className="">
                           +91 22 4158 1000
                         </a>{" "}
@@ -344,6 +188,102 @@ const Contact_sec2 = () => {
                   )}
                 </AnimatePresence>
               </div>
+
+              <div className="col-span-1 sm:col-span-2 border-t border-white/30 my-2"></div>
+
+              {/* For Investor Compliance Inquiries */}
+              <div className="mb-[14px] md:mb-[0px]">
+                <button
+                  className="flex items-center justify-between w-full bw-r text-left mt-5 cursor-pointer"
+                  onClick={() => toggleSection("compliance")}
+                >
+                  <span className="text-[16px]  bw-m">
+                    For Investor Compliance Inquiries
+                  </span>
+                  <span>
+                    {openSection === "compliance" ? (
+                      <Minus className="w-5 h-5" />
+                    ) : (
+                      <PlusIcon className="w-5 h-5" />
+                    )}
+                  </span>
+                </button>
+
+                <AnimatePresence initial={false}>
+                  {openSection === "compliance" && (
+                    <motion.div
+                      key="compliance"
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: "auto", opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.3, ease: [1, 0, 0.3, 0.7] }}
+                      className="overflow-hidden mt-2 "
+                    >
+                      <p className="text-[15px] mb-[10px]">
+                        Shraddha Poddar <br></br> Company Secretary & Compliance
+                        Officer &nbsp;|&nbsp;{" "}
+                        <a href="tel:+912241581000" className="">
+                          +91 22 4158 1000
+                        </a>{" "}
+                        &nbsp;|{" "}
+                        <a
+                          href="mailto:compliance@hiparks.com"
+                          className=" pl-[3px] text-[16px]"
+                        >
+                          compliance@hiparks.com
+                        </a>
+                      </p>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
+              <div className="col-span-1 sm:col-span-2 border-t border-white/30 my-2"></div>
+
+              {/* For Registrar Office */}
+              <div className="mb-[14px] md:mb-[0px]">
+                <button
+                  className="flex items-center justify-between w-full bw-r text-left mt-5 cursor-pointer"
+                  onClick={() => toggleSection("registrar")}
+                >
+                  <span className="text-[16px]  bw-m">Registrar Office</span>
+                  <span>
+                    {openSection === "registrar" ? (
+                      <Minus className="w-5 h-5" />
+                    ) : (
+                      <PlusIcon className="w-5 h-5" />
+                    )}
+                  </span>
+                </button>
+
+                <AnimatePresence initial={false}>
+                  {openSection === "registrar" && (
+                    <motion.div
+                      key="registrar"
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: "auto", opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.3, ease: [1, 0, 0.3, 0.7] }}
+                      className="overflow-hidden mt-2 "
+                    >
+                      <p className="text-[15px] mb-[10px]">
+                        KFin Technologies Limited &nbsp;|&nbsp;{" "}
+                        <a href="tel:+912241581000" className="">
+                          +1800 571 6677
+                        </a>{" "}
+                        &nbsp;|{" "}
+                        <a
+                          href="mailto:support.mfs@kfintech.com"
+                          className=" pl-[3px] text-[16px]"
+                        >
+                          support.mfs@kfintech.com
+                        </a>
+                      </p>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
               <div className="col-span-1 sm:col-span-2 border-t border-white/30 my-2"></div>
 
               {/* Land/Warehouse Proposals */}
